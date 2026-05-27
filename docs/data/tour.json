@@ -1,20 +1,19 @@
 {
-  "id": "tour-reiseplan3",
-  "name": "Reiseplan Juni 2026 (Excel-Import)",
+  "id": "tour-bilbao-somport-aubisque-tourmalet-ordesa-andorra-girona-17days",
+  "name": "Bilbao via Somport, Aubisque, Tourmalet, Ordesa, Andorra und Girona in 17 Tagen",
+  "overview": {
+    "total_distance_km": 1482.81,
+    "total_elevation_gain_m": 27645,
+    "validated_bike_days": 17,
+    "total_days": 17
+  },
   "rules": {
     "overnight_must_match_bike_end": true,
     "overnight_must_be_camping_on_bike_days": true,
-    "max_km_per_bike_day": 100.0,
-    "max_hm_per_bike_day": 1800.0
+    "max_km_per_bike_day": 155.0,
+    "max_hm_per_bike_day": 2800.0
   },
   "places": [
-    {
-      "id": "city-berlin-ber",
-      "name": "Berlin BER",
-      "kind": "city",
-      "lat": 0.0,
-      "lon": 0.0
-    },
     {
       "id": "city-bilbao",
       "name": "Bilbao",
@@ -23,1509 +22,4315 @@
       "lon": -2.9348121
     },
     {
-      "id": "stay-camping-sopelana-15km-k-ste-oder-hostel-bilbao-zentrum",
-      "name": "Camping Sopelana (15km, Küste) oder Hostel Bilbao Zentrum",
-      "kind": "camping",
-      "lat": 43.2633799,
-      "lon": -2.9348121
+      "id": "poi-puerto-de-urkiola",
+      "name": "Puerto de Urkiola",
+      "kind": "poi",
+      "lat": 43.1009207,
+      "lon": -2.6462122
     },
     {
-      "id": "city-zumaia",
-      "name": "Zumaia",
-      "kind": "city",
-      "lat": 43.289727,
-      "lon": -2.247827
+      "id": "poi-elorrio",
+      "name": "Elorrio",
+      "kind": "poi",
+      "lat": 43.122359,
+      "lon": -2.5330079
     },
     {
-      "id": "stay-camping-zumaia-kanpina-4-1-direkt-am-ort",
-      "name": "Camping Zumaia Kanpina (4,1⭐, direkt am Ort)",
-      "kind": "camping",
-      "lat": 43.289727,
-      "lon": -2.247827
+      "id": "poi-santuario-de-arantzazu",
+      "name": "Santuario de Arantzazu",
+      "kind": "poi",
+      "lat": 42.9794186,
+      "lon": -2.4003914
     },
     {
       "id": "city-pamplona",
       "name": "Pamplona",
       "kind": "city",
-      "lat": 42.812526,
-      "lon": -1.6457745
+      "lat": 42.815686,
+      "lon": -1.6522353
     },
     {
-      "id": "stay-camping-ezcaba-oric-in-5km-von-pamplona-fahrrad-10min",
-      "name": "Camping Ezcaba, Oricáin (5km von Pamplona, Fahrrad 10min)",
+      "id": "camp-pamplona",
+      "name": "Camping Ezcaba",
       "kind": "camping",
-      "lat": 42.812526,
-      "lon": -1.6457745
+      "lat": 42.8585805,
+      "lon": -1.6241196
     },
     {
-      "id": "city-roncesvalles",
-      "name": "Roncesvalles",
-      "kind": "city",
+      "id": "poi-orreaga",
+      "name": "Orreaga / Roncesvalles",
+      "kind": "poi",
       "lat": 43.0089037,
       "lon": -1.3193442
     },
     {
-      "id": "stay-camping-urrobi-aurizberri-espinal-3km-von-roncesvalles",
-      "name": "Camping Urrobi, Aurizberri/Espinal (3km von Roncesvalles)",
-      "kind": "camping",
-      "lat": 43.0089037,
-      "lon": -1.3193442
+      "id": "poi-valle-de-hecho",
+      "name": "Valle de Hecho",
+      "kind": "poi",
+      "lat": 42.7393952,
+      "lon": -0.7501118
     },
     {
-      "id": "city-gavarnie",
-      "name": "Gavarnie",
-      "kind": "city",
-      "lat": 42.7314,
-      "lon": -0.0107
+      "id": "poi-col-du-somport",
+      "name": "Col du Somport",
+      "kind": "poi",
+      "lat": 42.7957224,
+      "lon": -0.5248473
     },
     {
-      "id": "stay-camping-le-pain-de-sucre-gavarnie",
-      "name": "Camping Le Pain de Sucre, Gavarnie",
-      "kind": "camping",
-      "lat": 42.7314,
-      "lon": -0.0107
+      "id": "poi-col-d-aubisque",
+      "name": "Col d'Aubisque",
+      "kind": "poi",
+      "lat": 42.9765752,
+      "lon": -0.339792
     },
     {
-      "id": "city-argel-s-gazost",
-      "name": "Argelès-Gazost",
-      "kind": "city",
-      "lat": 43.0,
-      "lon": -0.1
+      "id": "poi-gpx-aubisque-east-01",
+      "name": "Pyrenean Rally Korridor Aubisque Ost 01",
+      "kind": "poi",
+      "lat": 42.96023,
+      "lon": -0.2643
     },
     {
-      "id": "stay-camping-les-lustrous-argel-s-gazost",
-      "name": "Camping Les Lustrous, Argelès-Gazost",
-      "kind": "camping",
-      "lat": 43.0,
-      "lon": -0.1
+      "id": "poi-gpx-aubisque-east-02",
+      "name": "Pyrenean Rally Korridor Aubisque Ost 02",
+      "kind": "poi",
+      "lat": 42.9665,
+      "lon": -0.21548
     },
     {
-      "id": "city-torla-ordesa",
+      "id": "poi-gpx-hecho-jaca-01",
+      "name": "Pyrenean Rally Korridor 01",
+      "kind": "poi",
+      "lat": 42.69702,
+      "lon": -0.65189
+    },
+    {
+      "id": "poi-gpx-hecho-jaca-02",
+      "name": "Pyrenean Rally Korridor 02",
+      "kind": "poi",
+      "lat": 42.62484,
+      "lon": -0.54345
+    },
+    {
+      "id": "poi-gpx-jaca-ordesa-01",
+      "name": "Pyrenean Rally Korridor 03",
+      "kind": "poi",
+      "lat": 42.5808,
+      "lon": -0.39233
+    },
+    {
+      "id": "poi-gpx-jaca-ordesa-02",
+      "name": "Pyrenean Rally Korridor 04",
+      "kind": "poi",
+      "lat": 42.6219,
+      "lon": -0.30473
+    },
+    {
+      "id": "poi-gpx-jaca-ordesa-03",
+      "name": "Pyrenean Rally Korridor 05",
+      "kind": "poi",
+      "lat": 42.62286,
+      "lon": -0.16742
+    },
+    {
+      "id": "poi-gpx-jaca-ordesa-04",
+      "name": "Pyrenean Rally Korridor 06",
+      "kind": "poi",
+      "lat": 42.62714,
+      "lon": -0.11153
+    },
+    {
+      "id": "poi-torla-ordesa",
       "name": "Torla-Ordesa",
-      "kind": "city",
-      "lat": 42.62867749999999,
-      "lon": -0.1126542
+      "kind": "poi",
+      "lat": 42.6276936,
+      "lon": -0.112138
     },
     {
-      "id": "stay-camping-valle-de-bujaruelo-torla-am-fluss-ara-sehr-sch-n",
-      "name": "Camping Valle de Bujaruelo, Torla (am Fluss Ara, sehr schön)",
+      "id": "poi-ordesa-y-monte-perdido",
+      "name": "Ordesa y Monte Perdido",
+      "kind": "poi",
+      "lat": 42.6544738,
+      "lon": -0.0618873
+    },
+    {
+      "id": "poi-pradera-de-ordesa",
+      "name": "Pradera de Ordesa",
+      "kind": "poi",
+      "lat": 42.6492328,
+      "lon": -0.0597318
+    },
+    {
+      "id": "poi-torla-nerin-corridor",
+      "name": "Torla-Ordesa ↔ Nerin",
+      "kind": "poi",
+      "lat": 42.573934,
+      "lon": 0.0168571
+    },
+    {
+      "id": "camp-jaca",
+      "name": "Camping Victoria Jaca",
       "kind": "camping",
-      "lat": 42.62867749999999,
-      "lon": -0.1126542
+      "lat": 42.5639176,
+      "lon": -0.5714116
     },
     {
-      "id": "city-torla",
-      "name": "Torla",
-      "kind": "city",
-      "lat": 42.6468705,
-      "lon": 0.0349001
-    },
-    {
-      "id": "city-a-nsa",
-      "name": "Aínsa",
-      "kind": "city",
-      "lat": 42.4146941,
-      "lon": 0.1403811
-    },
-    {
-      "id": "stay-camping-ainsa-direkt-unterm-dorf-flusslage",
-      "name": "Camping Ainsa (direkt unterm Dorf, Flusslage)",
+      "id": "camp-broto",
+      "name": "Camping Oto",
       "kind": "camping",
-      "lat": 42.4146941,
-      "lon": 0.1403811
+      "lat": 42.5967976,
+      "lon": -0.1324893
     },
     {
-      "id": "city-benasque",
-      "name": "Benasque",
-      "kind": "city",
-      "lat": 42.6042858,
-      "lon": 0.5228286
-    },
-    {
-      "id": "stay-camping-aneto-benasque-fluss-sera-3",
-      "name": "Camping Aneto, Benasque (Fluss Ésera, 3⭐)",
+      "id": "camp-luz",
+      "name": "Camping Saint-Bazerque",
       "kind": "camping",
-      "lat": 42.6042858,
-      "lon": 0.5228286
+      "lat": 42.8311871,
+      "lon": 0.002068
     },
     {
-      "id": "city-sort",
-      "name": "Sort",
-      "kind": "city",
-      "lat": 42.4102921,
-      "lon": 1.1287358
+      "id": "poi-tourmalet",
+      "name": "Col du Tourmalet",
+      "kind": "poi",
+      "lat": 42.9083745,
+      "lon": 0.1452684
     },
     {
-      "id": "stay-camping-la-noguera-sort-am-fluss-g-nstig",
-      "name": "Camping La Noguera, Sort (am Fluss, günstig)",
+      "id": "poi-bielsa-aragnouet-north-portal",
+      "name": "Tunnel Bielsa-Aragnouet Nordportal",
+      "kind": "poi",
+      "lat": 42.7479975,
+      "lon": 0.1912605
+    },
+    {
+      "id": "poi-bielsa-aragnouet-tunnel",
+      "name": "Tunnel Bielsa-Aragnouet Suedportal",
+      "kind": "poi",
+      "lat": 42.7265626,
+      "lon": 0.1961806
+    },
+    {
+      "id": "poi-vall-de-boi",
+      "name": "Vall de Boi",
+      "kind": "poi",
+      "lat": 42.5045074,
+      "lon": 0.8034184
+    },
+    {
+      "id": "camp-arreau",
+      "name": "Camping International Arreau",
       "kind": "camping",
-      "lat": 42.4102921,
-      "lon": 1.1287358
+      "lat": 42.9247996,
+      "lon": 0.366031
     },
     {
-      "id": "city-ripoll",
-      "name": "Ripoll",
-      "kind": "city",
-      "lat": 42.1994589,
-      "lon": 2.1907618
-    },
-    {
-      "id": "stay-camping-vall-de-camprodon-ripoll",
-      "name": "Camping Vall de Camprodon, Ripoll",
+      "id": "camp-loudenvielle",
+      "name": "Camping Pene Blanche",
       "kind": "camping",
-      "lat": 42.1994589,
-      "lon": 2.1907618
+      "lat": 42.7961362,
+      "lon": 0.4046718
+    },
+    {
+      "id": "camp-barruera",
+      "name": "Camping Boneta",
+      "kind": "camping",
+      "lat": 42.5034718,
+      "lon": 0.8009699
+    },
+    {
+      "id": "city-andorra",
+      "name": "Andorra la Vella",
+      "kind": "city",
+      "lat": 42.4979185,
+      "lon": 1.5032264
+    },
+    {
+      "id": "camp-andorra",
+      "name": "Camping Valira",
+      "kind": "camping",
+      "lat": 42.5019999,
+      "lon": 1.5159717
+    },
+    {
+      "id": "camp-camprodon",
+      "name": "Camping Vall de Camprodon",
+      "kind": "camping",
+      "lat": 42.2894654,
+      "lon": 2.3647218
     },
     {
       "id": "city-girona",
       "name": "Girona",
       "kind": "city",
-      "lat": 42.18086700000001,
-      "lon": 2.4891623
+      "lat": 41.9793006,
+      "lon": 2.8199439
     },
     {
-      "id": "stay-camping-girona-domeny-4km-vom-zentrum-busverbindung",
-      "name": "Camping Girona, Domeny (4km vom Zentrum, Busverbindung)",
+      "id": "camp-riudarenes",
+      "name": "Camping Riudarenes",
       "kind": "camping",
-      "lat": 42.18086700000001,
-      "lon": 2.4891623
+      "lat": 41.8074934,
+      "lon": 2.6849875
     },
     {
-      "id": "city-tossa-de-mar",
-      "name": "Tossa de Mar",
-      "kind": "city",
-      "lat": 41.7223958,
-      "lon": 2.9301806
-    },
-    {
-      "id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
-      "name": "Camping Pola, Tossa de Mar (300m vom Strand, 4⭐)",
+      "id": "camp-arketa-kanping-43395-2678",
+      "name": "Arketa kanping",
       "kind": "camping",
-      "lat": 41.7223958,
-      "lon": 2.9301806
+      "lat": 43.395101,
+      "lon": -2.6786096
     },
     {
-      "id": "city-l-escala",
-      "name": "L'Escala",
-      "kind": "city",
-      "lat": 42.1340179,
-      "lon": 3.112428
-    },
-    {
-      "id": "stay-camping-emp-ries-l-escala-direkt-bei-den-ruinen",
-      "name": "Camping Empúries, L'Escala (direkt bei den Ruinen!)",
+      "id": "camp-camping-angosto-42841-3067",
+      "name": "Camping Angosto",
       "kind": "camping",
-      "lat": 42.1340179,
-      "lon": 3.112428
+      "lat": 42.8416045,
+      "lon": -3.0677567
     },
     {
-      "id": "city-figueres",
-      "name": "Figueres",
-      "kind": "city",
-      "lat": 42.2654818,
-      "lon": 2.9579232
-    },
-    {
-      "id": "stay-camping-mas-nou-figueres-ruhig-3km-zentrum",
-      "name": "Camping Mas Nou, Figueres (ruhig, 3km Zentrum)",
+      "id": "camp-camping-de-fuenmayor-42483-2566",
+      "name": "Camping de Fuenmayor",
       "kind": "camping",
-      "lat": 42.2654818,
-      "lon": 2.9579232
+      "lat": 42.4838243,
+      "lon": -2.5667352
     },
     {
-      "id": "city-avignon",
-      "name": "Avignon",
-      "kind": "city",
-      "lat": 43.9519,
-      "lon": 4.8076
-    },
-    {
-      "id": "stay-camping-bagatelle-avignon-direkt-an-der-rh-ne-4-shuttle-in-stadt",
-      "name": "Camping Bagatelle, Avignon (direkt an der Rhône, 4⭐, Shuttle in Stadt)",
+      "id": "camp-camping-de-haro-42577-2856",
+      "name": "Camping de Haro",
       "kind": "camping",
-      "lat": 43.9519,
-      "lon": 4.8076
+      "lat": 42.5779702,
+      "lon": -2.8565476
     },
     {
-      "id": "city-lourmarin",
-      "name": "Lourmarin",
-      "kind": "city",
-      "lat": 43.7755825,
-      "lon": 5.3515561
-    },
-    {
-      "id": "stay-camping-les-hautes-prairies-lourmarin-4-pool",
-      "name": "Camping Les Hautes Prairies, Lourmarin (4⭐, Pool)",
+      "id": "camp-camping-de-la-rioja-42532-2922",
+      "name": "Camping de La Rioja",
       "kind": "camping",
-      "lat": 43.7685592,
-      "lon": 5.3740913
+      "lat": 42.5323712,
+      "lon": -2.922034
     },
     {
-      "id": "city-gorges-du-verdon",
-      "name": "Gorges du Verdon",
-      "kind": "city",
-      "lat": 43.7796864,
-      "lon": 6.3413854
-    },
-    {
-      "id": "stay-camping-gorges-du-verdon-la-palud-sur-verdon-spektakul-re-lage",
-      "name": "Camping Gorges du Verdon, La Palud-sur-Verdon (spektakuläre Lage!)",
+      "id": "camp-camping-el-desfiladero-42647-3092",
+      "name": "Camping El Desfiladero",
       "kind": "camping",
-      "lat": 43.7796864,
-      "lon": 6.3413854
+      "lat": 42.6474054,
+      "lon": -3.0921584
     },
     {
-      "id": "city-nizza",
-      "name": "Nizza",
-      "kind": "city",
-      "lat": 43.7009358,
-      "lon": 7.2683912
-    },
-    {
-      "id": "stay-camping-terry-nizza-bus-ins-zentrum",
-      "name": "Camping Terry, Nizza (Bus ins Zentrum)",
+      "id": "camp-camping-endai-43354-2484",
+      "name": "Camping Endai",
       "kind": "camping",
-      "lat": 43.7009358,
-      "lon": 7.2683912
+      "lat": 43.3542315,
+      "lon": -2.4848104
     },
     {
-      "id": "city-san-remo",
-      "name": "San Remo",
-      "kind": "city",
-      "lat": 43.8158851,
-      "lon": 7.775716
-    },
-    {
-      "id": "stay-camping-villaggio-dei-fiori-san-remo-4-500m-strand",
-      "name": "Camping Villaggio dei Fiori, San Remo (4⭐, 500m Strand)",
+      "id": "camp-camping-la-playa-42471-2455",
+      "name": "Camping La Playa",
       "kind": "camping",
-      "lat": 43.8158851,
-      "lon": 7.775716
+      "lat": 42.4712629,
+      "lon": -2.4550985
     },
     {
-      "id": "city-savona",
-      "name": "Savona",
-      "kind": "city",
-      "lat": 44.3067811,
-      "lon": 8.4811658
-    },
-    {
-      "id": "stay-camping-buggi-savona-stadtnahe-g-nstig",
-      "name": "Camping Buggi, Savona (stadtnahe, günstig)",
+      "id": "camp-camping-leagi-43351-2493",
+      "name": "Camping Leagi",
       "kind": "camping",
-      "lat": 44.3067811,
-      "lon": 8.4811658
+      "lat": 43.3516734,
+      "lon": -2.4938195
     },
     {
-      "id": "city-rovereto",
-      "name": "Rovereto",
-      "kind": "city",
-      "lat": 44.3067811,
-      "lon": 8.481165800000001
-    },
-    {
-      "id": "stay-camping-rovereto-lizzanella-4km-zentrum-gardasee-n-he",
-      "name": "Camping Rovereto, Lizzanella (4km Zentrum, Gardasee-Nähe)",
+      "id": "camp-camping-monumento-al-pastor-42662-3071",
+      "name": "Camping Monumento al Pastor",
       "kind": "camping",
-      "lat": 44.3067811,
-      "lon": 8.481165800000001
+      "lat": 42.6621974,
+      "lon": -3.0710978
     },
     {
-      "id": "city-dresden",
-      "name": "Dresden 🏠",
-      "kind": "city",
-      "lat": 51.0504088,
-      "lon": 13.7372621
+      "id": "camp-camping-sopelana-43389-2985",
+      "name": "Camping Sopelana",
+      "kind": "camping",
+      "lat": 43.3897173,
+      "lon": -2.9856829
     },
     {
-      "id": "stay-zuhause",
-      "name": "Zuhause! 🏠",
-      "kind": "sleep",
-      "lat": 51.0504088,
-      "lon": 13.7372621
+      "id": "camp-el-roble-verde-42794-2879",
+      "name": "El Roble Verde",
+      "kind": "camping",
+      "lat": 42.7948089,
+      "lon": -2.8793019
+    },
+    {
+      "id": "camp-galdona-43317-2402",
+      "name": "Galdona",
+      "kind": "camping",
+      "lat": 43.3173448,
+      "lon": -2.4023691
+    },
+    {
+      "id": "camp-portuondo-43398-2696",
+      "name": "Portuondo",
+      "kind": "camping",
+      "lat": 43.3983487,
+      "lon": -2.6965566
+    },
+    {
+      "id": "camp-saturraran-43316-2411",
+      "name": "Saturraran",
+      "kind": "camping",
+      "lat": 43.3167993,
+      "lon": -2.4116745
+    },
+    {
+      "id": "camp-arbizu-42898-2035",
+      "name": "Arbizu",
+      "kind": "camping",
+      "lat": 42.8980216,
+      "lon": -2.035627
+    },
+    {
+      "id": "camp-caba%C3%B1as-campus-zuasti-42854-1747",
+      "name": "Cabañas Campus Zuasti",
+      "kind": "camping",
+      "lat": 42.8541876,
+      "lon": -1.7473805
+    },
+    {
+      "id": "camp-camping-acedo-42661-2252",
+      "name": "Camping Acedo",
+      "kind": "camping",
+      "lat": 42.6610766,
+      "lon": -2.2529964
+    },
+    {
+      "id": "camp-camping-aritzaleku-42720-1939",
+      "name": "Camping Aritzaleku",
+      "kind": "camping",
+      "lat": 42.720102,
+      "lon": -1.939999
+    },
+    {
+      "id": "camp-camping-artaza-urederra-42771-2118",
+      "name": "Camping Artaza-Urederra",
+      "kind": "camping",
+      "lat": 42.7711726,
+      "lon": -2.118626
+    },
+    {
+      "id": "camp-camping-de-riezu-42755-1949",
+      "name": "Camping de Riezu",
+      "kind": "camping",
+      "lat": 42.7553023,
+      "lon": -1.9495382
+    },
+    {
+      "id": "camp-camping-el-real-42671-1823",
+      "name": "Camping El Real",
+      "kind": "camping",
+      "lat": 42.6711018,
+      "lon": -1.8234212
+    },
+    {
+      "id": "camp-camping-errota-el-molino-42624-1842",
+      "name": "Camping Errota-El Molino",
+      "kind": "camping",
+      "lat": 42.6249445,
+      "lon": -1.8429562
+    },
+    {
+      "id": "camp-camping-etxarri-42912-2080",
+      "name": "Camping Etxarri",
+      "kind": "camping",
+      "lat": 42.9127074,
+      "lon": -2.0807945
+    },
+    {
+      "id": "camp-camping-olite-42480-1674",
+      "name": "Camping Olite",
+      "kind": "camping",
+      "lat": 42.4807773,
+      "lon": -1.6744608
+    },
+    {
+      "id": "camp-ezcaba-42858-1623",
+      "name": "Ezcaba",
+      "kind": "camping",
+      "lat": 42.8585136,
+      "lon": -1.6233627
+    },
+    {
+      "id": "camp-iratxe-42647-2059",
+      "name": "Iratxe",
+      "kind": "camping",
+      "lat": 42.6471924,
+      "lon": -2.059894
+    },
+    {
+      "id": "camp-izarpe-camping-42938-1692",
+      "name": "Izarpe Camping",
+      "kind": "camping",
+      "lat": 42.9385379,
+      "lon": -1.6924114
+    },
+    {
+      "id": "camp-lizarra-42657-2015",
+      "name": "Lizarra",
+      "kind": "camping",
+      "lat": 42.657365,
+      "lon": -2.0156996
+    },
+    {
+      "id": "camp-urbasa-42852-2173",
+      "name": "Urbasa",
+      "kind": "camping",
+      "lat": 42.8521956,
+      "lon": -2.1736678
+    },
+    {
+      "id": "camp-aire-naturelle-de-camping-42909-618",
+      "name": "Aire Naturelle de Camping",
+      "kind": "camping",
+      "lat": 42.909992,
+      "lon": -0.6188684
+    },
+    {
+      "id": "camp-aire-naturelle-de-camping-des-anaques-42981-623",
+      "name": "Aire Naturelle de Camping des Anaques",
+      "kind": "camping",
+      "lat": 42.9815473,
+      "lon": -0.6235443
+    },
+    {
+      "id": "camp-albergue-juvenil-don-bosco-42661-551",
+      "name": "Albergue Juvenil Don Bosco",
+      "kind": "camping",
+      "lat": 42.6615848,
+      "lon": -0.5519241
+    },
+    {
+      "id": "camp-asolaze-kanpina-42900-882",
+      "name": "Asolaze kanpina",
+      "kind": "camping",
+      "lat": 42.9008255,
+      "lon": -0.8826274
+    },
+    {
+      "id": "camp-bivouac-42846-488",
+      "name": "Bivouac",
+      "kind": "camping",
+      "lat": 42.8467413,
+      "lon": -0.4880963
+    },
+    {
+      "id": "camp-campamento-cheso-42669-538",
+      "name": "Campamento Cheso",
+      "kind": "camping",
+      "lat": 42.6694528,
+      "lon": -0.5381167
+    },
+    {
+      "id": "camp-campamento-ramiro-el-monje-42832-708",
+      "name": "Campamento Ramiro el Monje",
+      "kind": "camping",
+      "lat": 42.8321543,
+      "lon": -0.7087712
+    },
+    {
+      "id": "camp-campamento-tebarray-42772-828",
+      "name": "Campamento Tebarray",
+      "kind": "camping",
+      "lat": 42.7725883,
+      "lon": -0.8281173
+    },
+    {
+      "id": "camp-camping-aygueb%C3%A8re-42990-421",
+      "name": "Camping Ayguebère",
+      "kind": "camping",
+      "lat": 42.990886,
+      "lon": -0.421641
+    },
+    {
+      "id": "camp-camping-a%C3%ADn-jaca-42552-552",
+      "name": "Camping Aín Jaca",
+      "kind": "camping",
+      "lat": 42.5524889,
+      "lon": -0.5521869
+    },
+    {
+      "id": "camp-camping-borda-bisaltico-42786-729",
+      "name": "Camping Borda Bisaltico",
+      "kind": "camping",
+      "lat": 42.7869867,
+      "lon": -0.7298092
+    },
+    {
+      "id": "camp-camping-borda-juan-ram%C3%B3n-42715-601",
+      "name": "Camping Borda Juan Ramón",
+      "kind": "camping",
+      "lat": 42.7159875,
+      "lon": -0.6014506
+    },
+    {
+      "id": "camp-camping-de-artieda-42585-985",
+      "name": "Camping de Artieda",
+      "kind": "camping",
+      "lat": 42.5851461,
+      "lon": -0.9856886
+    },
+    {
+      "id": "camp-camping-del-pigalo-42429-997",
+      "name": "Camping del Pigalo",
+      "kind": "camping",
+      "lat": 42.4299109,
+      "lon": -0.9972527
+    },
+    {
+      "id": "camp-camping-des-gaves-42983-417",
+      "name": "Camping des Gaves",
+      "kind": "camping",
+      "lat": 42.9839071,
+      "lon": -0.4178792
+    },
+    {
+      "id": "camp-camping-despourrins-42976-606",
+      "name": "Camping Despourrins",
+      "kind": "camping",
+      "lat": 42.9767596,
+      "lon": -0.6062411
+    },
+    {
+      "id": "camp-camping-du-lauzart-42927-643",
+      "name": "Camping du Lauzart",
+      "kind": "camping",
+      "lat": 42.9278884,
+      "lon": -0.6430008
+    },
+    {
+      "id": "camp-camping-du-pont-laugu%C3%A8re-42980-419",
+      "name": "Camping du Pont Lauguère",
+      "kind": "camping",
+      "lat": 42.9809614,
+      "lon": -0.4197268
+    },
+    {
+      "id": "camp-camping-du-valentin-42979-414",
+      "name": "Camping du Valentin",
+      "kind": "camping",
+      "lat": 42.9799821,
+      "lon": -0.4142018
+    },
+    {
+      "id": "camp-camping-iturbero-42652-1302",
+      "name": "Camping Iturbero",
+      "kind": "camping",
+      "lat": 42.6523916,
+      "lon": -1.3025432
+    },
+    {
+      "id": "camp-camping-le-gave-d%27aspe-42876-557",
+      "name": "Camping le Gave d'Aspe",
+      "kind": "camping",
+      "lat": 42.8768247,
+      "lon": -0.5573482
+    },
+    {
+      "id": "camp-camping-selva-de-oza-42834-711",
+      "name": "Camping Selva de Oza",
+      "kind": "camping",
+      "lat": 42.8349538,
+      "lon": -0.7117632
+    },
+    {
+      "id": "camp-camping-solopuent-42623-544",
+      "name": "Camping Solopuent",
+      "kind": "camping",
+      "lat": 42.6239574,
+      "lon": -0.5442065
+    },
+    {
+      "id": "camp-camping-urrobi-42972-1351",
+      "name": "Camping Urrobi",
+      "kind": "camping",
+      "lat": 42.9722639,
+      "lon": -1.3517255
+    },
+    {
+      "id": "camp-camping-urrutea-42787-921",
+      "name": "Camping Urrutea",
+      "kind": "camping",
+      "lat": 42.7870023,
+      "lon": -0.921502
+    },
+    {
+      "id": "camp-camping-valle-de-ans%C3%B3-42752-829",
+      "name": "Camping Valle de Ansó",
+      "kind": "camping",
+      "lat": 42.7522269,
+      "lon": -0.8299352
+    },
+    {
+      "id": "camp-camping-valle-de-hecho-42732-753",
+      "name": "Camping Valle de Hecho",
+      "kind": "camping",
+      "lat": 42.7322211,
+      "lon": -0.7539643
+    },
+    {
+      "id": "camp-camping-victoria-42563-571",
+      "name": "Camping Victoria",
+      "kind": "camping",
+      "lat": 42.5639032,
+      "lon": -0.5719112
+    },
+    {
+      "id": "camp-el-arrebol-42564-510",
+      "name": "el arrebol",
+      "kind": "camping",
+      "lat": 42.5642925,
+      "lon": -0.5105462
+    },
+    {
+      "id": "camp-moto-c%C3%A1mping-anz%C3%A1nigo-42407-646",
+      "name": "Moto Cámping Anzánigo",
+      "kind": "camping",
+      "lat": 42.4070208,
+      "lon": -0.6468327
+    },
+    {
+      "id": "camp-murkuzuria-42855-1097",
+      "name": "Murkuzuria",
+      "kind": "camping",
+      "lat": 42.8555015,
+      "lon": -1.0970696
+    },
+    {
+      "id": "camp-osate-kanpina-42900-1092",
+      "name": "Osate Kanpina",
+      "kind": "camping",
+      "lat": 42.9001758,
+      "lon": -1.0920857
+    },
+    {
+      "id": "camp-aire-de-bivouac-42757-93",
+      "name": "Aire de bivouac",
+      "kind": "camping",
+      "lat": 42.7572269,
+      "lon": -0.0938143
+    },
+    {
+      "id": "camp-aire-de-bivouac-du-refuge-des-espuguettes-42720-13",
+      "name": "Aire de bivouac du Refuge des Espuguettes",
+      "kind": "camping",
+      "lat": 42.7200192,
+      "lon": 0.0130101
+    },
+    {
+      "id": "camp-antiguo-camping-las-nieves-42614-328",
+      "name": "Antiguo Camping Las Nieves",
+      "kind": "camping",
+      "lat": 42.6148524,
+      "lon": -0.3282501
+    },
+    {
+      "id": "camp-bivouac-42764-49",
+      "name": "bivouac",
+      "kind": "camping",
+      "lat": 42.7645878,
+      "lon": 0.04982
+    },
+    {
+      "id": "camp-camping-aur%C3%ADn-sabi%C3%B1%C3%A1nigo-42527-358",
+      "name": "Camping Aurín Sabiñánigo",
+      "kind": "camping",
+      "lat": 42.5274383,
+      "lon": -0.3584361
+    },
+    {
+      "id": "camp-camping-escarra-42734-313",
+      "name": "Camping Escarra",
+      "kind": "camping",
+      "lat": 42.7347202,
+      "lon": -0.3138988
+    },
+    {
+      "id": "camp-camping-gavin-s.l.-42620-305",
+      "name": "Camping Gavin S.L.",
+      "kind": "camping",
+      "lat": 42.6207452,
+      "lon": -0.3058852
+    },
+    {
+      "id": "camp-camping-ordesa-42640-108",
+      "name": "Camping Ordesa",
+      "kind": "camping",
+      "lat": 42.640404,
+      "lon": -0.1087268
+    },
+    {
+      "id": "camp-camping-oturia-42482-279",
+      "name": "Camping Oturia",
+      "kind": "camping",
+      "lat": 42.4826435,
+      "lon": -0.2791845
+    },
+    {
+      "id": "camp-camping-panticosa-42721-294",
+      "name": "Camping Panticosa",
+      "kind": "camping",
+      "lat": 42.7218702,
+      "lon": -0.2940198
+    },
+    {
+      "id": "camp-camping-ribera-del-ara-42502-122",
+      "name": "Camping Ribera del Ara",
+      "kind": "camping",
+      "lat": 42.5029859,
+      "lon": -0.1225735
+    },
+    {
+      "id": "camp-camping-r%C3%ADo-ara-42632-106",
+      "name": "Camping Río Ara",
+      "kind": "camping",
+      "lat": 42.6324982,
+      "lon": -0.1067241
+    },
+    {
+      "id": "camp-camping-san-nicol%C3%A1s-de-bujaruelo-42693-107",
+      "name": "Camping San Nicolás de Bujaruelo",
+      "kind": "camping",
+      "lat": 42.6935517,
+      "lon": -0.1073503
+    },
+    {
+      "id": "camp-camping-valle-de-bujaruelo-42677-124",
+      "name": "Camping Valle de Bujaruelo",
+      "kind": "camping",
+      "lat": 42.6774965,
+      "lon": -0.1240976
+    },
+    {
+      "id": "camp-camping-valle-de-tena-42557-338",
+      "name": "Camping Valle de Tena",
+      "kind": "camping",
+      "lat": 42.5576939,
+      "lon": -0.3387399
+    },
+    {
+      "id": "camp-camping-vi%C3%BA-42616-154",
+      "name": "Camping Viú",
+      "kind": "camping",
+      "lat": 42.616511,
+      "lon": -0.1542297
+    },
+    {
+      "id": "camp-la-bergerie-42728-7",
+      "name": "La Bergerie",
+      "kind": "camping",
+      "lat": 42.7281767,
+      "lon": -0.0070349
+    },
+    {
+      "id": "camp-le-pain-de-sucre-42758-0",
+      "name": "Le Pain de Sucre",
+      "kind": "camping",
+      "lat": 42.758168,
+      "lon": 0.0002915
+    },
+    {
+      "id": "camp-montanesa-42434-135",
+      "name": "Montanesa",
+      "kind": "camping",
+      "lat": 42.434722,
+      "lon": -0.135
+    },
+    {
+      "id": "camp-aire-de-bivouac-42862-176",
+      "name": "Aire de bivouac",
+      "kind": "camping",
+      "lat": 42.8622075,
+      "lon": -0.1762476
+    },
+    {
+      "id": "camp-aire-de-bivouac-de-la-lude-42838-198",
+      "name": "Aire de bivouac de la Lude",
+      "kind": "camping",
+      "lat": 42.8388486,
+      "lon": 0.1989112
+    },
+    {
+      "id": "camp-aire-de-bivouac-du-chalet-du-clot-42852-146",
+      "name": "Aire de bivouac du Chalet du Clot",
+      "kind": "camping",
+      "lat": 42.8523971,
+      "lon": -0.1464712
+    },
+    {
+      "id": "camp-aire-de-bivouac-du-lac-de-gaube-42828-140",
+      "name": "Aire de bivouac du lac de Gaube",
+      "kind": "camping",
+      "lat": 42.8281172,
+      "lon": -0.1402235
+    },
+    {
+      "id": "camp-aire-de-bivouac-du-refuge-de-bayssellance-42779-123",
+      "name": "Aire de bivouac du Refuge de Bayssellance",
+      "kind": "camping",
+      "lat": 42.7793561,
+      "lon": -0.1236418
+    },
+    {
+      "id": "camp-aire-de-bivouac-du-refuge-des-oulettes-de-gaube-42791-143",
+      "name": "Aire de bivouac du Refuge des Oulettes de Gaube",
+      "kind": "camping",
+      "lat": 42.7913874,
+      "lon": -0.1435733
+    },
+    {
+      "id": "camp-aire-de-bivouac-du-refuge-wallon-42819-195",
+      "name": "Aire de bivouac du Refuge Wallon",
+      "kind": "camping",
+      "lat": 42.8191244,
+      "lon": -0.1957788
+    },
+    {
+      "id": "camp-aire-naturelle-la-pose-42916-188",
+      "name": "Aire Naturelle La Pose",
+      "kind": "camping",
+      "lat": 42.9167427,
+      "lon": -0.1884504
+    },
+    {
+      "id": "camp-bivouac-42851-297",
+      "name": "Bivouac",
+      "kind": "camping",
+      "lat": 42.8518506,
+      "lon": -0.2978195
+    },
+    {
+      "id": "camp-bivouac-areas-42837-314",
+      "name": "bivouac areas",
+      "kind": "camping",
+      "lat": 42.8377428,
+      "lon": -0.3149001
+    },
+    {
+      "id": "camp-bivouac-possible-42926-133",
+      "name": "Bivouac possible",
+      "kind": "camping",
+      "lat": 42.9263889,
+      "lon": 0.1334855
+    },
+    {
+      "id": "camp-camping-airotel-pyr%C3%A9n%C3%A9es-42881-11",
+      "name": "Camping Airotel Pyrénées",
+      "kind": "camping",
+      "lat": 42.8810778,
+      "lon": -0.0114547
+    },
+    {
+      "id": "camp-camping-de-larbey-42962-78",
+      "name": "Camping de Larbey",
+      "kind": "camping",
+      "lat": 42.9622052,
+      "lon": -0.0788243
+    },
+    {
+      "id": "camp-camping-du-lac-d%27estaing-42903-212",
+      "name": "Camping du Lac d'Estaing",
+      "kind": "camping",
+      "lat": 42.9032645,
+      "lon": -0.2129419
+    },
+    {
+      "id": "camp-camping-gr10-42910-98",
+      "name": "Camping GR10",
+      "kind": "camping",
+      "lat": 42.9103206,
+      "lon": -0.0986083
+    },
+    {
+      "id": "camp-camping-international-42883-12",
+      "name": "Camping International",
+      "kind": "camping",
+      "lat": 42.883539,
+      "lon": -0.0129151
+    },
+    {
+      "id": "camp-camping-la-h%C3%A8che-42957-205",
+      "name": "Camping la Hèche",
+      "kind": "camping",
+      "lat": 42.9574533,
+      "lon": -0.2050792
+    },
+    {
+      "id": "camp-camping-la-prairie-42896-111",
+      "name": "Camping La Prairie",
+      "kind": "camping",
+      "lat": 42.8966829,
+      "lon": -0.111941
+    },
+    {
+      "id": "camp-camping-la-rib%C3%A8re-42895-57",
+      "name": "Camping La Ribère",
+      "kind": "camping",
+      "lat": 42.8950888,
+      "lon": 0.0574742
+    },
+    {
+      "id": "camp-camping-le-bastan-42874-5",
+      "name": "Camping Le Bastan",
+      "kind": "camping",
+      "lat": 42.8746751,
+      "lon": 0.005273
+    },
+    {
+      "id": "camp-camping-le-bergons-42873-2",
+      "name": "Camping le Bergons",
+      "kind": "camping",
+      "lat": 42.8731408,
+      "lon": 0.0027768
+    },
+    {
+      "id": "camp-camping-le-cabaliros-42903-107",
+      "name": "Camping le Cabaliros",
+      "kind": "camping",
+      "lat": 42.9033625,
+      "lon": -0.1074143
+    },
+    {
+      "id": "camp-camping-le-gerrit-42965-199",
+      "name": "Camping le Gerrit",
+      "kind": "camping",
+      "lat": 42.9657379,
+      "lon": -0.1991779
+    },
+    {
+      "id": "camp-camping-le-hounta-42872-14",
+      "name": "Camping Le Hounta",
+      "kind": "camping",
+      "lat": 42.8722257,
+      "lon": -0.0143809
+    },
+    {
+      "id": "camp-camping-le-n%C3%A8re-42896-28",
+      "name": "Camping le Nère",
+      "kind": "camping",
+      "lat": 42.8962279,
+      "lon": -0.0280001
+    },
+    {
+      "id": "camp-camping-le-p%C3%A9gu%C3%A8re-42901-108",
+      "name": "Camping le Péguère",
+      "kind": "camping",
+      "lat": 42.9013021,
+      "lon": -0.1081601
+    },
+    {
+      "id": "camp-camping-le-saillet-42902-108",
+      "name": "Camping le Saillet",
+      "kind": "camping",
+      "lat": 42.9020402,
+      "lon": -0.108144
+    },
+    {
+      "id": "camp-camping-le-vieux-moulin-42936-179",
+      "name": "Camping le vieux moulin",
+      "kind": "camping",
+      "lat": 42.9367144,
+      "lon": -0.1791239
+    },
+    {
+      "id": "camp-camping-le-vignemale-42897-114",
+      "name": "Camping le Vignemale",
+      "kind": "camping",
+      "lat": 42.8972482,
+      "lon": -0.1144122
+    },
+    {
+      "id": "camp-camping-les-bergeronettes-42899-112",
+      "name": "Camping Les Bergeronettes",
+      "kind": "camping",
+      "lat": 42.8992233,
+      "lon": -0.1124276
+    },
+    {
+      "id": "camp-camping-les-cascades-42869-1",
+      "name": "Camping les Cascades",
+      "kind": "camping",
+      "lat": 42.8695644,
+      "lon": -0.0017212
+    },
+    {
+      "id": "camp-camping-les-gl%C3%A8res-42893-113",
+      "name": "Camping Les Glères",
+      "kind": "camping",
+      "lat": 42.8938792,
+      "lon": -0.1133964
+    },
+    {
+      "id": "camp-camping-mialanne-42960-207",
+      "name": "Camping Mialanne",
+      "kind": "camping",
+      "lat": 42.9604707,
+      "lon": -0.2076669
+    },
+    {
+      "id": "camp-camping-pineta-42651-140",
+      "name": "Camping Pineta",
+      "kind": "camping",
+      "lat": 42.6512345,
+      "lon": 0.1404662
+    },
+    {
+      "id": "camp-camping-pineta-42649-140",
+      "name": "Camping Pineta",
+      "kind": "camping",
+      "lat": 42.6499187,
+      "lon": 0.1406423
+    },
+    {
+      "id": "camp-camping-pyr%C3%A9n%C3%A9es-natura-42941-177",
+      "name": "Camping Pyrénées Natura",
+      "kind": "camping",
+      "lat": 42.9413429,
+      "lon": -0.1776603
+    },
+    {
+      "id": "camp-camping-pyr%C3%A9n%C3%A9vasion-42882-22",
+      "name": "Camping Pyrénévasion",
+      "kind": "camping",
+      "lat": 42.882972,
+      "lon": -0.022072
+    },
+    {
+      "id": "camp-camping-saint-bazerque-42831-2",
+      "name": "Camping Saint-Bazerque",
+      "kind": "camping",
+      "lat": 42.8311307,
+      "lon": 0.0021859
+    },
+    {
+      "id": "camp-camping-so-de-prous-42897-28",
+      "name": "Camping So de Prous",
+      "kind": "camping",
+      "lat": 42.8975674,
+      "lon": -0.0284466
+    },
+    {
+      "id": "camp-camping-toy-42873-0",
+      "name": "Camping Toy",
+      "kind": "camping",
+      "lat": 42.873461,
+      "lon": -0.0003843
+    },
+    {
+      "id": "camp-camping-valle-a%C3%B1isclo-42508-124",
+      "name": "Camping Valle Añisclo",
+      "kind": "camping",
+      "lat": 42.5088476,
+      "lon": 0.1242668
+    },
+    {
+      "id": "camp-gcu-arrens-marsous-42957-213",
+      "name": "GCU Arrens-Marsous",
+      "kind": "camping",
+      "lat": 42.9575191,
+      "lon": -0.2139193
+    },
+    {
+      "id": "camp-la-grange-bigourdane-42877-9",
+      "name": "La Grange Bigourdane",
+      "kind": "camping",
+      "lat": 42.8778749,
+      "lon": -0.0090986
+    },
+    {
+      "id": "camp-le-cairn-42750-87",
+      "name": "Le Cairn",
+      "kind": "camping",
+      "lat": 42.75069,
+      "lon": 0.0875382
+    },
+    {
+      "id": "camp-le-cluquet-42895-109",
+      "name": "Le Cluquet",
+      "kind": "camping",
+      "lat": 42.8957485,
+      "lon": -0.1095436
+    },
+    {
+      "id": "camp-le-moulian-42960-199",
+      "name": "Le Moulian",
+      "kind": "camping",
+      "lat": 42.9606,
+      "lon": -0.1991591
+    },
+    {
+      "id": "camp-le-mousca-42792-17",
+      "name": "Le Mousca",
+      "kind": "camping",
+      "lat": 42.7923745,
+      "lon": 0.0176769
+    },
+    {
+      "id": "camp-les-tilleuls-42782-15",
+      "name": "Les Tilleuls",
+      "kind": "camping",
+      "lat": 42.782297,
+      "lon": 0.0151935
+    },
+    {
+      "id": "camp-san-marcial-42583-205",
+      "name": "San Marcial",
+      "kind": "camping",
+      "lat": 42.5836452,
+      "lon": 0.2059692
+    },
+    {
+      "id": "camp-zone-de-bivouac-d%27aubert-42838-143",
+      "name": "Zone de Bivouac d'Aubert",
+      "kind": "camping",
+      "lat": 42.8388545,
+      "lon": 0.1436533
+    },
+    {
+      "id": "camp-zone-de-bivouac-du-lac-d%27or%C3%A9don-42827-168",
+      "name": "Zone de Bivouac du Lac d'Orédon",
+      "kind": "camping",
+      "lat": 42.8275798,
+      "lon": 0.1689595
+    },
+    {
+      "id": "camp-aire-de-bivouac-42742-307",
+      "name": "Aire de Bivouac",
+      "kind": "camping",
+      "lat": 42.7421059,
+      "lon": 0.307851
+    },
+    {
+      "id": "camp-aire-de-bivouac-de-l%27hospice-du-rioumajou-42708-295",
+      "name": "Aire de Bivouac de l'Hospice du Rioumajou",
+      "kind": "camping",
+      "lat": 42.7089354,
+      "lon": 0.2950261
+    },
+    {
+      "id": "camp-aire-de-bivouac-du-refuge-du-lac-d%27o%C3%B4-42744-490",
+      "name": "Aire de bivouac du Refuge du Lac d'Oô",
+      "kind": "camping",
+      "lat": 42.7446139,
+      "lon": 0.4905017
+    },
+    {
+      "id": "camp-aire-naturelle-de-cad%C3%A9ac-42884-348",
+      "name": "Aire Naturelle de Cadéac",
+      "kind": "camping",
+      "lat": 42.8849405,
+      "lon": 0.348826
+    },
+    {
+      "id": "camp-aire-naturelle-gentils-42907-365",
+      "name": "Aire Naturelle Gentils",
+      "kind": "camping",
+      "lat": 42.9079929,
+      "lon": 0.3657384
+    },
+    {
+      "id": "camp-aire-naturelle-le-caoussariou-42979-164",
+      "name": "Aire Naturelle Le Caoussariou",
+      "kind": "camping",
+      "lat": 42.9790243,
+      "lon": -0.1648414
+    },
+    {
+      "id": "camp-bivouac-42741-454",
+      "name": "Bivouac",
+      "kind": "camping",
+      "lat": 42.7410892,
+      "lon": 0.4544261
+    },
+    {
+      "id": "camp-camping-a-l%27ombre-des-tilleuls-43101-130",
+      "name": "Camping A l'ombre des tilleuls",
+      "kind": "camping",
+      "lat": 43.1012219,
+      "lon": -0.1300011
+    },
+    {
+      "id": "camp-camping-artiguette-saint-jacques-42824-318",
+      "name": "Camping Artiguette Saint-Jacques",
+      "kind": "camping",
+      "lat": 42.8249785,
+      "lon": 0.318564
+    },
+    {
+      "id": "camp-camping-azun-nature-42973-185",
+      "name": "Camping Azun Nature",
+      "kind": "camping",
+      "lat": 42.9731501,
+      "lon": -0.1851949
+    },
+    {
+      "id": "camp-camping-bellevue-43018-92",
+      "name": "Camping Bellevue",
+      "kind": "camping",
+      "lat": 43.0183969,
+      "lon": -0.0925462
+    },
+    {
+      "id": "camp-camping-caravaneige-bellevue-des-palomi%C3%A8res-43075-168",
+      "name": "Camping Caravaneige Bellevue des Palomières",
+      "kind": "camping",
+      "lat": 43.075014,
+      "lon": 0.1680882
+    },
+    {
+      "id": "camp-camping-caravaneige-les-palomi%C3%A8res-43078-166",
+      "name": "Camping Caravaneige Les Palomières",
+      "kind": "camping",
+      "lat": 43.0787828,
+      "lon": 0.1667946
+    },
+    {
+      "id": "camp-camping-d%27esplantats-42971-377",
+      "name": "Camping d'Esplantats",
+      "kind": "camping",
+      "lat": 42.9715611,
+      "lon": 0.3771743
+    },
+    {
+      "id": "camp-camping-de-l%27adour-43051-158",
+      "name": "Camping de l'Adour",
+      "kind": "camping",
+      "lat": 43.0519292,
+      "lon": 0.1585557
+    },
+    {
+      "id": "camp-camping-de-la-chapelle-42993-93",
+      "name": "Camping de la Chapelle",
+      "kind": "camping",
+      "lat": 42.9931991,
+      "lon": -0.0939712
+    },
+    {
+      "id": "camp-camping-de-la-for%C3%AAt-43095-75",
+      "name": "Camping de la Forêt",
+      "kind": "camping",
+      "lat": 43.0959068,
+      "lon": -0.0759944
+    },
+    {
+      "id": "camp-camping-deth-potz-43011-79",
+      "name": "Camping Deth-Potz",
+      "kind": "camping",
+      "lat": 43.0116757,
+      "lon": -0.0795739
+    },
+    {
+      "id": "camp-camping-du-lac-42986-107",
+      "name": "Camping du Lac",
+      "kind": "camping",
+      "lat": 42.9861695,
+      "lon": -0.1074736
+    },
+    {
+      "id": "camp-camping-du-lavedan-42988-90",
+      "name": "Camping du Lavedan",
+      "kind": "camping",
+      "lat": 42.9883803,
+      "lon": -0.0901474
+    },
+    {
+      "id": "camp-camping-du-loup-43097-70",
+      "name": "Camping du Loup",
+      "kind": "camping",
+      "lat": 43.0971328,
+      "lon": -0.0706884
+    },
+    {
+      "id": "camp-camping-du-parc-des-oiseaux-43094-123",
+      "name": "Camping du Parc des Oiseaux",
+      "kind": "camping",
+      "lat": 43.0943805,
+      "lon": 0.1236914
+    },
+    {
+      "id": "camp-camping-du-ruisseau-blanc-43093-20",
+      "name": "Camping du Ruisseau Blanc",
+      "kind": "camping",
+      "lat": 43.0935676,
+      "lon": -0.0201397
+    },
+    {
+      "id": "camp-camping-du-val-d%27autun-42824-330",
+      "name": "Camping du Val d'Autun",
+      "kind": "camping",
+      "lat": 42.8245115,
+      "lon": 0.3302069
+    },
+    {
+      "id": "camp-camping-fouga-42788-236",
+      "name": "Camping Fouga",
+      "kind": "camping",
+      "lat": 42.7881752,
+      "lon": 0.2368089
+    },
+    {
+      "id": "camp-camping-gcu-de-lau-balagnas-les-peupliers-42987-87",
+      "name": "Camping GCU de Lau-Balagnas Les Peupliers",
+      "kind": "camping",
+      "lat": 42.9871131,
+      "lon": -0.0870005
+    },
+    {
+      "id": "camp-camping-hautacam-42991-71",
+      "name": "Camping Hautacam",
+      "kind": "camping",
+      "lat": 42.9918625,
+      "lon": -0.0712995
+    },
+    {
+      "id": "camp-camping-l%27arriou-43026-170",
+      "name": "Camping l'Arriou",
+      "kind": "camping",
+      "lat": 43.0260939,
+      "lon": 0.170581
+    },
+    {
+      "id": "camp-camping-l%27edelweiss-42980-159",
+      "name": "Camping l'Edelweiss",
+      "kind": "camping",
+      "lat": 42.9807163,
+      "lon": -0.1594297
+    },
+    {
+      "id": "camp-camping-l%27id%C3%A9al-42995-119",
+      "name": "Camping L'Idéal",
+      "kind": "camping",
+      "lat": 42.9959402,
+      "lon": -0.1197286
+    },
+    {
+      "id": "camp-camping-l%27or%C3%A9e-des-monts-42966-245",
+      "name": "Camping l'Orée des Monts",
+      "kind": "camping",
+      "lat": 42.9669356,
+      "lon": 0.2455778
+    },
+    {
+      "id": "camp-camping-la-bourie-42999-377",
+      "name": "Camping La Bourie",
+      "kind": "camping",
+      "lat": 42.9991816,
+      "lon": 0.3774099
+    },
+    {
+      "id": "camp-camping-la-ch%C3%A2taigneraie-43031-75",
+      "name": "Camping la Châtaigneraie",
+      "kind": "camping",
+      "lat": 43.0319444,
+      "lon": -0.075289
+    },
+    {
+      "id": "camp-camping-la-mousqu%C3%A8re-42827-335",
+      "name": "Camping La Mousquère",
+      "kind": "camping",
+      "lat": 42.8270385,
+      "lon": 0.3358818
+    },
+    {
+      "id": "camp-camping-la-pommeraie-43056-165",
+      "name": "Camping la Pommeraie",
+      "kind": "camping",
+      "lat": 43.0563269,
+      "lon": 0.1656743
+    },
+    {
+      "id": "camp-camping-la-prairie-42997-91",
+      "name": "Camping La Prairie",
+      "kind": "camping",
+      "lat": 42.9972781,
+      "lon": -0.0917409
+    },
+    {
+      "id": "camp-camping-lascrouts-42973-184",
+      "name": "Camping Lascrouts",
+      "kind": "camping",
+      "lat": 42.9738343,
+      "lon": -0.1847277
+    },
+    {
+      "id": "camp-camping-le-bigourdan-43080-140",
+      "name": "Camping le Bigourdan",
+      "kind": "camping",
+      "lat": 43.0805507,
+      "lon": 0.1408918
+    },
+    {
+      "id": "camp-camping-le-bosquet-42974-164",
+      "name": "Camping Le Bosquet",
+      "kind": "camping",
+      "lat": 42.9740676,
+      "lon": -0.1646012
+    },
+    {
+      "id": "camp-camping-le-lavedan-42864-340",
+      "name": "Camping le Lavedan",
+      "kind": "camping",
+      "lat": 42.864016,
+      "lon": 0.3405299
+    },
+    {
+      "id": "camp-camping-le-layris-43018-175",
+      "name": "Camping Le Layris",
+      "kind": "camping",
+      "lat": 43.0183702,
+      "lon": 0.1750262
+    },
+    {
+      "id": "camp-camping-le-lustou-42817-403",
+      "name": "Camping Le Lustou",
+      "kind": "camping",
+      "lat": 42.8176792,
+      "lon": 0.4039542
+    },
+    {
+      "id": "camp-camping-le-monl%C3%B4o-43081-151",
+      "name": "Camping le Monlôo",
+      "kind": "camping",
+      "lat": 43.0816645,
+      "lon": 0.1518684
+    },
+    {
+      "id": "camp-camping-le-moulin-des-baronnies-43086-279",
+      "name": "Camping Le Moulin des Baronnies",
+      "kind": "camping",
+      "lat": 43.0862935,
+      "lon": 0.2795814
+    },
+    {
+      "id": "camp-camping-le-rioumajou-42839-339",
+      "name": "Camping le Rioumajou",
+      "kind": "camping",
+      "lat": 42.8395368,
+      "lon": 0.3390568
+    },
+    {
+      "id": "camp-camping-le-ruisseau-42863-361",
+      "name": "Camping Le Ruisseau",
+      "kind": "camping",
+      "lat": 42.8632933,
+      "lon": 0.3610241
+    },
+    {
+      "id": "camp-camping-le-rural-43035-72",
+      "name": "Camping le Rural",
+      "kind": "camping",
+      "lat": 43.0352156,
+      "lon": -0.0722112
+    },
+    {
+      "id": "camp-camping-le-rural-43067-553",
+      "name": "Camping le Rural",
+      "kind": "camping",
+      "lat": 43.0679141,
+      "lon": 0.5533408
+    },
+    {
+      "id": "camp-camping-le-viscos-42980-63",
+      "name": "Camping Le Viscos",
+      "kind": "camping",
+      "lat": 42.9808975,
+      "lon": -0.0639732
+    },
+    {
+      "id": "camp-camping-les-4-v%C3%A9ziaux-42942-280",
+      "name": "Camping Les 4 Véziaux",
+      "kind": "camping",
+      "lat": 42.9428124,
+      "lon": 0.2805412
+    },
+    {
+      "id": "camp-camping-les-bulanettes-42976-228",
+      "name": "Camping les Bulanettes",
+      "kind": "camping",
+      "lat": 42.9767304,
+      "lon": 0.2288246
+    },
+    {
+      "id": "camp-camping-les-ch%C3%A2taigniers-42984-104",
+      "name": "Camping les Châtaigniers",
+      "kind": "camping",
+      "lat": 42.9846443,
+      "lon": -0.1045392
+    },
+    {
+      "id": "camp-camping-les-fruitiers-43071-156",
+      "name": "Camping Les Fruitiers",
+      "kind": "camping",
+      "lat": 43.0715824,
+      "lon": 0.1567091
+    },
+    {
+      "id": "camp-camping-les-fr%C3%AAnes-42986-89",
+      "name": "Camping Les Frênes",
+      "kind": "camping",
+      "lat": 42.9868831,
+      "lon": -0.0896813
+    },
+    {
+      "id": "camp-camping-les-fr%C3%AAnes-42976-227",
+      "name": "Camping les Frênes",
+      "kind": "camping",
+      "lat": 42.9762815,
+      "lon": 0.2279134
+    },
+    {
+      "id": "camp-camping-les-rives-de-l%27adour-42974-229",
+      "name": "Camping les Rives de l'Adour",
+      "kind": "camping",
+      "lat": 42.9745976,
+      "lon": 0.2297454
+    },
+    {
+      "id": "camp-camping-midi-pyr%C3%A9n%C3%A9es-43092-554",
+      "name": "Camping Midi-Pyrénées",
+      "kind": "camping",
+      "lat": 43.0929405,
+      "lon": 0.5542455
+    },
+    {
+      "id": "camp-camping-municipal-42901-354",
+      "name": "Camping municipal",
+      "kind": "camping",
+      "lat": 42.9011579,
+      "lon": 0.3545755
+    },
+    {
+      "id": "camp-camping-municipal-le-hourgade-42837-407",
+      "name": "Camping Municipal Le Hourgade",
+      "kind": "camping",
+      "lat": 42.8377021,
+      "lon": 0.4078186
+    },
+    {
+      "id": "camp-camping-municipal-pont-de-moudang-42786-248",
+      "name": "Camping Municipal Pont de Moudang",
+      "kind": "camping",
+      "lat": 42.7861034,
+      "lon": 0.2481802
+    },
+    {
+      "id": "camp-camping-p%C3%A8ne-blanche-42796-404",
+      "name": "Camping Pène Blanche",
+      "kind": "camping",
+      "lat": 42.7961655,
+      "lon": 0.4049506
+    },
+    {
+      "id": "camp-camping-saint-roch-43007-187",
+      "name": "Camping Saint-Roch",
+      "kind": "camping",
+      "lat": 43.0078491,
+      "lon": 0.1879465
+    },
+    {
+      "id": "camp-camping-soleil-du-pibeste-43035-71",
+      "name": "Camping Soleil du Pibeste",
+      "kind": "camping",
+      "lat": 43.0358703,
+      "lon": -0.0717184
+    },
+    {
+      "id": "camp-centre-eedf-de-fabian-42792-228",
+      "name": "Centre EEDF de Fabian",
+      "kind": "camping",
+      "lat": 42.7925004,
+      "lon": 0.2287122
+    },
+    {
+      "id": "camp-couleurs-garonne-43085-553",
+      "name": "Couleurs Garonne",
+      "kind": "camping",
+      "lat": 43.0856132,
+      "lon": 0.5534805
+    },
+    {
+      "id": "camp-domaine-de-la-tour-43030-75",
+      "name": "Domaine de la Tour",
+      "kind": "camping",
+      "lat": 43.0301812,
+      "lon": -0.0757125
+    },
+    {
+      "id": "camp-emplacement-bivouac-42711-467",
+      "name": "Emplacement bivouac",
+      "kind": "camping",
+      "lat": 42.7111618,
+      "lon": 0.4676179
+    },
+    {
+      "id": "camp-ferme-du-plantier-43029-104",
+      "name": "Ferme du Plantier",
+      "kind": "camping",
+      "lat": 43.0295737,
+      "lon": -0.1049824
+    },
+    {
+      "id": "camp-l%27escale-du-cardouets-43060-52",
+      "name": "L'Escale du Cardouets",
+      "kind": "camping",
+      "lat": 43.0601898,
+      "lon": 0.0521707
+    },
+    {
+      "id": "camp-la-bergerie-43017-95",
+      "name": "La Bergerie",
+      "kind": "camping",
+      "lat": 43.0176561,
+      "lon": -0.0959469
+    },
+    {
+      "id": "camp-le-bedat-43086-131",
+      "name": "Le Bedat",
+      "kind": "camping",
+      "lat": 43.086792,
+      "lon": 0.1315515
+    },
+    {
+      "id": "camp-le-mesnil-43082-157",
+      "name": "Le Mesnil",
+      "kind": "camping",
+      "lat": 43.0828109,
+      "lon": 0.1571519
+    },
+    {
+      "id": "camp-les-trois-vall%C3%A9es-43014-96",
+      "name": "Les Trois Vallées",
+      "kind": "camping",
+      "lat": 43.0143303,
+      "lon": -0.0961853
+    },
+    {
+      "id": "camp-camping-de-los-ba%C3%B1os-42668-582",
+      "name": "Camping de los Baños",
+      "kind": "camping",
+      "lat": 42.6682242,
+      "lon": 0.5822316
+    },
+    {
+      "id": "camp-camping-el-forcallo-42660-369",
+      "name": "Camping El Forcallo",
+      "kind": "camping",
+      "lat": 42.6608647,
+      "lon": 0.3693623
+    },
+    {
+      "id": "camp-camping-es-pibous-43028-578",
+      "name": "Camping Es Pibous",
+      "kind": "camping",
+      "lat": 43.0288594,
+      "lon": 0.5782562
+    },
+    {
+      "id": "camp-alto-esera-42517-484",
+      "name": "Alto Esera",
+      "kind": "camping",
+      "lat": 42.5170506,
+      "lon": 0.4843035
+    },
+    {
+      "id": "camp-area-de-acampada-la-senarta-42641-566",
+      "name": "Area de acampada la Senarta",
+      "kind": "camping",
+      "lat": 42.6417156,
+      "lon": 0.5661937
+    },
+    {
+      "id": "camp-baliera-42438-700",
+      "name": "Baliera",
+      "kind": "camping",
+      "lat": 42.438813,
+      "lon": 0.7006694
+    },
+    {
+      "id": "camp-bivouac-42694-631",
+      "name": "Bivouac",
+      "kind": "camping",
+      "lat": 42.6947302,
+      "lon": 0.6319789
+    },
+    {
+      "id": "camp-bivouac-possible-42792-907",
+      "name": "Bivouac possible",
+      "kind": "camping",
+      "lat": 42.7924012,
+      "lon": 0.9071129
+    },
+    {
+      "id": "camp-bivouac-possible-42922-750",
+      "name": "Bivouac possible",
+      "kind": "camping",
+      "lat": 42.9224057,
+      "lon": 0.75074
+    },
+    {
+      "id": "camp-camp-de-l%27ours-42863-808",
+      "name": "Camp de l'Ours",
+      "kind": "camping",
+      "lat": 42.863843,
+      "lon": 0.8087772
+    },
+    {
+      "id": "camp-campamento-de-virgen-blanca-42659-367",
+      "name": "Campamento de Virgen Blanca",
+      "kind": "camping",
+      "lat": 42.6598651,
+      "lon": 0.3676049
+    },
+    {
+      "id": "camp-camping-aneto-42624-542",
+      "name": "Camping Aneto",
+      "kind": "camping",
+      "lat": 42.6241405,
+      "lon": 0.5424729
+    },
+    {
+      "id": "camp-camping-au-fil-de-l%27oo-42778-600",
+      "name": "Camping Au fil de l'Oo",
+      "kind": "camping",
+      "lat": 42.7781253,
+      "lon": 0.6003447
+    },
+    {
+      "id": "camp-camping-bielsa-42628-228",
+      "name": "Camping Bielsa",
+      "kind": "camping",
+      "lat": 42.6286198,
+      "lon": 0.2285913
+    },
+    {
+      "id": "camp-camping-cauarca-42805-706",
+      "name": "Camping Cauarca",
+      "kind": "camping",
+      "lat": 42.8051406,
+      "lon": 0.7067515
+    },
+    {
+      "id": "camp-camping-chantecler-42776-601",
+      "name": "Camping Chantecler",
+      "kind": "camping",
+      "lat": 42.7763007,
+      "lon": 0.6019122
+    },
+    {
+      "id": "camp-camping-des-thermes-42780-598",
+      "name": "Camping des Thermes",
+      "kind": "camping",
+      "lat": 42.7803429,
+      "lon": 0.5984443
+    },
+    {
+      "id": "camp-camping-isabena-%2B-bungalowpark-42308-545",
+      "name": "Camping Isabena + BungalowPark",
+      "kind": "camping",
+      "lat": 42.3084284,
+      "lon": 0.5453539
+    },
+    {
+      "id": "camp-camping-ixeia-42627-546",
+      "name": "Camping Ixeia",
+      "kind": "camping",
+      "lat": 42.6271954,
+      "lon": 0.5469435
+    },
+    {
+      "id": "camp-camping-la-borda-d%27arnaldet-42559-465",
+      "name": "Camping la Borda D'Arnaldet",
+      "kind": "camping",
+      "lat": 42.5593943,
+      "lon": 0.4651706
+    },
+    {
+      "id": "camp-camping-le-pyr%C3%A9n%C3%A9en-42821-605",
+      "name": "Camping Le Pyrénéen",
+      "kind": "camping",
+      "lat": 42.8219246,
+      "lon": 0.6058262
+    },
+    {
+      "id": "camp-camping-les-asphod%C3%A8les-42943-854",
+      "name": "Camping les Asphodèles",
+      "kind": "camping",
+      "lat": 42.9434266,
+      "lon": 0.8543862
+    },
+    {
+      "id": "camp-camping-les-myrtilles-42815-600",
+      "name": "Camping Les Myrtilles",
+      "kind": "camping",
+      "lat": 42.8157501,
+      "lon": 0.6000356
+    },
+    {
+      "id": "camp-camping-municipal-42914-640",
+      "name": "Camping municipal",
+      "kind": "camping",
+      "lat": 42.9140467,
+      "lon": 0.6402714
+    },
+    {
+      "id": "camp-camping-municipal-la-grange-42874-958",
+      "name": "Camping Municipal la Grange",
+      "kind": "camping",
+      "lat": 42.8745577,
+      "lon": 0.9585079
+    },
+    {
+      "id": "camp-can-roig-42430-739",
+      "name": "Can Roig",
+      "kind": "camping",
+      "lat": 42.4303984,
+      "lon": 0.7396772
+    },
+    {
+      "id": "camp-c%C3%A0mping-boneta-42503-801",
+      "name": "Càmping Boneta",
+      "kind": "camping",
+      "lat": 42.5033948,
+      "lon": 0.8014713
+    },
+    {
+      "id": "camp-c%C3%A0mping-del-remei-42434-743",
+      "name": "Càmping del Remei",
+      "kind": "camping",
+      "lat": 42.4349149,
+      "lon": 0.7439274
+    },
+    {
+      "id": "camp-c%C3%A0mping-era-lana-42756-694",
+      "name": "Càmping Era Lana",
+      "kind": "camping",
+      "lat": 42.7561067,
+      "lon": 0.6945849
+    },
+    {
+      "id": "camp-c%C3%A0mping-forcanada-42750-698",
+      "name": "Càmping Forcanada",
+      "kind": "camping",
+      "lat": 42.7504695,
+      "lon": 0.6988313
+    },
+    {
+      "id": "camp-c%C3%A0mping-sol-i-fred-42380-866",
+      "name": "Càmping Sol i Fred",
+      "kind": "camping",
+      "lat": 42.3801587,
+      "lon": 0.8665213
+    },
+    {
+      "id": "camp-c%C3%A0mping-ta%C3%BCll-42518-846",
+      "name": "Càmping Taüll",
+      "kind": "camping",
+      "lat": 42.5181788,
+      "lon": 0.8465936
+    },
+    {
+      "id": "camp-c%C3%A0mping-vall-fosca-42426-982",
+      "name": "Càmping Vall Fosca",
+      "kind": "camping",
+      "lat": 42.4260365,
+      "lon": 0.982702
+    },
+    {
+      "id": "camp-domaine-o-lanette-42795-607",
+      "name": "Domaine O Lanette",
+      "kind": "camping",
+      "lat": 42.7956584,
+      "lon": 0.6074608
+    },
+    {
+      "id": "camp-ecocamping-rural-valle-de-la-fueva-42386-278",
+      "name": "Ecocamping Rural Valle de La Fueva",
+      "kind": "camping",
+      "lat": 42.386209,
+      "lon": 0.2780964
+    },
+    {
+      "id": "camp-gcu-luchon-saint-mamet-42770-608",
+      "name": "GCU Luchon Saint-Mamet",
+      "kind": "camping",
+      "lat": 42.7702713,
+      "lon": 0.6082752
+    },
+    {
+      "id": "camp-la-vie-en-vert-42931-920",
+      "name": "La Vie en Vert",
+      "kind": "camping",
+      "lat": 42.9317041,
+      "lon": 0.92008
+    },
+    {
+      "id": "camp-laspa%C3%BAles-42472-599",
+      "name": "Laspaúles",
+      "kind": "camping",
+      "lat": 42.472083,
+      "lon": 0.5998036
+    },
+    {
+      "id": "camp-los-vives-42561-252",
+      "name": "Los Vives",
+      "kind": "camping",
+      "lat": 42.5617737,
+      "lon": 0.2524834
+    },
+    {
+      "id": "camp-pradelongue-42809-597",
+      "name": "Pradelongue",
+      "kind": "camping",
+      "lat": 42.8097793,
+      "lon": 0.5977075
+    },
+    {
+      "id": "camp-bivouaque-bom-42620-1465",
+      "name": "Bivouaque bom",
+      "kind": "camping",
+      "lat": 42.6202886,
+      "lon": 1.465318
+    },
+    {
+      "id": "camp-borda-castell-42375-1075",
+      "name": "Borda Castell",
+      "kind": "camping",
+      "lat": 42.3751417,
+      "lon": 1.0757671
+    },
+    {
+      "id": "camp-buchaca-42373-1357",
+      "name": "Buchaca",
+      "kind": "camping",
+      "lat": 42.3730906,
+      "lon": 1.3578384
+    },
+    {
+      "id": "camp-camping-borda-d%27ansalonga-42565-1525",
+      "name": "Camping Borda D'Ansalonga",
+      "kind": "camping",
+      "lat": 42.565011,
+      "lon": 1.5253413
+    },
+    {
+      "id": "camp-camping-collegats-42259-984",
+      "name": "Camping Collegats",
+      "kind": "camping",
+      "lat": 42.2592642,
+      "lon": 0.9848914
+    },
+    {
+      "id": "camp-camping-xixerella-42551-1487",
+      "name": "Camping Xixerella",
+      "kind": "camping",
+      "lat": 42.5519136,
+      "lon": 1.4875845
+    },
+    {
+      "id": "camp-c%C3%A0mping-beta-42358-1082",
+      "name": "Càmping Beta",
+      "kind": "camping",
+      "lat": 42.3589987,
+      "lon": 1.0820305
+    },
+    {
+      "id": "camp-c%C3%A0mping-casal-42568-1603",
+      "name": "Càmping Casal",
+      "kind": "camping",
+      "lat": 42.5683846,
+      "lon": 1.6036304
+    },
+    {
+      "id": "camp-c%C3%A0mping-del-card%C3%B3s-42558-1229",
+      "name": "Càmping Del Cardós",
+      "kind": "camping",
+      "lat": 42.5589238,
+      "lon": 1.2292439
+    },
+    {
+      "id": "camp-c%C3%A0mping-el-cortal-del-gral-42415-1673",
+      "name": "Càmping El Cortal del Gral",
+      "kind": "camping",
+      "lat": 42.4155921,
+      "lon": 1.6737254
+    },
+    {
+      "id": "camp-c%C3%A0mping-janramon-42568-1605",
+      "name": "Càmping Janramon",
+      "kind": "camping",
+      "lat": 42.5688392,
+      "lon": 1.6053515
+    },
+    {
+      "id": "camp-c%C3%A0mping-la-mola-42569-1108",
+      "name": "Càmping La Mola",
+      "kind": "camping",
+      "lat": 42.5690642,
+      "lon": 1.1082613
+    },
+    {
+      "id": "camp-c%C3%A0mping-la-torre-42574-1085",
+      "name": "Càmping La Torre",
+      "kind": "camping",
+      "lat": 42.5741281,
+      "lon": 1.0855111
+    },
+    {
+      "id": "camp-c%C3%A0mping-mol%C3%AD-de-f%C3%B3rnols-42241-1528",
+      "name": "Càmping Molí de Fórnols",
+      "kind": "camping",
+      "lat": 42.2419015,
+      "lon": 1.5280745
+    },
+    {
+      "id": "camp-c%C3%A0mping-noguera-pallaresa-42419-1133",
+      "name": "Càmping Noguera Pallaresa",
+      "kind": "camping",
+      "lat": 42.4190052,
+      "lon": 1.1338124
+    },
+    {
+      "id": "camp-c%C3%A0mping-organy%C3%A0-42215-1332",
+      "name": "Càmping Organyà",
+      "kind": "camping",
+      "lat": 42.2156279,
+      "lon": 1.3320123
+    },
+    {
+      "id": "camp-c%C3%A0mping-pont-d%27ardaix-42373-1637",
+      "name": "Càmping Pont d'Ardaix",
+      "kind": "camping",
+      "lat": 42.3736473,
+      "lon": 1.6375823
+    },
+    {
+      "id": "camp-c%C3%A0mping-p%C3%BAblic-font-de-ferrosins-42591-1669",
+      "name": "Càmping públic Font de Ferrosins",
+      "kind": "camping",
+      "lat": 42.5913306,
+      "lon": 1.6690389
+    },
+    {
+      "id": "camp-c%C3%A0mping-santa-creu-42565-1599",
+      "name": "Càmping Santa Creu",
+      "kind": "camping",
+      "lat": 42.5654577,
+      "lon": 1.5994573
+    },
+    {
+      "id": "camp-c%C3%A0mping-serra-42612-1246",
+      "name": "Càmping Serra",
+      "kind": "camping",
+      "lat": 42.6129851,
+      "lon": 1.2469462
+    },
+    {
+      "id": "camp-c%C3%A0mping-sol-i-neu-42572-1096",
+      "name": "Càmping Sol i Neu",
+      "kind": "camping",
+      "lat": 42.572495,
+      "lon": 1.096047
+    },
+    {
+      "id": "camp-c%C3%A0mping-valira-42502-1515",
+      "name": "Càmping Valira",
+      "kind": "camping",
+      "lat": 42.5020032,
+      "lon": 1.5157562
+    },
+    {
+      "id": "camp-c%C3%A0mping-vall-ferrera-42550-1317",
+      "name": "Càmping Vall Ferrera",
+      "kind": "camping",
+      "lat": 42.5505376,
+      "lon": 1.3177435
+    },
+    {
+      "id": "camp-la-borda-del-pubill-42568-1228",
+      "name": "La Borda del Pubill",
+      "kind": "camping",
+      "lat": 42.5688885,
+      "lon": 1.2286526
+    },
+    {
+      "id": "camp-les-contioles-42589-1238",
+      "name": "les Contioles",
+      "kind": "camping",
+      "lat": 42.5891852,
+      "lon": 1.2381002
+    },
+    {
+      "id": "camp-terreny-d%27acampada-cordoliu-42201-1698",
+      "name": "Terreny d'acampada Cordoliu",
+      "kind": "camping",
+      "lat": 42.2016076,
+      "lon": 1.6980371
+    },
+    {
+      "id": "camp-terreny-d%27acampada-el-pedraforca-42207-1697",
+      "name": "Terreny d'acampada El Pedraforca",
+      "kind": "camping",
+      "lat": 42.2073164,
+      "lon": 1.697057
+    },
+    {
+      "id": "camp-terreny-d%27acampada-el-peu-del-grau-42221-1648",
+      "name": "Terreny d'acampada El Peu del Grau",
+      "kind": "camping",
+      "lat": 42.221461,
+      "lon": 1.6487009
+    },
+    {
+      "id": "camp-terreny-d%27acampada-el-pla-42206-1698",
+      "name": "Terreny d'acampada El Pla",
+      "kind": "camping",
+      "lat": 42.2065658,
+      "lon": 1.6981431
+    },
+    {
+      "id": "camp-terreny-d%27acampada-el-verd-42221-1647",
+      "name": "Terreny d'acampada El Verd",
+      "kind": "camping",
+      "lat": 42.2211457,
+      "lon": 1.647362
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-canaleta-42208-1699",
+      "name": "Terreny d'acampada La Canaleta",
+      "kind": "camping",
+      "lat": 42.2082612,
+      "lon": 1.699048
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-caseta-42205-1698",
+      "name": "Terreny d'acampada La Caseta",
+      "kind": "camping",
+      "lat": 42.2054986,
+      "lon": 1.6980803
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-plana-42222-1647",
+      "name": "Terreny d'acampada La Plana",
+      "kind": "camping",
+      "lat": 42.2223396,
+      "lon": 1.6478481
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-roureda-42206-1699",
+      "name": "Terreny d'acampada La Roureda",
+      "kind": "camping",
+      "lat": 42.2068153,
+      "lon": 1.6991645
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-sort-42208-1698",
+      "name": "Terreny d'acampada La Sort",
+      "kind": "camping",
+      "lat": 42.2085397,
+      "lon": 1.6983074
+    },
+    {
+      "id": "camp-terreny-d%27acampada-les-deveses-42203-1699",
+      "name": "Terreny d'acampada Les Deveses",
+      "kind": "camping",
+      "lat": 42.203801,
+      "lon": 1.699257
+    },
+    {
+      "id": "camp-terreny-d%27acampada-torrentsenta-42221-1646",
+      "name": "Terreny d'acampada Torrentsenta",
+      "kind": "camping",
+      "lat": 42.2216072,
+      "lon": 1.6469479
+    },
+    {
+      "id": "camp-aigua-d%27ora-42126-1709",
+      "name": "Aigua d'Ora",
+      "kind": "camping",
+      "lat": 42.1268977,
+      "lon": 1.7091265
+    },
+    {
+      "id": "camp-aire-de-bivouac-42495-2352",
+      "name": "Aire de bivouac",
+      "kind": "camping",
+      "lat": 42.4954539,
+      "lon": 2.3521901
+    },
+    {
+      "id": "camp-aire-de-bivouac-42463-2222",
+      "name": "Aire de bivouac",
+      "kind": "camping",
+      "lat": 42.463567,
+      "lon": 2.2228809
+    },
+    {
+      "id": "camp-aire-de-bivouac-42533-2464",
+      "name": "Aire de bivouac",
+      "kind": "camping",
+      "lat": 42.5339483,
+      "lon": 2.4643772
+    },
+    {
+      "id": "camp-aire-de-bivouac-42465-2225",
+      "name": "Aire de bivouac",
+      "kind": "camping",
+      "lat": 42.4650443,
+      "lon": 2.2259147
+    },
+    {
+      "id": "camp-aire-de-bivouac-du-refuge-de-bat%C3%A8re-42501-2545",
+      "name": "Aire de bivouac du Refuge de Batère",
+      "kind": "camping",
+      "lat": 42.5013251,
+      "lon": 2.5459903
+    },
+    {
+      "id": "camp-al-baus-42510-2183",
+      "name": "Al Baus",
+      "kind": "camping",
+      "lat": 42.5109592,
+      "lon": 2.1834138
+    },
+    {
+      "id": "camp-bivouac-42545-2017",
+      "name": "Bivouac",
+      "kind": "camping",
+      "lat": 42.5453372,
+      "lon": 2.0170641
+    },
+    {
+      "id": "camp-bivouac-42633-1998",
+      "name": "bivouac",
+      "kind": "camping",
+      "lat": 42.6337899,
+      "lon": 1.9989606
+    },
+    {
+      "id": "camp-bivouac-possible-42626-1706",
+      "name": "Bivouac possible",
+      "kind": "camping",
+      "lat": 42.626638,
+      "lon": 1.706046
+    },
+    {
+      "id": "camp-bivouac-possible-42597-1919",
+      "name": "Bivouac possible",
+      "kind": "camping",
+      "lat": 42.5971934,
+      "lon": 1.9196978
+    },
+    {
+      "id": "camp-bivouac-possible-42517-2526",
+      "name": "Bivouac possible",
+      "kind": "camping",
+      "lat": 42.5179488,
+      "lon": 2.5260185
+    },
+    {
+      "id": "camp-bivouac-possible-42628-1942",
+      "name": "Bivouac possible",
+      "kind": "camping",
+      "lat": 42.6287455,
+      "lon": 1.9429157
+    },
+    {
+      "id": "camp-bivouac-possible-42579-1904",
+      "name": "Bivouac possible",
+      "kind": "camping",
+      "lat": 42.5797841,
+      "lon": 1.9042464
+    },
+    {
+      "id": "camp-camp-dels-cavalls-42143-1999",
+      "name": "Camp dels cavalls",
+      "kind": "camping",
+      "lat": 42.1433621,
+      "lon": 1.9998847
+    },
+    {
+      "id": "camp-camping-abadesses-42248-2333",
+      "name": "Camping Abadesses",
+      "kind": "camping",
+      "lat": 42.2489069,
+      "lon": 2.3337771
+    },
+    {
+      "id": "camp-camping-bellevue-42603-2398",
+      "name": "Camping Bellevue",
+      "kind": "camping",
+      "lat": 42.6031277,
+      "lon": 2.3982632
+    },
+    {
+      "id": "camp-camping-can-nadal-42406-2469",
+      "name": "Camping Can Nadal",
+      "kind": "camping",
+      "lat": 42.4069956,
+      "lon": 2.4698304
+    },
+    {
+      "id": "camp-camping-de-la-gare-42455-1943",
+      "name": "Camping de la Gare",
+      "kind": "camping",
+      "lat": 42.4559581,
+      "lon": 1.9430404
+    },
+    {
+      "id": "camp-camping-del-bosc-42556-2384",
+      "name": "Camping Del Bosc",
+      "kind": "camping",
+      "lat": 42.5564512,
+      "lon": 2.3849304
+    },
+    {
+      "id": "camp-camping-domaine-le-cerdan-42459-2034",
+      "name": "Camping Domaine Le Cerdan",
+      "kind": "camping",
+      "lat": 42.459531,
+      "lon": 2.0344614
+    },
+    {
+      "id": "camp-camping-gcu-de-ur-42462-1934",
+      "name": "Camping GCU de Ur",
+      "kind": "camping",
+      "lat": 42.4629829,
+      "lon": 1.9345481
+    },
+    {
+      "id": "camp-camping-ilisa-42463-2032",
+      "name": "Camping Ilisa",
+      "kind": "camping",
+      "lat": 42.4635284,
+      "lon": 2.0324518
+    },
+    {
+      "id": "camp-camping-la-dev%C3%A8ze-42607-2089",
+      "name": "Camping la Devèze",
+      "kind": "camping",
+      "lat": 42.6079187,
+      "lon": 2.0899129
+    },
+    {
+      "id": "camp-camping-la-vall-d%27hostoles-42082-2511",
+      "name": "Camping La Vall d'Hostoles",
+      "kind": "camping",
+      "lat": 42.0823979,
+      "lon": 2.5114903
+    },
+    {
+      "id": "camp-camping-las-closas-42440-2030",
+      "name": "Camping Las Closas",
+      "kind": "camping",
+      "lat": 42.4407672,
+      "lon": 2.0309723
+    },
+    {
+      "id": "camp-camping-las-clotes-42503-2015",
+      "name": "Camping Las Clotes",
+      "kind": "camping",
+      "lat": 42.5039986,
+      "lon": 2.0152227
+    },
+    {
+      "id": "camp-camping-lava-ecol%C3%B2gic-42151-2546",
+      "name": "Camping Lava Ecològic",
+      "kind": "camping",
+      "lat": 42.1511055,
+      "lon": 2.5464409
+    },
+    {
+      "id": "camp-camping-le-petit-canada-42519-2096",
+      "name": "Camping Le Petit Canada",
+      "kind": "camping",
+      "lat": 42.5193209,
+      "lon": 2.0961105
+    },
+    {
+      "id": "camp-camping-le-petit-canada-42517-2098",
+      "name": "Camping Le Petit Canada",
+      "kind": "camping",
+      "lat": 42.5178162,
+      "lon": 2.0986966
+    },
+    {
+      "id": "camp-camping-le-puigmal-42437-2033",
+      "name": "Camping Le Puigmal",
+      "kind": "camping",
+      "lat": 42.4370441,
+      "lon": 2.0337664
+    },
+    {
+      "id": "camp-camping-le-segre-42434-1945",
+      "name": "Camping Le Segre",
+      "kind": "camping",
+      "lat": 42.4348458,
+      "lon": 1.9456018
+    },
+    {
+      "id": "camp-camping-les-cerisiers-42543-2384",
+      "name": "Camping les Cerisiers",
+      "kind": "camping",
+      "lat": 42.5439307,
+      "lon": 2.3849646
+    },
+    {
+      "id": "camp-camping-robinson-42459-1911",
+      "name": "Camping Robinson",
+      "kind": "camping",
+      "lat": 42.4594951,
+      "lon": 1.9114237
+    },
+    {
+      "id": "camp-camping-saint-martin-42403-2492",
+      "name": "Camping Saint-Martin",
+      "kind": "camping",
+      "lat": 42.4032033,
+      "lon": 2.4927955
+    },
+    {
+      "id": "camp-camping-vall-de-bianya-42240-2424",
+      "name": "Camping Vall de Bianya",
+      "kind": "camping",
+      "lat": 42.2404725,
+      "lon": 2.4240017
+    },
+    {
+      "id": "camp-centre-eedf-du-cambre-d%27aze-42494-2121",
+      "name": "Centre EEDF du Cambre d'Aze",
+      "kind": "camping",
+      "lat": 42.4949571,
+      "lon": 2.1219648
+    },
+    {
+      "id": "camp-cerdagne-camping-l%27oratoire-42470-1880",
+      "name": "Cerdagne Camping l'Oratoire",
+      "kind": "camping",
+      "lat": 42.4705546,
+      "lon": 1.8805862
+    },
+    {
+      "id": "camp-c%C3%A0mping-bastareny-42258-1848",
+      "name": "Càmping Bastareny",
+      "kind": "camping",
+      "lat": 42.2583896,
+      "lon": 1.8482065
+    },
+    {
+      "id": "camp-c%C3%A0mping-can-fosses-42322-2105",
+      "name": "Càmping Can Fosses",
+      "kind": "camping",
+      "lat": 42.3229772,
+      "lon": 2.105104
+    },
+    {
+      "id": "camp-c%C3%A0mping-el-saiol-42157-2053",
+      "name": "Càmping El Saiol",
+      "kind": "camping",
+      "lat": 42.1574346,
+      "lon": 2.0538627
+    },
+    {
+      "id": "camp-c%C3%A0mping-els-solans-42323-2390",
+      "name": "Càmping Els Solans",
+      "kind": "camping",
+      "lat": 42.3236368,
+      "lon": 2.3906506
+    },
+    {
+      "id": "camp-c%C3%A0mping-la-cerdanya-42373-1735",
+      "name": "Càmping La Cerdanya",
+      "kind": "camping",
+      "lat": 42.3733491,
+      "lon": 1.7353966
+    },
+    {
+      "id": "camp-c%C3%A0mping-la-comella-42138-1387",
+      "name": "Càmping La Comella",
+      "kind": "camping",
+      "lat": 42.1385672,
+      "lon": 1.3876325
+    },
+    {
+      "id": "camp-c%C3%A0mping-mirador-al-pedraforca-42221-1753",
+      "name": "Càmping Mirador al Pedraforca",
+      "kind": "camping",
+      "lat": 42.2212277,
+      "lon": 1.7532523
+    },
+    {
+      "id": "camp-c%C3%A0mping-oliana-42077-1304",
+      "name": "Càmping Oliana",
+      "kind": "camping",
+      "lat": 42.0772692,
+      "lon": 1.3044062
+    },
+    {
+      "id": "camp-c%C3%A0mping-pardines-42306-2210",
+      "name": "Càmping Pardines",
+      "kind": "camping",
+      "lat": 42.3069268,
+      "lon": 2.2109892
+    },
+    {
+      "id": "camp-c%C3%A0mping-serrat-roig-42069-1842",
+      "name": "Càmping Serrat Roig",
+      "kind": "camping",
+      "lat": 42.0698713,
+      "lon": 1.842138
+    },
+    {
+      "id": "camp-c%C3%A0mping-solana-del-ter-42182-2196",
+      "name": "Càmping Solana del Ter",
+      "kind": "camping",
+      "lat": 42.1820604,
+      "lon": 2.1961473
+    },
+    {
+      "id": "camp-c%C3%A0mping-valldan-42094-1348",
+      "name": "Càmping Valldan",
+      "kind": "camping",
+      "lat": 42.0949887,
+      "lon": 1.3484669
+    },
+    {
+      "id": "camp-domaine-saint-martin-42533-2399",
+      "name": "Domaine Saint-Martin",
+      "kind": "camping",
+      "lat": 42.5336401,
+      "lon": 2.3990199
+    },
+    {
+      "id": "camp-el-manau-42628-2273",
+      "name": "El Manau",
+      "kind": "camping",
+      "lat": 42.628898,
+      "lon": 2.273903
+    },
+    {
+      "id": "camp-el-pastural-42436-2035",
+      "name": "El Pastural",
+      "kind": "camping",
+      "lat": 42.4367885,
+      "lon": 2.0352055
+    },
+    {
+      "id": "camp-gcu-err-42440-2039",
+      "name": "GCU Err",
+      "kind": "camping",
+      "lat": 42.4400211,
+      "lon": 2.0395557
+    },
+    {
+      "id": "camp-huttopia-font-romeu-42506-2047",
+      "name": "Huttopia Font-Romeu",
+      "kind": "camping",
+      "lat": 42.506497,
+      "lon": 2.0477713
+    },
+    {
+      "id": "camp-l%27eau-vive-42555-2377",
+      "name": "L'Eau Vive",
+      "kind": "camping",
+      "lat": 42.5552847,
+      "lon": 2.3775363
+    },
+    {
+      "id": "camp-la-fageda-42158-2517",
+      "name": "La Fageda",
+      "kind": "camping",
+      "lat": 42.1583054,
+      "lon": 2.5176038
+    },
+    {
+      "id": "camp-la-griole-42495-1985",
+      "name": "La Griole",
+      "kind": "camping",
+      "lat": 42.4955811,
+      "lon": 1.9858862
+    },
+    {
+      "id": "camp-la-porte-des-cimes-42592-1804",
+      "name": "La Porte des Cimes",
+      "kind": "camping",
+      "lat": 42.5922037,
+      "lon": 1.8045406
+    },
+    {
+      "id": "camp-la-rivi%C3%A8re-42547-1835",
+      "name": "La Rivière",
+      "kind": "camping",
+      "lat": 42.5476848,
+      "lon": 1.8359007
+    },
+    {
+      "id": "camp-la-soleia-d%27oix-42271-2523",
+      "name": "La Soleia d'Oix",
+      "kind": "camping",
+      "lat": 42.2712017,
+      "lon": 2.5238575
+    },
+    {
+      "id": "camp-las-asperas-42411-1965",
+      "name": "Las Asperas",
+      "kind": "camping",
+      "lat": 42.4110656,
+      "lon": 1.9650268
+    },
+    {
+      "id": "camp-las-closes-42565-2388",
+      "name": "Las Closes",
+      "kind": "camping",
+      "lat": 42.5652755,
+      "lon": 2.3883408
+    },
+    {
+      "id": "camp-lastourg-42575-2343",
+      "name": "Lastourg",
+      "kind": "camping",
+      "lat": 42.5753967,
+      "lon": 2.3437352
+    },
+    {
+      "id": "camp-le-canigou-42615-2501",
+      "name": "Le Canigou",
+      "kind": "camping",
+      "lat": 42.6151242,
+      "lon": 2.5012809
+    },
+    {
+      "id": "camp-le-lac-42582-2107",
+      "name": "Le Lac",
+      "kind": "camping",
+      "lat": 42.582471,
+      "lon": 2.1076977
+    },
+    {
+      "id": "camp-le-p%27tit-bonheur-42532-2311",
+      "name": "Le P'tit Bonheur",
+      "kind": "camping",
+      "lat": 42.5327039,
+      "lon": 2.3119166
+    },
+    {
+      "id": "camp-le-rotja-42562-2358",
+      "name": "Le Rotja",
+      "kind": "camping",
+      "lat": 42.5620474,
+      "lon": 2.3587643
+    },
+    {
+      "id": "camp-le-v%C3%A9drignans-42456-2042",
+      "name": "Le Védrignans",
+      "kind": "camping",
+      "lat": 42.4560182,
+      "lon": 2.0422547
+    },
+    {
+      "id": "camp-les-portes-du-canigou-42621-2423",
+      "name": "Les portes du Canigou",
+      "kind": "camping",
+      "lat": 42.621041,
+      "lon": 2.4230315
+    },
+    {
+      "id": "camp-les-sauterelles-42565-2419",
+      "name": "Les Sauterelles",
+      "kind": "camping",
+      "lat": 42.565721,
+      "lon": 2.4193598
+    },
+    {
+      "id": "camp-les-tries-42190-2509",
+      "name": "les Tries",
+      "kind": "camping",
+      "lat": 42.190029,
+      "lon": 2.5096679
+    },
+    {
+      "id": "camp-mas-piques-42439-1943",
+      "name": "Mas-Piques",
+      "kind": "camping",
+      "lat": 42.4398348,
+      "lon": 1.9439363
+    },
+    {
+      "id": "camp-r%C3%A9sidence-l%27escapade-42461-2002",
+      "name": "Résidence L'Escapade",
+      "kind": "camping",
+      "lat": 42.4614788,
+      "lon": 2.0024705
+    },
+    {
+      "id": "camp-sol-i-neu-42478-1956",
+      "name": "Sol i Neu",
+      "kind": "camping",
+      "lat": 42.4782837,
+      "lon": 1.9566982
+    },
+    {
+      "id": "camp-terreny-d%27acampada-42190-2380",
+      "name": "Terreny d'acampada",
+      "kind": "camping",
+      "lat": 42.1908637,
+      "lon": 2.3802813
+    },
+    {
+      "id": "camp-terreny-d%27acampada-bac-de-can-batlle-42307-2497",
+      "name": "Terreny d'acampada Bac de Can Batlle",
+      "kind": "camping",
+      "lat": 42.3075277,
+      "lon": 2.4973574
+    },
+    {
+      "id": "camp-terreny-d%27acampada-bac-de-la-teuleria-42307-2486",
+      "name": "Terreny d'acampada Bac de la Teuleria",
+      "kind": "camping",
+      "lat": 42.3075233,
+      "lon": 2.4863349
+    },
+    {
+      "id": "camp-terreny-d%27acampada-cal-bess%C3%B3-42240-1743",
+      "name": "Terreny d'acampada Cal Bessó",
+      "kind": "camping",
+      "lat": 42.240087,
+      "lon": 1.7433832
+    },
+    {
+      "id": "camp-terreny-d%27acampada-camp-de-la-cambrota-42207-1804",
+      "name": "Terreny d'acampada Camp de la Cambrota",
+      "kind": "camping",
+      "lat": 42.2074262,
+      "lon": 1.8047895
+    },
+    {
+      "id": "camp-terreny-d%27acampada-camp-de-les-mosqueroles-42308-2489",
+      "name": "Terreny d'acampada Camp de les Mosqueroles",
+      "kind": "camping",
+      "lat": 42.3084916,
+      "lon": 2.4895778
+    },
+    {
+      "id": "camp-terreny-d%27acampada-coll-de-vilamajor-42207-1805",
+      "name": "Terreny d'acampada Coll de Vilamajor",
+      "kind": "camping",
+      "lat": 42.2072662,
+      "lon": 1.805923
+    },
+    {
+      "id": "camp-terreny-d%27acampada-el-bot-de-l%27oli-%28llim%C-42151-2066",
+      "name": "Terreny d'acampada el Bot de l'Oli (Llimós)",
+      "kind": "camping",
+      "lat": 42.1517624,
+      "lon": 2.06693
+    },
+    {
+      "id": "camp-terreny-d%27acampada-el-cai-42185-2379",
+      "name": "Terreny d'acampada El Cai",
+      "kind": "camping",
+      "lat": 42.1858455,
+      "lon": 2.3791809
+    },
+    {
+      "id": "camp-terreny-d%27acampada-el-mol%C3%AD-del-sol%C3%A9--42123-1463",
+      "name": "Terreny d'acampada El Molí del Solé de Baix",
+      "kind": "camping",
+      "lat": 42.1230011,
+      "lon": 1.463065
+    },
+    {
+      "id": "camp-terreny-d%27acampada-el-serrat-42078-2304",
+      "name": "Terreny d'acampada El Serrat",
+      "kind": "camping",
+      "lat": 42.0786028,
+      "lon": 2.3043506
+    },
+    {
+      "id": "camp-terreny-d%27acampada-era-de-santus-42353-2161",
+      "name": "Terreny d'acampada Era de Santus",
+      "kind": "camping",
+      "lat": 42.3539157,
+      "lon": 2.1618619
+    },
+    {
+      "id": "camp-terreny-d%27acampada-fonjumina-42353-2159",
+      "name": "Terreny d'acampada Fonjumina",
+      "kind": "camping",
+      "lat": 42.3539706,
+      "lon": 2.1597251
+    },
+    {
+      "id": "camp-terreny-d%27acampada-furriols-42353-2158",
+      "name": "Terreny d'acampada Furriols",
+      "kind": "camping",
+      "lat": 42.3536831,
+      "lon": 2.1589523
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-bagueta-%28can-llim%C3%B-42152-2073",
+      "name": "Terreny d'acampada La Bagueta (Can Llimós)",
+      "kind": "camping",
+      "lat": 42.1529351,
+      "lon": 2.0737572
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-farga-42353-2170",
+      "name": "Terreny d'acampada La Farga",
+      "kind": "camping",
+      "lat": 42.3536085,
+      "lon": 2.1704362
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-planassa-42165-2150",
+      "name": "Terreny d'acampada La Planassa",
+      "kind": "camping",
+      "lat": 42.1655586,
+      "lon": 2.1502679
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-resclosa-i-la-plana-42242-1747",
+      "name": "Terreny d'acampada La Resclosa i la Plana",
+      "kind": "camping",
+      "lat": 42.2424521,
+      "lon": 1.7475282
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-roca-del-secut-42309-2174",
+      "name": "Terreny d'acampada La Roca del Secut",
+      "kind": "camping",
+      "lat": 42.3093645,
+      "lon": 2.1749242
+    },
+    {
+      "id": "camp-terreny-d%27acampada-llinars-d%27aigua-d%27ora-42123-1711",
+      "name": "Terreny d'acampada Llinars d'Aigua d'Ora",
+      "kind": "camping",
+      "lat": 42.1237006,
+      "lon": 1.7111817
+    },
+    {
+      "id": "camp-terreny-d%27acampada-llombregueres-de-baix-42091-2348",
+      "name": "Terreny d'acampada Llombregueres de Baix",
+      "kind": "camping",
+      "lat": 42.0911222,
+      "lon": 2.3482028
+    },
+    {
+      "id": "camp-terreny-d%27acampada-pla-de-mastai-42307-2492",
+      "name": "Terreny d'acampada Pla de Mastai",
+      "kind": "camping",
+      "lat": 42.3072739,
+      "lon": 2.4924447
+    },
+    {
+      "id": "camp-terreny-d%27acampada-rectoria-de-la-vola-42081-2358",
+      "name": "Terreny d'acampada Rectoria de la Vola",
+      "kind": "camping",
+      "lat": 42.0810636,
+      "lon": 2.3584094
+    },
+    {
+      "id": "camp-terreny-d%27acampada-rocablanca-42142-1998",
+      "name": "Terreny d'acampada Rocablanca",
+      "kind": "camping",
+      "lat": 42.1420311,
+      "lon": 1.9980657
+    },
+    {
+      "id": "camp-zona-d%27acampada-42398-2151",
+      "name": "Zona d'acampada",
+      "kind": "camping",
+      "lat": 42.3983342,
+      "lon": 2.1512731
+    },
+    {
+      "id": "camp-zona-d%27acampada-controlada-42463-1783",
+      "name": "Zona d'acampada controlada",
+      "kind": "camping",
+      "lat": 42.4636565,
+      "lon": 1.7837277
+    },
+    {
+      "id": "camp-%C3%A9tang-long-42552-2014",
+      "name": "Étang Long",
+      "kind": "camping",
+      "lat": 42.5523379,
+      "lon": 2.0147676
+    },
+    {
+      "id": "camp-%C3%A9tang-noir-42548-2018",
+      "name": "Étang Noir",
+      "kind": "camping",
+      "lat": 42.5489329,
+      "lon": 2.0187477
+    },
+    {
+      "id": "camp-%C3%A9tang-noir-42546-2020",
+      "name": "Étang Noir",
+      "kind": "camping",
+      "lat": 42.5467948,
+      "lon": 2.0203136
+    },
+    {
+      "id": "camp-camping-aqua-alba-41721-2537",
+      "name": "Camping Aqua Alba",
+      "kind": "camping",
+      "lat": 41.7210713,
+      "lon": 2.537622
+    },
+    {
+      "id": "camp-camping-besal%C3%BA-42195-2689",
+      "name": "Camping Besalú",
+      "kind": "camping",
+      "lat": 42.1953819,
+      "lon": 2.689066
+    },
+    {
+      "id": "camp-camping-de-fontmartina-41758-2429",
+      "name": "Camping de Fontmartina",
+      "kind": "camping",
+      "lat": 41.7581123,
+      "lon": 2.4299601
+    },
+    {
+      "id": "camp-camping-las-mimosas-41688-2796",
+      "name": "Camping Las Mimosas",
+      "kind": "camping",
+      "lat": 41.6883818,
+      "lon": 2.7969845
+    },
+    {
+      "id": "camp-camping-lloret-blau-41706-2843",
+      "name": "Camping Lloret Blau",
+      "kind": "camping",
+      "lat": 41.7065986,
+      "lon": 2.8438827
+    },
+    {
+      "id": "camp-camping-masia-can-cervera-41770-2390",
+      "name": "Camping Masia Can Cervera",
+      "kind": "camping",
+      "lat": 41.7703647,
+      "lon": 2.3907397
+    },
+    {
+      "id": "camp-camping-ma%C3%A7anet-de-cabrenys-42373-2753",
+      "name": "Camping Maçanet de Cabrenys",
+      "kind": "camping",
+      "lat": 42.3732397,
+      "lon": 2.7532037
+    },
+    {
+      "id": "camp-camping-parc-el-pont-41934-2408",
+      "name": "Camping Parc El Pont",
+      "kind": "camping",
+      "lat": 41.9345712,
+      "lon": 2.4085805
+    },
+    {
+      "id": "camp-camping-riera-de-ciuret-41753-2437",
+      "name": "Camping Riera de Ciuret",
+      "kind": "camping",
+      "lat": 41.7531785,
+      "lon": 2.437143
+    },
+    {
+      "id": "camp-camping-turismar-41728-2911",
+      "name": "Camping Turismar",
+      "kind": "camping",
+      "lat": 41.7283555,
+      "lon": 2.9118487
+    },
+    {
+      "id": "camp-can-banal-camping-i-allotjament-42243-2582",
+      "name": "Can Banal-camping i allotjament",
+      "kind": "camping",
+      "lat": 42.2432502,
+      "lon": 2.5822994
+    },
+    {
+      "id": "camp-can-coromines-42209-2737",
+      "name": "Can Coromines",
+      "kind": "camping",
+      "lat": 42.2098264,
+      "lon": 2.7375063
+    },
+    {
+      "id": "camp-c%C3%A0mping-bassegoda-park-42306-2707",
+      "name": "Càmping Bassegoda Park",
+      "kind": "camping",
+      "lat": 42.3068016,
+      "lon": 2.7076452
+    },
+    {
+      "id": "camp-c%C3%A0mping-blanc-41661-2776",
+      "name": "Càmping Blanc",
+      "kind": "camping",
+      "lat": 41.6611061,
+      "lon": 2.7762095
+    },
+    {
+      "id": "camp-c%C3%A0mping-cavall-de-mar-41663-2778",
+      "name": "Càmping Cavall de Mar",
+      "kind": "camping",
+      "lat": 41.6630712,
+      "lon": 2.7785852
+    },
+    {
+      "id": "camp-c%C3%A0mping-cugulera-42188-2585",
+      "name": "Càmping Cugulera",
+      "kind": "camping",
+      "lat": 42.188836,
+      "lon": 2.5854949
+    },
+    {
+      "id": "camp-c%C3%A0mping-la-balma-41860-2425",
+      "name": "Càmping la Balma",
+      "kind": "camping",
+      "lat": 41.8606547,
+      "lon": 2.4257095
+    },
+    {
+      "id": "camp-c%C3%A0mping-la-sureda-41845-2504",
+      "name": "Càmping la Sureda",
+      "kind": "camping",
+      "lat": 41.8451975,
+      "lon": 2.504318
+    },
+    {
+      "id": "camp-c%C3%A0mping-la-vall-de-campmajor-42136-2678",
+      "name": "Càmping La Vall de Campmajor",
+      "kind": "camping",
+      "lat": 42.1366238,
+      "lon": 2.6785092
+    },
+    {
+      "id": "camp-c%C3%A0mping-la-vall-del-vidal-41817-2479",
+      "name": "Càmping La Vall del Vidal",
+      "kind": "camping",
+      "lat": 41.8176143,
+      "lon": 2.4792496
+    },
+    {
+      "id": "camp-c%C3%A0mping-les-illes-41788-2413",
+      "name": "Càmping Les Illes",
+      "kind": "camping",
+      "lat": 41.7888589,
+      "lon": 2.4133523
+    },
+    {
+      "id": "camp-c%C3%A0mping-masia-can-patxet-42150-2586",
+      "name": "Càmping Masia Can Patxet",
+      "kind": "camping",
+      "lat": 42.1501969,
+      "lon": 2.5865212
+    },
+    {
+      "id": "camp-c%C3%A0mping-mol%C3%AD-de-bojons-41911-2384",
+      "name": "Càmping Molí de Bojons",
+      "kind": "camping",
+      "lat": 41.9117159,
+      "lon": 2.3845145
+    },
+    {
+      "id": "camp-c%C3%A0mping-montagut-42246-2599",
+      "name": "Càmping Montagut",
+      "kind": "camping",
+      "lat": 42.2461107,
+      "lon": 2.5995166
+    },
+    {
+      "id": "camp-c%C3%A0mping-puigsagordi-41806-2210",
+      "name": "Càmping Puigsagordi",
+      "kind": "camping",
+      "lat": 41.8064378,
+      "lon": 2.2106461
+    },
+    {
+      "id": "camp-c%C3%A0mping-ridaura-41828-2956",
+      "name": "Càmping Ridaura",
+      "kind": "camping",
+      "lat": 41.8280814,
+      "lon": 2.9568196
+    },
+    {
+      "id": "camp-c%C3%A0mping-riudarenes-41807-2685",
+      "name": "Càmping Riudarenes",
+      "kind": "camping",
+      "lat": 41.8075376,
+      "lon": 2.6852696
+    },
+    {
+      "id": "camp-c%C3%A0mping-roquetes-41663-2484",
+      "name": "Càmping Roquetes",
+      "kind": "camping",
+      "lat": 41.6636508,
+      "lon": 2.484783
+    },
+    {
+      "id": "camp-c%C3%A0mping-rupit-42030-2464",
+      "name": "Càmping Rupit",
+      "kind": "camping",
+      "lat": 42.0305015,
+      "lon": 2.4649583
+    },
+    {
+      "id": "camp-c%C3%A0mping-santa-elena---ciutat-41699-2826",
+      "name": "Càmping Santa Elena - Ciutat",
+      "kind": "camping",
+      "lat": 41.6991084,
+      "lon": 2.8265583
+    },
+    {
+      "id": "camp-c%C3%A0mping-tucan-41698-2820",
+      "name": "Càmping Tucan",
+      "kind": "camping",
+      "lat": 41.6982487,
+      "lon": 2.8206718
+    },
+    {
+      "id": "camp-c%C3%A0mping-verte-rive-42388-2606",
+      "name": "Càmping Verte Rive",
+      "kind": "camping",
+      "lat": 42.3883912,
+      "lon": 2.6066747
+    },
+    {
+      "id": "camp-domaine-le-clols-42411-2617",
+      "name": "Domaine le Clols",
+      "kind": "camping",
+      "lat": 42.4111641,
+      "lon": 2.6170625
+    },
+    {
+      "id": "camp-esponella-42181-2794",
+      "name": "Esponella",
+      "kind": "camping",
+      "lat": 42.18179,
+      "lon": 2.79492
+    },
+    {
+      "id": "camp-fang-aventura-42111-2686",
+      "name": "Fang Aventura",
+      "kind": "camping",
+      "lat": 42.1114285,
+      "lon": 2.6866738
+    },
+    {
+      "id": "camp-l%27albera-42373-2913",
+      "name": "L'Albera",
+      "kind": "camping",
+      "lat": 42.373056,
+      "lon": 2.913056
+    },
+    {
+      "id": "camp-la-pomarede-42409-2566",
+      "name": "La Pomarede",
+      "kind": "camping",
+      "lat": 42.4097055,
+      "lon": 2.5660919
+    },
+    {
+      "id": "camp-la-solane-42421-2665",
+      "name": "La Solane",
+      "kind": "camping",
+      "lat": 42.421108,
+      "lon": 2.6656464
+    },
+    {
+      "id": "camp-les-piscines-de-montseny-41759-2388",
+      "name": "Les Piscines de Montseny",
+      "kind": "camping",
+      "lat": 41.759252,
+      "lon": 2.388435
+    },
+    {
+      "id": "camp-terreny-d%27acampada-ballsau-41965-2402",
+      "name": "Terreny d'acampada Ballsau",
+      "kind": "camping",
+      "lat": 41.96575,
+      "lon": 2.4028221
+    },
+    {
+      "id": "camp-terreny-d%27acampada-can-puigoriol-xic-41676-2342",
+      "name": "Terreny d'acampada Can Puigoriol Xic",
+      "kind": "camping",
+      "lat": 41.6764938,
+      "lon": 2.3428149
+    },
+    {
+      "id": "camp-terreny-d%27acampada-can-seixanta-41866-2861",
+      "name": "Terreny d'acampada Can Seixanta",
+      "kind": "camping",
+      "lat": 41.866933,
+      "lon": 2.8617077
+    },
+    {
+      "id": "camp-terreny-d%27acampada-el-cor-de-la-llacuna-42347-2938",
+      "name": "Terreny d'acampada El Cor de la Llacuna",
+      "kind": "camping",
+      "lat": 42.3479282,
+      "lon": 2.9384144
+    },
+    {
+      "id": "camp-terreny-d%27acampada-el-sacost-de-can-coromines-42244-2784",
+      "name": "Terreny d'acampada El Sacost de Can Coromines",
+      "kind": "camping",
+      "lat": 42.2440294,
+      "lon": 2.7841098
+    },
+    {
+      "id": "camp-terreny-d%27acampada-els-vilars-de-l%27abrera-42413-2995",
+      "name": "Terreny d'acampada Els Vilars de l'Abrera",
+      "kind": "camping",
+      "lat": 42.4130492,
+      "lon": 2.9956349
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-planta-42067-2608",
+      "name": "Terreny d'acampada La Planta",
+      "kind": "camping",
+      "lat": 42.0675696,
+      "lon": 2.6084113
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-roureda-de-sant-lloren%C-41805-2895",
+      "name": "Terreny d'acampada La Roureda de Sant Llorenç",
+      "kind": "camping",
+      "lat": 41.8057029,
+      "lon": 2.895151
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-tribana-de-can-coromines-42241-2787",
+      "name": "Terreny d'acampada La Tribana de Can Coromines",
+      "kind": "camping",
+      "lat": 42.2414485,
+      "lon": 2.787986
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-vinca-42316-2886",
+      "name": "Terreny d'acampada La Vinca",
+      "kind": "camping",
+      "lat": 42.3167701,
+      "lon": 2.8861944
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-vinca-2-42316-2884",
+      "name": "Terreny d'acampada La Vinca 2",
+      "kind": "camping",
+      "lat": 42.3167379,
+      "lon": 2.8848775
+    },
+    {
+      "id": "camp-terreny-d%27acampada-la-vinca-4-42316-2885",
+      "name": "Terreny d'acampada La Vinca 4",
+      "kind": "camping",
+      "lat": 42.3165522,
+      "lon": 2.88554
+    },
+    {
+      "id": "camp-terreny-d%27acampada-vinya-del-rector-41903-2686",
+      "name": "Terreny d'acampada Vinya del Rector",
+      "kind": "camping",
+      "lat": 41.9032049,
+      "lon": 2.6865035
+    },
+    {
+      "id": "camp-vila-village-41734-2604",
+      "name": "Vila Village",
+      "kind": "camping",
+      "lat": 41.7349676,
+      "lon": 2.6046458
+    },
+    {
+      "id": "camp-aralar-kanpina-43000-1887",
+      "name": "Aralar kanpina",
+      "kind": "camping",
+      "lat": 43.0002533,
+      "lon": -1.8871272
+    },
+    {
+      "id": "camp-camping-ibaia-42831-2722",
+      "name": "Camping Ibaia",
+      "kind": "camping",
+      "lat": 42.8313898,
+      "lon": -2.7229224
+    },
+    {
+      "id": "camp-camping-igara-de-san-sebastian-43297-2038",
+      "name": "Camping Igara de San Sebastian",
+      "kind": "camping",
+      "lat": 43.2974071,
+      "lon": -2.0382758
+    },
+    {
+      "id": "camp-camping-itziar-43287-2338",
+      "name": "Camping Itziar",
+      "kind": "camping",
+      "lat": 43.28712,
+      "lon": -2.3384163
+    },
+    {
+      "id": "camp-camping-talaimendi-43286-2154",
+      "name": "Camping Talaimendi",
+      "kind": "camping",
+      "lat": 43.2866098,
+      "lon": -2.1543168
+    },
+    {
+      "id": "camp-camping-zumaia-43289-2248",
+      "name": "Camping Zumaia",
+      "kind": "camping",
+      "lat": 43.2896038,
+      "lon": -2.2488609
+    },
+    {
+      "id": "camp-gran-camping-zarautz-43289-2146",
+      "name": "Gran Camping Zarautz",
+      "kind": "camping",
+      "lat": 43.2893139,
+      "lon": -2.1468136
+    },
+    {
+      "id": "camp-igeldo-camping-43304-2045",
+      "name": "Igeldo Camping",
+      "kind": "camping",
+      "lat": 43.3041493,
+      "lon": -2.0456764
+    },
+    {
+      "id": "camp-itxaspe-43293-2329",
+      "name": "Itxaspe",
+      "kind": "camping",
+      "lat": 43.2930315,
+      "lon": -2.3291431
+    },
+    {
+      "id": "camp-kimu-berri-43074-2353",
+      "name": "Kimu berri",
+      "kind": "camping",
+      "lat": 43.0744883,
+      "lon": -2.3538279
+    },
+    {
+      "id": "camp-larraitzeko-akanpada-libreko-eremua-43035-2096",
+      "name": "Larraitzeko akanpada libreko eremua",
+      "kind": "camping",
+      "lat": 43.0352409,
+      "lon": -2.0964201
+    },
+    {
+      "id": "camp-orio-kanpina-43286-2124",
+      "name": "Orio kanpina",
+      "kind": "camping",
+      "lat": 43.2862695,
+      "lon": -2.1248797
+    },
+    {
+      "id": "camp-santa-elena-43313-2392",
+      "name": "Santa Elena",
+      "kind": "camping",
+      "lat": 43.3133375,
+      "lon": -2.3929346
+    },
+    {
+      "id": "camp-zingira-43254-2130",
+      "name": "Zingira",
+      "kind": "camping",
+      "lat": 43.2546993,
+      "lon": -2.1306423
+    },
+    {
+      "id": "gpx-hint-day-11-01",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-11 01",
+      "kind": "poi",
+      "lat": 42.59208,
+      "lon": 0.0113
+    },
+    {
+      "id": "gpx-hint-day-11-02",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-11 02",
+      "kind": "poi",
+      "lat": 42.48768,
+      "lon": 0.23337
+    },
+    {
+      "id": "gpx-hint-day-12-01",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-12 01",
+      "kind": "poi",
+      "lat": 42.43319,
+      "lon": 0.60063
+    },
+    {
+      "id": "gpx-hint-day-12-02",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-12 02",
+      "kind": "poi",
+      "lat": 42.41537,
+      "lon": 0.75444
+    },
+    {
+      "id": "gpx-hint-day-13-01",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-13 01",
+      "kind": "poi",
+      "lat": 42.40868,
+      "lon": 0.96646
+    },
+    {
+      "id": "gpx-hint-day-13-02",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-13 02",
+      "kind": "poi",
+      "lat": 42.52512,
+      "lon": 1.0935
+    },
+    {
+      "id": "gpx-hint-day-14-01",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-14 01",
+      "kind": "poi",
+      "lat": 42.49706,
+      "lon": 1.27421
+    },
+    {
+      "id": "gpx-hint-day-14-02",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-14 02",
+      "kind": "poi",
+      "lat": 42.48732,
+      "lon": 1.30518
+    },
+    {
+      "id": "gpx-hint-day-16-01",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-16 01",
+      "kind": "poi",
+      "lat": 42.30935,
+      "lon": 2.15888
+    },
+    {
+      "id": "gpx-hint-day-16-02",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-16 02",
+      "kind": "poi",
+      "lat": 42.34408,
+      "lon": 2.29777
+    },
+    {
+      "id": "gpx-hint-day-04-01",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-04 01",
+      "kind": "poi",
+      "lat": 42.96909,
+      "lon": -1.0895
+    },
+    {
+      "id": "gpx-hint-day-04-02",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-04 02",
+      "kind": "poi",
+      "lat": 42.87922,
+      "lon": -0.89025
+    },
+    {
+      "id": "gpx-hint-day-04-03",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-04 03",
+      "kind": "poi",
+      "lat": 42.8252,
+      "lon": -0.8326
+    },
+    {
+      "id": "gpx-hint-day-04-04",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-04 04",
+      "kind": "poi",
+      "lat": 42.74393,
+      "lon": -0.82004
+    },
+    {
+      "id": "gpx-hint-day-04-05",
+      "name": "Pyrenean_Rally_1of2-reversed Korridor day-04 05",
+      "kind": "poi",
+      "lat": 42.73415,
+      "lon": -0.75225
+    },
+    {
+      "id": "gpx-hint-day-06-01",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-06 01",
+      "kind": "poi",
+      "lat": 42.97172,
+      "lon": -0.38642
+    },
+    {
+      "id": "gpx-hint-day-06-02",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-06 02",
+      "kind": "poi",
+      "lat": 42.96717,
+      "lon": -0.36468
+    },
+    {
+      "id": "gpx-hint-day-06-03",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-06 03",
+      "kind": "poi",
+      "lat": 42.9649,
+      "lon": -0.3406
+    },
+    {
+      "id": "gpx-hint-day-06-04",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-06 04",
+      "kind": "poi",
+      "lat": 42.96891,
+      "lon": -0.33742
+    },
+    {
+      "id": "gpx-hint-day-06-05",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-06 05",
+      "kind": "poi",
+      "lat": 42.97616,
+      "lon": -0.31062
+    },
+    {
+      "id": "gpx-hint-day-06-06",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-06 06",
+      "kind": "poi",
+      "lat": 42.95489,
+      "lon": -0.28921
+    },
+    {
+      "id": "gpx-hint-day-06-07",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-06 07",
+      "kind": "poi",
+      "lat": 42.96036,
+      "lon": -0.25032
+    },
+    {
+      "id": "gpx-hint-day-06-08",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-06 08",
+      "kind": "poi",
+      "lat": 42.96563,
+      "lon": -0.22025
+    },
+    {
+      "id": "gpx-hint-day-07-01",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-07 01",
+      "kind": "poi",
+      "lat": 42.98178,
+      "lon": -0.15271
+    },
+    {
+      "id": "gpx-hint-day-07-02",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-07 02",
+      "kind": "poi",
+      "lat": 43.00608,
+      "lon": -0.10167
+    },
+    {
+      "id": "gpx-hint-day-07-03",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-07 03",
+      "kind": "poi",
+      "lat": 42.95665,
+      "lon": -0.07424
+    },
+    {
+      "id": "gpx-hint-day-07-04",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-07 04",
+      "kind": "poi",
+      "lat": 42.9215,
+      "lon": -0.04103
+    },
+    {
+      "id": "gpx-hint-day-08-01",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-08 01",
+      "kind": "poi",
+      "lat": 42.89036,
+      "lon": 0.04731
+    },
+    {
+      "id": "gpx-hint-day-08-02",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-08 02",
+      "kind": "poi",
+      "lat": 42.90268,
+      "lon": 0.09091
+    },
+    {
+      "id": "gpx-hint-day-08-03",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-08 03",
+      "kind": "poi",
+      "lat": 42.90737,
+      "lon": 0.11789
+    },
+    {
+      "id": "gpx-hint-day-08-04",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-08 04",
+      "kind": "poi",
+      "lat": 42.9064,
+      "lon": 0.1387
+    },
+    {
+      "id": "gpx-hint-day-08-05",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-08 05",
+      "kind": "poi",
+      "lat": 42.91578,
+      "lon": 0.18712
+    },
+    {
+      "id": "gpx-hint-day-08-06",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-08 06",
+      "kind": "poi",
+      "lat": 42.94598,
+      "lon": 0.22129
+    },
+    {
+      "id": "gpx-hint-day-08-07",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-08 07",
+      "kind": "poi",
+      "lat": 42.96261,
+      "lon": 0.25012
+    },
+    {
+      "id": "gpx-hint-day-08-08",
+      "name": "Pyrenean_Rally_2of2 (1) Korridor day-08 08",
+      "kind": "poi",
+      "lat": 42.91315,
+      "lon": 0.28519
+    },
+    {
+      "id": "gpx-hint-day-10-01",
+      "name": "Pyrenean_Rally_1of2 Korridor day-10 01",
+      "kind": "poi",
+      "lat": 42.53122,
+      "lon": 0.08511
+    },
+    {
+      "id": "gpx-hint-day-10-02",
+      "name": "Pyrenean_Rally_1of2 Korridor day-10 02",
+      "kind": "poi",
+      "lat": 42.58502,
+      "lon": 0.00704
+    },
+    {
+      "id": "gpx-hint-day-10-03",
+      "name": "Pyrenean_Rally_1of2 Korridor day-10 03",
+      "kind": "poi",
+      "lat": 42.63863,
+      "lon": -0.08209
+    },
+    {
+      "id": "gpx-hint-day-10-04",
+      "name": "Pyrenean_Rally_1of2 Korridor day-10 04",
+      "kind": "poi",
+      "lat": 42.62975,
+      "lon": -0.09608
+    },
+    {
+      "id": "gpx-hint-day-15-01",
+      "name": "pyrenees_gravel_north Korridor day-15 01",
+      "kind": "poi",
+      "lat": 42.458536,
+      "lon": 1.488064
+    },
+    {
+      "id": "gpx-hint-day-15-02",
+      "name": "pyrenees_gravel_north Korridor day-15 02",
+      "kind": "poi",
+      "lat": 42.361008,
+      "lon": 1.473017
+    },
+    {
+      "id": "gpx-hint-day-15-03",
+      "name": "pyrenees_gravel_north Korridor day-15 03",
+      "kind": "poi",
+      "lat": 42.373618,
+      "lon": 1.63961
+    },
+    {
+      "id": "gpx-hint-day-15-04",
+      "name": "pyrenees_gravel_north Korridor day-15 04",
+      "kind": "poi",
+      "lat": 42.374979,
+      "lon": 1.782683
     }
   ],
   "days": [
     {
       "id": "day-01",
-      "date": "2026-05-29",
-      "day_type": "arrival_day",
-      "notes": [
-        "Travel: Anreise ✈️ Berlin → Bilbao",
-        "Stay: Camping Sopelana (15km, Küste) oder Hostel Bilbao Zentrum",
-        "Alternative: Camping Arrien de Gorlitz",
-        "Alternative: Camping Leagi (Markina)",
-        "Alternative: Hostel Bilbao BBK",
-        "Highlight: ✈️ Eurowings 17:05 BER→BIO",
-        "Highlight: Guggenheim Bilbao (Frank Gehry)",
-        "Highlight: Casco Viejo Altstadt",
-        "Highlight: Pintxos Bar Hopping",
-        "Highlight: Mercado de la Ribera",
-        "Highlight: Ría de Bilbao Promenade"
-      ],
-      "travel": {
-        "mode": "flight",
-        "start_place_id": "city-berlin-ber",
-        "end_place_id": "city-bilbao"
+      "date": "2026-06-01",
+      "day_type": "bike_day",
+      "notes": [],
+      "travel": null,
+      "bike": {
+        "start_mode": "explicit",
+        "start_place_id": "city-bilbao",
+        "end_place_id": "camp-kimu-berri-43074-2353",
+        "required_via_place_ids": [],
+        "gpx_hint_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "easy"
       },
-      "bike": null,
-      "overnight_place_id": "stay-camping-sopelana-15km-k-ste-oder-hostel-bilbao-zentrum",
+      "overnight_place_id": "camp-kimu-berri-43074-2353",
       "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
+        "status": "ok",
+        "distance_km": 71.8,
+        "elevation_gain_m": 1231,
+        "estimated_time_h": 5.47,
         "issues": [],
+        "used_gpx_hint_place_ids": [],
         "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-01.gpx",
+        "geojson_path": "data/segments/day-01.geojson"
       }
     },
     {
       "id": "day-02",
-      "date": "2026-05-30",
+      "date": "2026-06-02",
       "day_type": "bike_day",
-      "notes": [
-        "Stay: Camping Zumaia Kanpina (4,1⭐, direkt am Ort)",
-        "Alternative: Gran Camping Zarautz",
-        "Alternative: Camping Orio",
-        "Alternative: Wild Camping Küste",
-        "Highlight: Baskenland Küstenstraße",
-        "Highlight: Zarautz 🏄 langer Sandstrand (4,6⭐)",
-        "Highlight: Flysch de Zumaia 🌊 (4,8⭐) Game of Thrones Drachenstein!",
-        "Highlight: spektakuläre Felsküste",
-        "Highlight: Zumaia Fischerhafen",
-        "Planned: 80.0 km / 1400.0 hm"
-      ],
+      "notes": [],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-sopelana-15km-k-ste-oder-hostel-bilbao-zentrum",
-        "end_place_id": "stay-camping-zumaia-kanpina-4-1-direkt-am-ort",
-        "required_via_place_ids": [],
+        "start_place_id": "camp-kimu-berri-43074-2353",
+        "end_place_id": "camp-pamplona",
+        "required_via_place_ids": [
+          "city-pamplona"
+        ],
+        "gpx_hint_place_ids": [],
         "optional_via_place_ids": [],
-        "route_type": "touring"
+        "route_type": "easy"
       },
-      "overnight_place_id": "stay-camping-zumaia-kanpina-4-1-direkt-am-ort",
+      "overnight_place_id": "camp-pamplona",
       "validation": {
         "status": "ok",
-        "distance_km": 95.45,
-        "elevation_gain_m": 1064,
-        "estimated_time_h": 5.83,
+        "distance_km": 117.73,
+        "elevation_gain_m": 990,
+        "estimated_time_h": 6.61,
         "issues": [],
+        "used_gpx_hint_place_ids": [],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-02.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-02.gpx",
         "geojson_path": "data/segments/day-02.geojson"
       }
     },
     {
       "id": "day-03",
-      "date": "2026-05-31",
+      "date": "2026-06-03",
       "day_type": "bike_day",
       "notes": [
-        "Stay: Camping Ezcaba, Oricáin (5km von Pamplona, Fahrrad 10min)",
-        "Alternative: Camping Errota El Molino",
-        "Alternative: Camping Etxarri",
-        "Alternative: Albergue Calle Eslava",
-        "Highlight: Baskenland Hinterland",
-        "Highlight: Navarra Berge",
-        "Highlight: langer Tag!",
-        "Highlight: Pamplona Festung Ciudadela",
-        "Highlight: Altstadt",
-        "Highlight: Calle Estafeta (Stierlauf-Strecke)",
-        "Highlight: Plaza del Castillo",
-        "Planned: 120.0 km / 1800.0 hm"
+        "Pamplona ostwaerts ueber Orreaga mit kurzer Uebernachtung bei Urrobi."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-zumaia-kanpina-4-1-direkt-am-ort",
-        "end_place_id": "stay-camping-ezcaba-oric-in-5km-von-pamplona-fahrrad-10min",
-        "required_via_place_ids": [],
-        "optional_via_place_ids": [],
-        "route_type": "touring"
-      },
-      "overnight_place_id": "stay-camping-ezcaba-oric-in-5km-von-pamplona-fahrrad-10min",
-      "validation": {
-        "status": "flagged",
-        "distance_km": 112.69,
-        "elevation_gain_m": 1751,
-        "estimated_time_h": 7.67,
-        "issues": [
-          {
-            "code": "distance_too_high",
-            "message": "112.69 km exceeds the daily limit of 100.0 km."
-          }
+        "start_place_id": "camp-pamplona",
+        "end_place_id": "camp-camping-urrobi-42972-1351",
+        "required_via_place_ids": [
+          "poi-orreaga"
         ],
+        "gpx_hint_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "easy"
+      },
+      "overnight_place_id": "camp-camping-urrobi-42972-1351",
+      "validation": {
+        "status": "ok",
+        "distance_km": 66.72,
+        "elevation_gain_m": 831,
+        "estimated_time_h": 4.37,
+        "issues": [],
+        "used_gpx_hint_place_ids": [],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-03.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-03.gpx",
         "geojson_path": "data/segments/day-03.geojson"
       }
     },
     {
       "id": "day-04",
-      "date": "2026-06-01",
+      "date": "2026-06-04",
       "day_type": "bike_day",
       "notes": [
-        "Travel: Vormittag Sightseeing Pamplona",
-        "Stay: Camping Urrobi, Aurizberri/Espinal (3km von Roncesvalles)",
-        "Alternative: Albergue Roncesvalles (Kloster!)",
-        "Alternative: Camping Iruaxpe",
-        "Alternative: Wild Camping Wald",
-        "Highlight: Pamplona Vormittag: Festung",
-        "Highlight: Kathedrale",
-        "Highlight: Plaza del Castillo Kaffee",
-        "Highlight: Col de Ibañeta (1057m)",
-        "Highlight: Kloster Roncesvalles ⭐ (Jakobsweg)",
-        "Highlight: Roland-Denkmal",
-        "Highlight: Selva de Irati Rand",
-        "Planned: 48.0 km / 900.0 hm"
+        "Suedseiten-Einstieg ab Urrobi weiter in den Hecho-Korridor."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-ezcaba-oric-in-5km-von-pamplona-fahrrad-10min",
-        "end_place_id": "stay-camping-urrobi-aurizberri-espinal-3km-von-roncesvalles",
-        "required_via_place_ids": [],
+        "start_place_id": "camp-camping-urrobi-42972-1351",
+        "end_place_id": "camp-camping-valle-de-hecho-42732-753",
+        "required_via_place_ids": [
+          "poi-valle-de-hecho"
+        ],
+        "gpx_hint_place_ids": [
+          "gpx-hint-day-04-01",
+          "gpx-hint-day-04-02",
+          "gpx-hint-day-04-03",
+          "gpx-hint-day-04-04",
+          "gpx-hint-day-04-05"
+        ],
         "optional_via_place_ids": [],
-        "route_type": "touring"
+        "route_type": "easy"
       },
-      "overnight_place_id": "stay-camping-urrobi-aurizberri-espinal-3km-von-roncesvalles",
+      "overnight_place_id": "camp-camping-valle-de-hecho-42732-753",
       "validation": {
         "status": "ok",
-        "distance_km": 62.44,
-        "elevation_gain_m": 864,
-        "estimated_time_h": 4.25,
+        "distance_km": 98.17,
+        "elevation_gain_m": 2062,
+        "estimated_time_h": 7.79,
         "issues": [],
+        "used_gpx_hint_place_ids": [],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-04.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-04.gpx",
         "geojson_path": "data/segments/day-04.geojson"
       }
     },
     {
       "id": "day-05",
-      "date": "2026-06-02",
+      "date": "2026-06-05",
       "day_type": "bike_day",
       "notes": [
-        "Stay: Camping Le Pain de Sucre, Gavarnie",
-        "Alternative: Camping La Bergerie",
-        "Alternative: Camping Les Tilleuls, Gèdre",
-        "Alternative: Gîte d'étape",
-        "Highlight: Selva de Irati 🌲 (Buchenwald, kurz durchfahren!)",
-        "Highlight: Col d'Orgambide",
-        "Highlight: Frankreich",
-        "Highlight: Vallée d'Ossau",
-        "Highlight: Gavarnie Dorf",
-        "Highlight: Abend Cirque de Gavarnie",
-        "Planned: 85.0 km / 1800.0 hm"
+        "Westlicher Nordseitenwechsel ueber den Somport in den Aspe-Raum."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-urrobi-aurizberri-espinal-3km-von-roncesvalles",
-        "end_place_id": "stay-camping-le-pain-de-sucre-gavarnie",
-        "required_via_place_ids": [],
-        "optional_via_place_ids": [],
-        "route_type": "touring"
-      },
-      "overnight_place_id": "stay-camping-le-pain-de-sucre-gavarnie",
-      "validation": {
-        "status": "flagged",
-        "distance_km": 228.47,
-        "elevation_gain_m": 3033,
-        "estimated_time_h": 14.55,
-        "issues": [
-          {
-            "code": "distance_too_high",
-            "message": "228.47 km exceeds the daily limit of 100.0 km."
-          },
-          {
-            "code": "elevation_too_high",
-            "message": "3033 hm exceeds the daily limit of 1800.0 hm."
-          }
+        "start_place_id": "camp-camping-valle-de-hecho-42732-753",
+        "end_place_id": "camp-camping-le-gave-d%27aspe-42876-557",
+        "required_via_place_ids": [
+          "poi-col-du-somport"
         ],
+        "gpx_hint_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "easy"
+      },
+      "overnight_place_id": "camp-camping-le-gave-d%27aspe-42876-557",
+      "validation": {
+        "status": "ok",
+        "distance_km": 68.46,
+        "elevation_gain_m": 1556,
+        "estimated_time_h": 5.69,
+        "issues": [],
+        "used_gpx_hint_place_ids": [],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-05.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-05.gpx",
         "geojson_path": "data/segments/day-05.geojson"
       }
     },
     {
       "id": "day-06",
-      "date": "2026-06-03",
+      "date": "2026-06-06",
       "day_type": "bike_day",
       "notes": [
-        "Stay: Camping Les Lustrous, Argelès-Gazost",
-        "Alternative: Camping Le Gave",
-        "Alternative: Camping Pyrénées Natura",
-        "Alternative: Camping du Lavedan",
-        "Highlight: Col du Soulor (1474m)",
-        "Highlight: Col d'Aubisque (1709m) 4,9⭐ Tour de France!",
-        "Highlight: Lamas oben!",
-        "Highlight: Belvédère de l'Écluse",
-        "Highlight: Argelès-Gazost Thermalstadt",
-        "Planned: 90.0 km / 2200.0 hm"
+        "Nordseitenblock ueber den Col d'Aubisque mit Ziel auf der Ostseite des Passes."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-le-pain-de-sucre-gavarnie",
-        "end_place_id": "stay-camping-les-lustrous-argel-s-gazost",
-        "required_via_place_ids": [],
+        "start_place_id": "camp-camping-le-gave-d%27aspe-42876-557",
+        "end_place_id": "camp-camping-la-h%C3%A8che-42957-205",
+        "required_via_place_ids": [
+          "poi-col-d-aubisque"
+        ],
+        "gpx_hint_place_ids": [
+          "gpx-hint-day-06-01",
+          "gpx-hint-day-06-02",
+          "gpx-hint-day-06-03",
+          "gpx-hint-day-06-04",
+          "gpx-hint-day-06-05",
+          "gpx-hint-day-06-06",
+          "gpx-hint-day-06-07",
+          "gpx-hint-day-06-08"
+        ],
         "optional_via_place_ids": [],
-        "route_type": "touring"
+        "route_type": "easy"
       },
-      "overnight_place_id": "stay-camping-les-lustrous-argel-s-gazost",
+      "overnight_place_id": "camp-camping-la-h%C3%A8che-42957-205",
       "validation": {
         "status": "ok",
-        "distance_km": 38.23,
-        "elevation_gain_m": 386,
-        "estimated_time_h": 1.5,
+        "distance_km": 101.22,
+        "elevation_gain_m": 1963,
+        "estimated_time_h": 7.81,
         "issues": [],
+        "used_gpx_hint_place_ids": [],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-06.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-06.gpx",
         "geojson_path": "data/segments/day-06.geojson"
       }
     },
     {
       "id": "day-07",
-      "date": "2026-06-04",
-      "day_type": "rest_day",
-      "notes": [
-        "Travel: 🛑 Ruhetag",
-        "Stay: Camping Le Pain de Sucre, Gavarnie (direkt unter dem Cirque!)",
-        "Alternative: Camping La Bergerie, Gavarnie",
-        "Alternative: Camping Les Tilleuls, Gèdre",
-        "Alternative: Gîte d'étape",
-        "Highlight: 🌀 Cirque de Gavarnie UNESCO 4,8⭐ (Wanderung 2h)",
-        "Highlight: Wasserfall Grande Cascade (422m!)",
-        "Highlight: Geier beobachten",
-        "Highlight: Dorf Gavarnie mittelalterlich",
-        "Highlight: Pont Napoléon"
-      ],
-      "travel": {
-        "mode": null,
-        "start_place_id": "city-gavarnie",
-        "end_place_id": "city-gavarnie"
-      },
-      "bike": null,
-      "overnight_place_id": "stay-camping-les-lustrous-argel-s-gazost",
-      "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
-      }
-    },
-    {
-      "id": "day-08",
-      "date": "2026-06-05",
+      "date": "2026-06-07",
       "day_type": "bike_day",
       "notes": [
-        "Stay: Camping Valle de Bujaruelo, Torla (am Fluss Ara, sehr schön)",
-        "Alternative: Camping Ordesa, Torla",
-        "Alternative: Camping Río Ara, Broto",
-        "Alternative: Wild Camping Bujaruelo-Tal",
-        "Highlight: 🚴 Col du Tourmalet (2115m) 4,7⭐ DER Tour de France Pass!",
-        "Highlight: Stèle du Géant Denkmal oben",
-        "Highlight: Pic du Midi de Bigorre (3000m) Seilbahn optional",
-        "Highlight: Luz-Saint-Sauveur mittelalterliche Festungskirche",
-        "Highlight: Grenze Spanien",
-        "Planned: 80.0 km / 2500.0 hm"
+        "Kurzer Anschluss von der Ostseite des Aubisque nach Luz-Saint-Sauveur als Tourmalet-Anlauf."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-les-lustrous-argel-s-gazost",
-        "end_place_id": "stay-camping-valle-de-bujaruelo-torla-am-fluss-ara-sehr-sch-n",
+        "start_place_id": "camp-camping-la-h%C3%A8che-42957-205",
+        "end_place_id": "camp-luz",
         "required_via_place_ids": [],
+        "gpx_hint_place_ids": [
+          "gpx-hint-day-07-01",
+          "gpx-hint-day-07-02",
+          "gpx-hint-day-07-03",
+          "gpx-hint-day-07-04"
+        ],
         "optional_via_place_ids": [],
-        "route_type": "touring"
+        "route_type": "easy"
       },
-      "overnight_place_id": "stay-camping-valle-de-bujaruelo-torla-am-fluss-ara-sehr-sch-n",
+      "overnight_place_id": "camp-luz",
       "validation": {
-        "status": "flagged",
-        "distance_km": 62.85,
-        "elevation_gain_m": 2255,
-        "estimated_time_h": 6.69,
-        "issues": [
-          {
-            "code": "elevation_too_high",
-            "message": "2255 hm exceeds the daily limit of 1800.0 hm."
-          }
+        "status": "ok",
+        "distance_km": 36.36,
+        "elevation_gain_m": 813,
+        "estimated_time_h": 2.59,
+        "issues": [],
+        "used_gpx_hint_place_ids": [
+          "gpx-hint-day-07-01",
+          "gpx-hint-day-07-02"
         ],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-08.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-07.gpx",
+        "geojson_path": "data/segments/day-07.geojson"
+      }
+    },
+    {
+      "id": "day-08",
+      "date": "2026-06-08",
+      "day_type": "bike_day",
+      "notes": [
+        "Von Luz ueber den Col du Tourmalet auf die Ostseite nach Arreau."
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "camp-luz",
+        "end_place_id": "camp-arreau",
+        "required_via_place_ids": [
+          "poi-tourmalet"
+        ],
+        "gpx_hint_place_ids": [
+          "gpx-hint-day-08-01",
+          "gpx-hint-day-08-02",
+          "gpx-hint-day-08-03",
+          "gpx-hint-day-08-04",
+          "gpx-hint-day-08-05",
+          "gpx-hint-day-08-06",
+          "gpx-hint-day-08-07",
+          "gpx-hint-day-08-08"
+        ],
+        "optional_via_place_ids": [],
+        "route_type": "easy"
+      },
+      "overnight_place_id": "camp-arreau",
+      "validation": {
+        "status": "ok",
+        "distance_km": 62.4,
+        "elevation_gain_m": 2166,
+        "estimated_time_h": 6.44,
+        "issues": [],
+        "used_gpx_hint_place_ids": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-08.gpx",
         "geojson_path": "data/segments/day-08.geojson"
       }
     },
     {
       "id": "day-09",
-      "date": "2026-06-06",
-      "day_type": "rest_day",
-      "notes": [
-        "Travel: 🛑 Ruhetag",
-        "Stay: Camping Valle de Bujaruelo, Torla (2. Nacht)",
-        "Alternative: Camping Ordesa, Torla",
-        "Alternative: Refugio Góriz (im Park, Voranmeldung!)",
-        "Highlight: 🏔️ Ordesa y Monte Perdido NP 4,9⭐",
-        "Highlight: Bus ab Torla (Auto verboten im Park!)",
-        "Highlight: Wanderung Faja de Pelay (Panoramaweg)",
-        "Highlight: Wasserfall Cola de Caballo",
-        "Highlight: Geier",
-        "Highlight: Monte Perdido (3355m) sichtbar"
-      ],
-      "travel": {
-        "mode": null,
-        "start_place_id": "city-torla",
-        "end_place_id": "city-torla"
-      },
-      "bike": null,
-      "overnight_place_id": "stay-camping-valle-de-bujaruelo-torla-am-fluss-ara-sehr-sch-n",
-      "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
-      }
-    },
-    {
-      "id": "day-10",
-      "date": "2026-06-07",
+      "date": "2026-06-09",
       "day_type": "bike_day",
       "notes": [
-        "Stay: Camping Ainsa (direkt unterm Dorf, Flusslage)",
-        "Alternative: Camping Peña Montañesa (8km)",
-        "Alternative: Camping Boltaña",
-        "Alternative: Wild Camping Fluss",
-        "Highlight: Schlucht Cañón de Añisclo ⭐ (kurzer Abstecher!)",
-        "Highlight: Aínsa 🏰 mittelalterliche Altstadt (4,6⭐)",
-        "Highlight: Plaza Mayor mit Arkaden",
-        "Highlight: Romanische Kirche Santa María",
-        "Highlight: Tapas & Rioja Wein abends",
-        "Planned: 55.0 km / 900.0 hm"
+        "Der Tunnel Bielsa-Aragnouet gilt hier als Pass und wird deshalb explizit von Nordportal zu Suedportal gequert."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-valle-de-bujaruelo-torla-am-fluss-ara-sehr-sch-n",
-        "end_place_id": "stay-camping-ainsa-direkt-unterm-dorf-flusslage",
-        "required_via_place_ids": [],
+        "start_place_id": "camp-arreau",
+        "end_place_id": "camp-camping-bielsa-42628-228",
+        "required_via_place_ids": [
+          "poi-bielsa-aragnouet-north-portal",
+          "poi-bielsa-aragnouet-tunnel"
+        ],
+        "gpx_hint_place_ids": [],
         "optional_via_place_ids": [],
-        "route_type": "touring"
+        "route_type": "road"
       },
-      "overnight_place_id": "stay-camping-ainsa-direkt-unterm-dorf-flusslage",
+      "overnight_place_id": "camp-camping-bielsa-42628-228",
       "validation": {
         "status": "ok",
-        "distance_km": 55.74,
-        "elevation_gain_m": 963,
-        "estimated_time_h": 3.81,
+        "distance_km": 52.57,
+        "elevation_gain_m": 1814,
+        "estimated_time_h": 5.86,
         "issues": [],
+        "used_gpx_hint_place_ids": [],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-10.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-09.gpx",
+        "geojson_path": "data/segments/day-09.geojson"
+      }
+    },
+    {
+      "id": "day-10",
+      "date": "2026-06-10",
+      "day_type": "bike_day",
+      "notes": [
+        "Vom Bielsa-Korridor ueber Torla und die Pradera de Ordesa bis zum Camping am Ordesa-Ausgang."
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "camp-camping-bielsa-42628-228",
+        "end_place_id": "camp-camping-ordesa-42640-108",
+        "required_via_place_ids": [
+          "poi-torla-ordesa",
+          "poi-pradera-de-ordesa"
+        ],
+        "gpx_hint_place_ids": [
+          "gpx-hint-day-10-01",
+          "gpx-hint-day-10-02",
+          "gpx-hint-day-10-03",
+          "gpx-hint-day-10-04"
+        ],
+        "optional_via_place_ids": [],
+        "route_type": "easy"
+      },
+      "overnight_place_id": "camp-camping-ordesa-42640-108",
+      "validation": {
+        "status": "ok",
+        "distance_km": 132.47,
+        "elevation_gain_m": 2800,
+        "estimated_time_h": 10.07,
+        "issues": [],
+        "used_gpx_hint_place_ids": [
+          "gpx-hint-day-10-01"
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-10.gpx",
         "geojson_path": "data/segments/day-10.geojson"
       }
     },
     {
       "id": "day-11",
-      "date": "2026-06-08",
+      "date": "2026-06-11",
       "day_type": "bike_day",
       "notes": [
-        "Stay: Camping Aneto, Benasque (Fluss Ésera, 3⭐)",
-        "Alternative: Camping Ixeia, Benasque",
-        "Alternative: Camping Barlonguera",
-        "Alternative: Wild Camping Hochtal",
-        "Highlight: Cañón de Añisclo (wenn 07.06 nicht)",
-        "Highlight: Valle de Benasque",
-        "Highlight: Pico Aneto (3404m, höchster Berg Pyrenäen) sichtbar",
-        "Highlight: Posets-Maladeta Naturpark",
-        "Highlight: Benasque Dorf sehr schön",
-        "Highlight: heiße Quellen Baños de Benasque",
-        "Planned: 75.0 km / 1800.0 hm"
+        "Langer Ostschwenk aus dem Ordesa-Block hinueber ins Benasque-Gebiet."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-ainsa-direkt-unterm-dorf-flusslage",
-        "end_place_id": "stay-camping-aneto-benasque-fluss-sera-3",
+        "start_place_id": "camp-camping-ordesa-42640-108",
+        "end_place_id": "camp-campamento-de-virgen-blanca-42659-367",
         "required_via_place_ids": [],
+        "gpx_hint_place_ids": [],
         "optional_via_place_ids": [],
-        "route_type": "touring"
+        "route_type": "easy"
       },
-      "overnight_place_id": "stay-camping-aneto-benasque-fluss-sera-3",
+      "overnight_place_id": "camp-campamento-de-virgen-blanca-42659-367",
       "validation": {
-        "status": "flagged",
-        "distance_km": 73.08,
-        "elevation_gain_m": 1823,
-        "estimated_time_h": 6.55,
-        "issues": [
-          {
-            "code": "elevation_too_high",
-            "message": "1823 hm exceeds the daily limit of 1800.0 hm."
-          }
+        "status": "ok",
+        "distance_km": 98.78,
+        "elevation_gain_m": 2446,
+        "estimated_time_h": 8.73,
+        "issues": [],
+        "used_gpx_hint_place_ids": [
+          "gpx-hint-day-11-01"
         ],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-11.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-11.gpx",
         "geojson_path": "data/segments/day-11.geojson"
       }
     },
     {
       "id": "day-12",
-      "date": "2026-06-09",
+      "date": "2026-06-12",
       "day_type": "bike_day",
       "notes": [
-        "Stay: Camping La Noguera, Sort (am Fluss, günstig)",
-        "Alternative: Camping Collegats (direkt an der Schlucht!)",
-        "Alternative: Camping Tribu, Sort",
-        "Highlight: Vall de Boí 🏛️ UNESCO romanische Kirchen ⭐⭐ (9 Kirchen, einzigartig!)",
-        "Highlight: Taüll Dorf",
-        "Highlight: Schlucht Collegats 🌊 (spektakulär!)",
-        "Highlight: Sort Wildwasserhauptstadt Spaniens",
-        "Highlight: Kajakfahrer zuschauen",
-        "Planned: 85.0 km / 1600.0 hm"
+        "Weiter ueber die Vall de Boi bis nach Barruera."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-aneto-benasque-fluss-sera-3",
-        "end_place_id": "stay-camping-la-noguera-sort-am-fluss-g-nstig",
-        "required_via_place_ids": [],
-        "optional_via_place_ids": [],
-        "route_type": "touring"
-      },
-      "overnight_place_id": "stay-camping-la-noguera-sort-am-fluss-g-nstig",
-      "validation": {
-        "status": "flagged",
-        "distance_km": 114.61,
-        "elevation_gain_m": 2141,
-        "estimated_time_h": 8.41,
-        "issues": [
-          {
-            "code": "distance_too_high",
-            "message": "114.61 km exceeds the daily limit of 100.0 km."
-          },
-          {
-            "code": "elevation_too_high",
-            "message": "2141 hm exceeds the daily limit of 1800.0 hm."
-          }
+        "start_place_id": "camp-campamento-de-virgen-blanca-42659-367",
+        "end_place_id": "camp-barruera",
+        "required_via_place_ids": [
+          "poi-vall-de-boi"
         ],
+        "gpx_hint_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "easy"
+      },
+      "overnight_place_id": "camp-barruera",
+      "validation": {
+        "status": "ok",
+        "distance_km": 90.44,
+        "elevation_gain_m": 2186,
+        "estimated_time_h": 7.69,
+        "issues": [],
+        "used_gpx_hint_place_ids": [],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-12.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-12.gpx",
         "geojson_path": "data/segments/day-12.geojson"
       }
     },
     {
       "id": "day-13",
-      "date": "2026-06-10",
-      "day_type": "rest_day",
-      "notes": [
-        "Travel: 🛑 Ruhetag",
-        "Stay: Camping La Noguera, Sort (2. Nacht)",
-        "Alternative: Camping Collegats",
-        "Alternative: Camping Tribu, Sort",
-        "Highlight: 🛑 Sort Ruhetag",
-        "Highlight: Schlucht Collegats Wanderung (kostenlos!)",
-        "Highlight: Wildwasser Río Noguera Pallaresa zuschauen",
-        "Highlight: Palau de Gerri (romanische Kirche, 11.Jh.)",
-        "Highlight: Einkaufen Sort",
-        "Highlight: Ausruhen am Fluss"
-      ],
-      "travel": {
-        "mode": null,
-        "start_place_id": "city-sort",
-        "end_place_id": "city-sort"
-      },
-      "bike": null,
-      "overnight_place_id": "stay-camping-la-noguera-sort-am-fluss-g-nstig",
-      "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
-      }
-    },
-    {
-      "id": "day-14",
-      "date": "2026-06-11",
+      "date": "2026-06-13",
       "day_type": "bike_day",
       "notes": [
-        "Stay: Camping Vall de Camprodon, Ripoll",
-        "Alternative: Camping Ripoll",
-        "Alternative: Camping La Vall",
-        "Alternative: Camping Lles de Cerdanya",
-        "Highlight: Vorpyrenäen Katalonien",
-        "Highlight: Vall de Lord",
-        "Highlight: Sant Llorenç de Morunys ⭐ (verstecktes mittelalterliches Dorf)",
-        "Highlight: Coll de Port (1738m)",
-        "Highlight: Ripoll mittelalterliche Abtei Santa Maria (UNESCO-Kandidat)",
-        "Planned: 80.0 km / 1200.0 hm"
+        "Aus dem Boi-Tal ostwaerts bis ins Hochland bei Camping Serra."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-la-noguera-sort-am-fluss-g-nstig",
-        "end_place_id": "stay-camping-vall-de-camprodon-ripoll",
+        "start_place_id": "camp-barruera",
+        "end_place_id": "camp-c%C3%A0mping-serra-42612-1246",
         "required_via_place_ids": [],
+        "gpx_hint_place_ids": [],
         "optional_via_place_ids": [],
-        "route_type": "touring"
+        "route_type": "easy"
       },
-      "overnight_place_id": "stay-camping-vall-de-camprodon-ripoll",
+      "overnight_place_id": "camp-c%C3%A0mping-serra-42612-1246",
       "validation": {
-        "status": "flagged",
-        "distance_km": 155.24,
-        "elevation_gain_m": 2489,
-        "estimated_time_h": 10.74,
-        "issues": [
-          {
-            "code": "distance_too_high",
-            "message": "155.24 km exceeds the daily limit of 100.0 km."
-          },
-          {
-            "code": "elevation_too_high",
-            "message": "2489 hm exceeds the daily limit of 1800.0 hm."
-          }
+        "status": "ok",
+        "distance_km": 125.94,
+        "elevation_gain_m": 2614,
+        "estimated_time_h": 10.19,
+        "issues": [],
+        "used_gpx_hint_place_ids": [
+          "gpx-hint-day-13-01",
+          "gpx-hint-day-13-02"
         ],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-14.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-13.gpx",
+        "geojson_path": "data/segments/day-13.geojson"
+      }
+    },
+    {
+      "id": "day-14",
+      "date": "2026-06-14",
+      "day_type": "bike_day",
+      "notes": [
+        "Kurzerer Anschluss nach Andorra mit Uebernachtung in Andorra la Vella."
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "camp-c%C3%A0mping-serra-42612-1246",
+        "end_place_id": "camp-andorra",
+        "required_via_place_ids": [],
+        "gpx_hint_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "easy"
+      },
+      "overnight_place_id": "camp-andorra",
+      "validation": {
+        "status": "ok",
+        "distance_km": 58.66,
+        "elevation_gain_m": 1710,
+        "estimated_time_h": 5.72,
+        "issues": [],
+        "used_gpx_hint_place_ids": [
+          "gpx-hint-day-14-01",
+          "gpx-hint-day-14-02"
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-14.gpx",
         "geojson_path": "data/segments/day-14.geojson"
       }
     },
     {
       "id": "day-15",
-      "date": "2026-06-12",
+      "date": "2026-06-15",
       "day_type": "bike_day",
       "notes": [
-        "Stay: Camping Girona, Domeny (4km vom Zentrum, Busverbindung)",
-        "Alternative: Camping Can Toni Colomer",
-        "Alternative: Camping Municipal Girona",
-        "Alternative: Hostel Girona Backpackers",
-        "Highlight: 🌋 Olot Garrotxa Vulkanlandschaft (Mittagsstopp!)",
-        "Highlight: Santa Margarida Vulkankegel",
-        "Highlight: Fageda d'en Jordà Buchenwald auf Lava 🌲",
-        "Highlight: Besalú 🏰 romanische Brücke (4,7⭐)",
-        "Highlight: Girona Altstadt abends erkunden",
-        "Planned: 90.0 km / 1000.0 hm"
+        "Aus Andorra hinueber in die Cerdanya bis zum Camping bei Ur."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-vall-de-camprodon-ripoll",
-        "end_place_id": "stay-camping-girona-domeny-4km-vom-zentrum-busverbindung",
+        "start_place_id": "camp-andorra",
+        "end_place_id": "camp-camping-gcu-de-ur-42462-1934",
         "required_via_place_ids": [],
+        "gpx_hint_place_ids": [
+          "gpx-hint-day-15-01",
+          "gpx-hint-day-15-02",
+          "gpx-hint-day-15-03",
+          "gpx-hint-day-15-04"
+        ],
         "optional_via_place_ids": [],
-        "route_type": "touring"
+        "route_type": "easy"
       },
-      "overnight_place_id": "stay-camping-girona-domeny-4km-vom-zentrum-busverbindung",
+      "overnight_place_id": "camp-camping-gcu-de-ur-42462-1934",
       "validation": {
         "status": "ok",
-        "distance_km": 33.84,
-        "elevation_gain_m": 485,
-        "estimated_time_h": 2.12,
+        "distance_km": 74.14,
+        "elevation_gain_m": 698,
+        "estimated_time_h": 4.32,
         "issues": [],
+        "used_gpx_hint_place_ids": [
+          "gpx-hint-day-15-01",
+          "gpx-hint-day-15-02"
+        ],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-15.gpx",
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-15.gpx",
         "geojson_path": "data/segments/day-15.geojson"
       }
     },
     {
       "id": "day-16",
-      "date": "2026-06-13",
-      "day_type": "rest_day",
+      "date": "2026-06-16",
+      "day_type": "bike_day",
       "notes": [
-        "Travel: 🛑 Ruhetag",
-        "Stay: Camping Girona, Domeny (2. Nacht)",
-        "Alternative: Camping Can Toni",
-        "Alternative: Hostel Girona Backpackers",
-        "Highlight: 🏰 Girona Altstadt (4,8⭐)",
-        "Highlight: Kathedrale Santa Maria (breitestes gotisches Schiff!)",
-        "Highlight: jüdisches Viertel El Call",
-        "Highlight: Game of Thrones Drehorte (Königsweg!)",
-        "Highlight: Rambla de la Llibertat",
-        "Highlight: Tapas & Cava abends"
+        "Von der Cerdanya weiter in den Ripolles-Block nach Camprodon."
       ],
-      "travel": {
-        "mode": null,
-        "start_place_id": "city-girona",
-        "end_place_id": "city-girona"
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "camp-camping-gcu-de-ur-42462-1934",
+        "end_place_id": "camp-camprodon",
+        "required_via_place_ids": [],
+        "gpx_hint_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "easy"
       },
-      "bike": null,
-      "overnight_place_id": "stay-camping-girona-domeny-4km-vom-zentrum-busverbindung",
+      "overnight_place_id": "camp-camprodon",
       "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
+        "status": "ok",
+        "distance_km": 112.62,
+        "elevation_gain_m": 1312,
+        "estimated_time_h": 6.61,
         "issues": [],
+        "used_gpx_hint_place_ids": [
+          "gpx-hint-day-16-01",
+          "gpx-hint-day-16-02"
+        ],
         "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-16.gpx",
+        "geojson_path": "data/segments/day-16.geojson"
       }
     },
     {
       "id": "day-17",
-      "date": "2026-06-14",
-      "day_type": "bike_day",
-      "notes": [
-        "Stay: Camping Pola, Tossa de Mar (300m vom Strand, 4⭐)",
-        "Alternative: Camping Can Martí (Wanderwege)",
-        "Alternative: Camping Cala Llevadó (Meerblick!)",
-        "Alternative: Camping Tower",
-        "Highlight: Costa Brava Küstenstraße GI-682 (kurvig & schön!)",
-        "Highlight: Tossa de Mar 🏰 Vila Vella mittelalterliche Burg direkt am Meer ⭐",
-        "Highlight: Platja Gran Strand",
-        "Highlight: Schnorcheln Cala Bona",
-        "Planned: 50.0 km / 700.0 hm"
-      ],
-      "travel": null,
-      "bike": {
-        "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-girona-domeny-4km-vom-zentrum-busverbindung",
-        "end_place_id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
-        "required_via_place_ids": [],
-        "optional_via_place_ids": [],
-        "route_type": "touring"
-      },
-      "overnight_place_id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
-      "validation": {
-        "status": "ok",
-        "distance_km": 95.39,
-        "elevation_gain_m": 477,
-        "estimated_time_h": 4.67,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-17.gpx",
-        "geojson_path": "data/segments/day-17.geojson"
-      }
-    },
-    {
-      "id": "day-18",
-      "date": "2026-06-15",
-      "day_type": "rest_day",
-      "notes": [
-        "Travel: 🏖️ Ruhetag",
-        "Stay: Camping Pola, Tossa de Mar",
-        "Alternative: Camping Can Martí",
-        "Alternative: Camping Cala Llevadó",
-        "Highlight: 🏖️ Tossa Strand Tag 1",
-        "Highlight: Burg Vila Vella Rundgang (kostenlos, abends beleuchtet)",
-        "Highlight: Schnorcheln Cala Bona/Codolar",
-        "Highlight: Kayak mieten",
-        "Highlight: Fischrestaurant Hafen",
-        "Highlight: Sunset von der Burg"
-      ],
-      "travel": {
-        "mode": null,
-        "start_place_id": "city-tossa-de-mar",
-        "end_place_id": "city-tossa-de-mar"
-      },
-      "bike": null,
-      "overnight_place_id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
-      "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
-      }
-    },
-    {
-      "id": "day-19",
-      "date": "2026-06-16",
-      "day_type": "rest_day",
-      "notes": [
-        "Travel: 🏖️ Ruhetag",
-        "Stay: Camping Pola, Tossa de Mar",
-        "Alternative: Camping Can Martí",
-        "Alternative: Camping Cala Llevadó",
-        "Highlight: 🏖️ Tossa Strand Tag 2",
-        "Highlight: Glasbodenboot-Tour (Glasbootfahrt zu Grotten)",
-        "Highlight: Wanderung Cami de Ronda Küstenweg",
-        "Highlight: Faulenzertag",
-        "Highlight: lokaler Markt morgens",
-        "Highlight: Meeresfrüchte Abendessen"
-      ],
-      "travel": {
-        "mode": null,
-        "start_place_id": "city-tossa-de-mar",
-        "end_place_id": "city-tossa-de-mar"
-      },
-      "bike": null,
-      "overnight_place_id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
-      "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
-      }
-    },
-    {
-      "id": "day-20",
       "date": "2026-06-17",
       "day_type": "bike_day",
       "notes": [
-        "Stay: Camping Empúries, L'Escala (direkt bei den Ruinen!)",
-        "Alternative: Camping La Ballena Alegre, Roses",
-        "Alternative: Camping Neus, L'Escala",
-        "Alternative: Camping Illa Mateua",
-        "Highlight: Begur 🏰 Burgruine mit Meerblick",
-        "Highlight: Calella de Palafrugell (Fischerboote, Postkartenmotiv)",
-        "Highlight: Palafrugell Wochenmarkt",
-        "Highlight: L'Escala",
-        "Highlight: Empúries 🏛️ römische + griechische Ruinen direkt am Meer (einzigartig in Spanien!) ⭐⭐",
-        "Planned: 100.0 km / 1000.0 hm"
+        "Schlussetappe ueber Girona und danach zum letzten Campingplatz bei Riudarenes, weil Bike-Tage hier auf Camping enden muessen."
       ],
       "travel": null,
       "bike": {
         "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
-        "end_place_id": "stay-camping-emp-ries-l-escala-direkt-bei-den-ruinen",
-        "required_via_place_ids": [],
-        "optional_via_place_ids": [],
-        "route_type": "touring"
-      },
-      "overnight_place_id": "stay-camping-emp-ries-l-escala-direkt-bei-den-ruinen",
-      "validation": {
-        "status": "ok",
-        "distance_km": 84.24,
-        "elevation_gain_m": 525,
-        "estimated_time_h": 4.49,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-20.gpx",
-        "geojson_path": "data/segments/day-20.geojson"
-      }
-    },
-    {
-      "id": "day-21",
-      "date": "2026-06-18",
-      "day_type": "bike_day",
-      "notes": [
-        "Stay: Camping Mas Nou, Figueres (ruhig, 3km Zentrum)",
-        "Alternative: Camping La Garriga de Castelladral",
-        "Alternative: Camping Empordà",
-        "Alternative: Hostel Figueres",
-        "Highlight: Cadaqués ⭐⭐ schönstes Dorf Costa Brava!",
-        "Highlight: Dalí-Haus Port Lligat",
-        "Highlight: Cap de Creus 🌊 (4,7⭐) östlichster Punkt Spaniens",
-        "Highlight: Naturpark Cap de Creus",
-        "Highlight: Portbou Grenzort",
-        "Highlight: Figueres Ankunft",
-        "Planned: 100.0 km / 1200.0 hm"
-      ],
-      "travel": null,
-      "bike": {
-        "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-emp-ries-l-escala-direkt-bei-den-ruinen",
-        "end_place_id": "stay-camping-mas-nou-figueres-ruhig-3km-zentrum",
-        "required_via_place_ids": [],
-        "optional_via_place_ids": [],
-        "route_type": "touring"
-      },
-      "overnight_place_id": "stay-camping-mas-nou-figueres-ruhig-3km-zentrum",
-      "validation": {
-        "status": "ok",
-        "distance_km": 30.33,
-        "elevation_gain_m": 42,
-        "estimated_time_h": 1.47,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-21.gpx",
-        "geojson_path": "data/segments/day-21.geojson"
-      }
-    },
-    {
-      "id": "day-22",
-      "date": "2026-06-19",
-      "day_type": "transfer_day",
-      "notes": [
-        "Travel: 🚂 Zugtag",
-        "Stay: Camping Bagatelle, Avignon (direkt an der Rhône, 4⭐, Shuttle in Stadt)",
-        "Alternative: Camping du Pont d'Avignon (sehr nah!)",
-        "Alternative: Camping Île de la Barthelasse",
-        "Highlight: 🚂 Figueres-Vilafant → Perpignan → Nîmes/Montpellier → Avignon",
-        "Highlight: Avignon Papstpalast UNESCO (4,5⭐)",
-        "Highlight: Pont d'Avignon (4,2⭐)",
-        "Highlight: Stadtmauer Spaziergang",
-        "Highlight: Place de l'Horloge abends"
-      ],
-      "travel": {
-        "mode": "train",
-        "start_place_id": "city-figueres",
-        "end_place_id": "city-avignon"
-      },
-      "bike": null,
-      "overnight_place_id": "stay-camping-bagatelle-avignon-direkt-an-der-rh-ne-4-shuttle-in-stadt",
-      "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
-      }
-    },
-    {
-      "id": "day-23",
-      "date": "2026-06-20",
-      "day_type": "bike_day",
-      "notes": [
-        "Stay: Camping Les Hautes Prairies, Lourmarin (4⭐, Pool)",
-        "Alternative: Camping Domaine de Pierredon",
-        "Alternative: Camping Le Luberon, Apt",
-        "Alternative: Wild Camping Luberon",
-        "Highlight: Gordes 🏰 (4,8⭐) schönstes Dorf Provence auf Felsen",
-        "Highlight: Village des Bories (Steinzeit-Hütten)",
-        "Highlight: Abbaye de Sénanque (Lavendel + Kloster, Foto-Klassiker!)",
-        "Highlight: Roussillon 🎨 (4,6⭐) Ockerfelder",
-        "Highlight: Lourmarin (Camus Grab)",
-        "Highlight: Luberon",
-        "Planned: 110.0 km / 1200.0 hm"
-      ],
-      "travel": null,
-      "bike": {
-        "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-bagatelle-avignon-direkt-an-der-rh-ne-4-shuttle-in-stadt",
-        "end_place_id": "stay-camping-les-hautes-prairies-lourmarin-4-pool",
-        "required_via_place_ids": [],
-        "optional_via_place_ids": [],
-        "route_type": "touring"
-      },
-      "overnight_place_id": "stay-camping-les-hautes-prairies-lourmarin-4-pool",
-      "validation": {
-        "status": "ok",
-        "distance_km": 66.52,
-        "elevation_gain_m": 450,
-        "estimated_time_h": 3.71,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-23.gpx",
-        "geojson_path": "data/segments/day-23.geojson"
-      }
-    },
-    {
-      "id": "day-24",
-      "date": "2026-06-21",
-      "day_type": "bike_day",
-      "notes": [
-        "Stay: Camping Gorges du Verdon, La Palud-sur-Verdon (spektakuläre Lage!)",
-        "Alternative: Camping Le Galetas, Moustiers (am See!)",
-        "Alternative: Camping Castellane",
-        "Alternative: Camping La Colle",
-        "Highlight: 💜 Plateau de Valensole Lavendelfelder! (Ende Juni = Hauptblüte, Bienen!)",
-        "Highlight: Moustiers-Sainte-Marie 🏘️ (4,7⭐, Stern über der Schlucht!)",
-        "Highlight: Lac de Sainte-Croix 💙 (4,8⭐)",
-        "Highlight: Route des Crêtes (4,9⭐)",
-        "Highlight: Point Sublime (4,7⭐)",
-        "Highlight: Geier!",
-        "Planned: 95.0 km / 1600.0 hm"
-      ],
-      "travel": null,
-      "bike": {
-        "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-les-hautes-prairies-lourmarin-4-pool",
-        "end_place_id": "stay-camping-gorges-du-verdon-la-palud-sur-verdon-spektakul-re-lage",
-        "required_via_place_ids": [],
-        "optional_via_place_ids": [],
-        "route_type": "touring"
-      },
-      "overnight_place_id": "stay-camping-gorges-du-verdon-la-palud-sur-verdon-spektakul-re-lage",
-      "validation": {
-        "status": "flagged",
-        "distance_km": 106.82,
-        "elevation_gain_m": 1603,
-        "estimated_time_h": 7.34,
-        "issues": [
-          {
-            "code": "distance_too_high",
-            "message": "106.82 km exceeds the daily limit of 100.0 km."
-          }
+        "start_place_id": "camp-camprodon",
+        "end_place_id": "camp-riudarenes",
+        "required_via_place_ids": [
+          "city-girona"
         ],
-        "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-24.gpx",
-        "geojson_path": "data/segments/day-24.geojson"
-      }
-    },
-    {
-      "id": "day-25",
-      "date": "2026-06-22",
-      "day_type": "bike_day",
-      "notes": [
-        "Stay: Camping Terry, Nizza (Bus ins Zentrum)",
-        "Alternative: Camping Magnan (näher Zentrum)",
-        "Alternative: Camping Cap 3000",
-        "Alternative: Camping Les Pins Parasols",
-        "Highlight: Verdon Ostseite",
-        "Highlight: Castellane 🏘️ (Kapelle auf Fels!)",
-        "Highlight: Var-Tal kleine Straßen",
-        "Highlight: Grasse 🌸 Parfümstadt (Molinard, Fragonard Führungen)",
-        "Highlight: Gorges du Loup",
-        "Highlight: Nizza Promenade des Anglais abends",
-        "Planned: 95.0 km / 1200.0 hm"
-      ],
-      "travel": null,
-      "bike": {
-        "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-gorges-du-verdon-la-palud-sur-verdon-spektakul-re-lage",
-        "end_place_id": "stay-camping-terry-nizza-bus-ins-zentrum",
-        "required_via_place_ids": [],
+        "gpx_hint_place_ids": [],
         "optional_via_place_ids": [],
-        "route_type": "touring"
+        "route_type": "easy"
       },
-      "overnight_place_id": "stay-camping-terry-nizza-bus-ins-zentrum",
-      "validation": {
-        "status": "flagged",
-        "distance_km": 112.54,
-        "elevation_gain_m": 1231,
-        "estimated_time_h": 6.21,
-        "issues": [
-          {
-            "code": "distance_too_high",
-            "message": "112.54 km exceeds the daily limit of 100.0 km."
-          }
-        ],
-        "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-25.gpx",
-        "geojson_path": "data/segments/day-25.geojson"
-      }
-    },
-    {
-      "id": "day-26",
-      "date": "2026-06-23",
-      "day_type": "rest_day",
-      "notes": [
-        "Travel: 🏖️ Ruhetag",
-        "Stay: Camping Terry, Nizza (2. Nacht)",
-        "Alternative: Camping Magnan",
-        "Alternative: Camping Cap 3000",
-        "Highlight: 🏖️ Promenade des Anglais",
-        "Highlight: Vieux Nice Altstadt 🏘️ (4,7⭐)",
-        "Highlight: Marché du Cours Saleya (Blumen + Essen!)",
-        "Highlight: Colline du Château (Panorama, kostenlos!)",
-        "Highlight: Socca essen (Kichererbsen-Pfannkuchen!)",
-        "Highlight: Strand abends"
-      ],
-      "travel": {
-        "mode": null,
-        "start_place_id": "city-nizza",
-        "end_place_id": "city-nizza"
-      },
-      "bike": null,
-      "overnight_place_id": "stay-camping-terry-nizza-bus-ins-zentrum",
-      "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
-      }
-    },
-    {
-      "id": "day-27",
-      "date": "2026-06-24",
-      "day_type": "bike_day",
-      "notes": [
-        "Stay: Camping Villaggio dei Fiori, San Remo (4⭐, 500m Strand)",
-        "Alternative: Camping Ariston San Remo",
-        "Alternative: Camping Due Palme, Ospedaletti",
-        "Alternative: Camping Capo Don",
-        "Highlight: 🇮🇹 Grenze bei Ventimiglia",
-        "Highlight: Blumenriviera (Mimosen, Palmen)",
-        "Highlight: Ventimiglia Altstadt + Markt (Freitags!)",
-        "Highlight: San Remo 🏘️ Altstadt La Pigna",
-        "Highlight: Kathedrale San Siro",
-        "Highlight: Kasino (außen anschauen)",
-        "Highlight: Via del Mare Radweg",
-        "Planned: 75.0 km / 800.0 hm"
-      ],
-      "travel": null,
-      "bike": {
-        "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-terry-nizza-bus-ins-zentrum",
-        "end_place_id": "stay-camping-villaggio-dei-fiori-san-remo-4-500m-strand",
-        "required_via_place_ids": [],
-        "optional_via_place_ids": [],
-        "route_type": "touring"
-      },
-      "overnight_place_id": "stay-camping-villaggio-dei-fiori-san-remo-4-500m-strand",
-      "validation": {
-        "status": "flagged",
-        "distance_km": 166.66,
-        "elevation_gain_m": 2237,
-        "estimated_time_h": 10.19,
-        "issues": [
-          {
-            "code": "distance_too_high",
-            "message": "166.66 km exceeds the daily limit of 100.0 km."
-          },
-          {
-            "code": "elevation_too_high",
-            "message": "2237 hm exceeds the daily limit of 1800.0 hm."
-          }
-        ],
-        "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-27.gpx",
-        "geojson_path": "data/segments/day-27.geojson"
-      }
-    },
-    {
-      "id": "day-28",
-      "date": "2026-06-25",
-      "day_type": "bike_day",
-      "notes": [
-        "Stay: Camping Buggi, Savona (stadtnahe, günstig)",
-        "Alternative: Camping La Quiete (ruhiger)",
-        "Alternative: Camping Sassello (Hinterland)",
-        "Alternative: Hostel Savona",
-        "Highlight: 🚴 Letzter Radtag!",
-        "Highlight: Imperia Hafen",
-        "Highlight: Albenga 🏘️ mittelalterliche Altstadt (sehr schön, kaum Touristen!)",
-        "Highlight: Alassio Strand",
-        "Highlight: Finale Ligure (Klettergebiet)",
-        "Highlight: Savona Hafen",
-        "Highlight: Decathlon Savona → Radtasche kaufen!",
-        "Planned: 90.0 km / 900.0 hm"
-      ],
-      "travel": null,
-      "bike": {
-        "start_mode": "linked_previous_overnight",
-        "start_place_id": "stay-camping-villaggio-dei-fiori-san-remo-4-500m-strand",
-        "end_place_id": "stay-camping-buggi-savona-stadtnahe-g-nstig",
-        "required_via_place_ids": [],
-        "optional_via_place_ids": [],
-        "route_type": "touring"
-      },
-      "overnight_place_id": "stay-camping-buggi-savona-stadtnahe-g-nstig",
+      "overnight_place_id": "camp-riudarenes",
       "validation": {
         "status": "ok",
-        "distance_km": 99.32,
-        "elevation_gain_m": 548,
-        "estimated_time_h": 5.41,
+        "distance_km": 114.33,
+        "elevation_gain_m": 453,
+        "estimated_time_h": 5.34,
         "issues": [],
+        "used_gpx_hint_place_ids": [],
         "used_optional_via_place_ids": [],
-        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-28.gpx",
-        "geojson_path": "data/segments/day-28.geojson"
-      }
-    },
-    {
-      "id": "day-29",
-      "date": "2026-06-26",
-      "day_type": "transfer_day",
-      "notes": [
-        "Travel: 🚂 Zugtag",
-        "Stay: Camping Rovereto, Lizzanella (4km Zentrum, Gardasee-Nähe)",
-        "Alternative: Camping Al Lago, Torbole am Gardasee (20km)",
-        "Alternative: Agriturismo Rovereto",
-        "Alternative: Hostel Rovereto",
-        "Highlight: 🚂 Savona → Genua Stazione Principe → Mailand Centrale → Verona → Rovereto",
-        "Highlight: Rovereto Altstadt 🏘️ (MART Museum optional)",
-        "Highlight: Etschtal Abendspaziergang",
-        "Highlight: Gute Pasta abends!"
-      ],
-      "travel": {
-        "mode": "train",
-        "start_place_id": "city-savona",
-        "end_place_id": "city-rovereto"
-      },
-      "bike": null,
-      "overnight_place_id": "stay-camping-rovereto-lizzanella-4km-zentrum-gardasee-n-he",
-      "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
-      }
-    },
-    {
-      "id": "day-30",
-      "date": "2026-06-27",
-      "day_type": "rest_day",
-      "notes": [
-        "Travel: 🏖️ Gardasee",
-        "Stay: Camping Rovereto (2. Nacht) oder Camping Al Lago, Torbole (direkt am See!)",
-        "Alternative: Camping Bellariva, Riva del Garda",
-        "Alternative: Camping Bavaria, Torbole",
-        "Alternative: Wild Camping See",
-        "Highlight: 🏖️ Gardasee Torbole/Riva del Garda (20km Rad oder Bus)",
-        "Highlight: Surfer & Kitesurfer (weltbekannter Windspot!)",
-        "Highlight: Riva del Garda Altstadt",
-        "Highlight: Castello di Arco ⭐ (Burgruine)",
-        "Highlight: Schwimmen",
-        "Highlight: Weißwein trinken",
-        "Highlight: letzter Abend Italien 🇮🇹"
-      ],
-      "travel": {
-        "mode": null,
-        "start_place_id": "city-rovereto",
-        "end_place_id": "city-rovereto"
-      },
-      "bike": null,
-      "overnight_place_id": "stay-camping-rovereto-lizzanella-4km-zentrum-gardasee-n-he",
-      "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
-      }
-    },
-    {
-      "id": "day-31",
-      "date": "2026-06-28",
-      "day_type": "transfer_day",
-      "notes": [
-        "Travel: 🚂 Heimreise",
-        "Stay: Zuhause! 🏠",
-        "Highlight: 🚂 Rovereto → Trento → Brenner → Innsbruck → München Hbf → Dresden Hbf",
-        "Highlight: Morgens noch kurz Gardasee?",
-        "Highlight: Ankunft Dresden abends 🎉",
-        "Highlight: TOUR GESCHAFFT! 🥂"
-      ],
-      "travel": {
-        "mode": "train",
-        "start_place_id": "city-rovereto",
-        "end_place_id": "city-dresden"
-      },
-      "bike": null,
-      "overnight_place_id": "stay-zuhause",
-      "validation": {
-        "status": "not_applicable",
-        "distance_km": null,
-        "elevation_gain_m": null,
-        "estimated_time_h": null,
-        "issues": [],
-        "used_optional_via_place_ids": [],
-        "gpx_path": null,
-        "geojson_path": null
+        "gpx_path": "tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days-segments/day-17.gpx",
+        "geojson_path": "data/segments/day-17.geojson"
       }
     }
   ]

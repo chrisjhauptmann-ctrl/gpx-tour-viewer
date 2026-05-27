@@ -143,28 +143,28 @@
     const params = new URLSearchParams(window.location.search);
     const tourPath = params.get('tour') || DEFAULT_TOUR;
     const DEFAULT_MUST_SEE_BY_TOUR = {
-      '/tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days.json': '/tour_planner/examples/bilbao-pamplona-tourmalet-must-see.json',
+      'data/tour.json': 'data/must-see.json',
     };
     const DEFAULT_SERVICE_HUBS_BY_TOUR = {
-      '/tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days.json': '/tour_planner/examples/bilbao-pamplona-tourmalet-service-hubs.json',
+      'data/tour.json': 'data/service-hubs.json',
     };
     const DEFAULT_REFERENCE_GPX_BY_TOUR = {
-      '/tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days.json': [
-        '/shared_data/ExternalTours/pyrenees_gravel_north.gpx',
-        '/tour_planner/Pyrenean_Rally_1of2.gpx',
-        '/tour_planner/Pyrenean_Rally_2of2 (1).gpx',
+      'data/tour.json': [
+        'data/gpx/pyrenees_gravel_north.gpx',
+        'data/gpx/Pyrenean_Rally_1of2.gpx',
+        'data/gpx/Pyrenean_Rally_2of2.gpx',
       ],
     };
     const REFERENCE_GPX_META = {
-      '/shared_data/ExternalTours/pyrenees_gravel_north.gpx': {
+      'data/gpx/pyrenees_gravel_north.gpx': {
         label: 'Pyrenaeen Nordkorridor',
         detail: 'Referenz-GPX Nordseite',
       },
-      '/tour_planner/Pyrenean_Rally_1of2.gpx': {
+      'data/gpx/Pyrenean_Rally_1of2.gpx': {
         label: 'Pyrenaeen Suedkorridor West',
         detail: 'Referenz-GPX Suedseite · Teil 1',
       },
-      '/tour_planner/Pyrenean_Rally_2of2 (1).gpx': {
+      'data/gpx/Pyrenean_Rally_2of2.gpx': {
         label: 'Pyrenaeen Suedkorridor Ost',
         detail: 'Referenz-GPX Suedseite · Teil 2',
       },

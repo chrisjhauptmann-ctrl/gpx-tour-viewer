@@ -1,0 +1,124 @@
+{
+  "id": "service-hubs-bilbao-pamplona-tourmalet-andorra-girona",
+  "name": "Versorgungspunkte im Bilbao-Pamplona-Pyrenaeen-Korridor",
+  "description": "Groessere Orte im direkten oder nahen Tourkorridor mit erhoehtem Potenzial fuer Werkstaetten, groessere Supermaerkte, Outdoor-Laeden, Apotheken und allgemeine Versorgung.",
+  "service_hubs": [
+    {
+      "id": "service-bilbao",
+      "name": "Bilbao",
+      "kind": "metro",
+      "priority": "major",
+      "lat": 43.2633799,
+      "lon": -2.9348121,
+      "reason": "Vollversorgung direkt am Start: grosse Supermaerkte, mehrere Radlaeden, Ersatzteile und gute OePNV-/Bahnoptionen."
+    },
+    {
+      "id": "service-pamplona",
+      "name": "Pamplona / Iruna",
+      "kind": "city",
+      "priority": "major",
+      "lat": 42.815686,
+      "lon": -1.6522353,
+      "reason": "Erster klarer Vollversorgungs-Hub vor dem tiefen Pyrenaeenabschnitt mit grossen Supermaerkten, Werkstaetten und Kliniken."
+    },
+    {
+      "id": "service-jaca",
+      "name": "Jaca",
+      "kind": "town",
+      "priority": "major",
+      "lat": 42.568981,
+      "lon": -0.549856,
+      "reason": "Sehr sinnvoller Pyrenaeen-Stuetzpunkt mit Bike-Shops, Decathlon-nahem Sortiment im weiteren Umfeld, Supermaerkten und Outdoor-Versorgung."
+    },
+    {
+      "id": "service-sabinanigo",
+      "name": "Sabinanigo",
+      "kind": "town",
+      "priority": "major",
+      "lat": 42.519444,
+      "lon": -0.365278,
+      "reason": "Industrie- und Servicestandort im Aragon-Korridor; guter Ort fuer Technik, Baumarktbedarf und groessere Einkaeufe vor Ordesa oder Bielsa."
+    },
+    {
+      "id": "service-oloron",
+      "name": "Oloron-Sainte-Marie",
+      "kind": "town",
+      "priority": "medium",
+      "lat": 43.194722,
+      "lon": -0.610278,
+      "reason": "Nordseiten-Hub westlich des Somport mit guter stadtischer Grundversorgung und realistischem Werkstattpotenzial."
+    },
+    {
+      "id": "service-arreau",
+      "name": "Arreau",
+      "kind": "town",
+      "priority": "medium",
+      "lat": 42.904167,
+      "lon": 0.359444,
+      "reason": "Kleiner, aber wichtiger Nordseiten-Knoten fuer den Tourmalet- und Aure-Korridor; eher solide Zwischenversorgung als Vollversorgung."
+    },
+    {
+      "id": "service-ainsa",
+      "name": "Ainsa",
+      "kind": "town",
+      "priority": "major",
+      "lat": 42.414167,
+      "lon": 0.140833,
+      "reason": "Suedseitiger Zentralhub fuer Ordesa, Bielsa und Sobrarbe mit guten Chancen auf Bike-Service, Supermaerkte und Outdoor-Laeden."
+    },
+    {
+      "id": "service-la-seu-d-urgell",
+      "name": "La Seu d'Urgell",
+      "kind": "town",
+      "priority": "major",
+      "lat": 42.358056,
+      "lon": 1.461389,
+      "reason": "Sehr wichtiger Versorgungsort direkt unter Andorra; haeufig besser und entspannter fuer Werkstatt- oder Einkaufsthemen als oben in Andorra selbst."
+    },
+    {
+      "id": "service-andorra-la-vella",
+      "name": "Andorra la Vella",
+      "kind": "city",
+      "priority": "major",
+      "lat": 42.4979185,
+      "lon": 1.5032264,
+      "reason": "Maximale Dichte an Bike-, Outdoor- und Retail-Angeboten im Ostkorridor; gut fuer groessere Ersatzteil- oder Ausruestungsstopps."
+    },
+    {
+      "id": "service-puigcerda",
+      "name": "Puigcerda",
+      "kind": "town",
+      "priority": "major",
+      "lat": 42.431944,
+      "lon": 1.927222,
+      "reason": "Wichtiger Ostpyrenaeen-Hub in der Cerdanya mit guter Alltagsversorgung und sinnvollem Service-Level fuer Touren Richtung Ripoll oder Girona."
+    },
+    {
+      "id": "service-ripoll",
+      "name": "Ripoll",
+      "kind": "town",
+      "priority": "medium",
+      "lat": 42.200833,
+      "lon": 2.190278,
+      "reason": "Starker Knoten im Vorland mit solider Versorgung; gut als Nachfuell- und Problemloeser-Ort vor dem langen Auslauf Richtung Girona."
+    },
+    {
+      "id": "service-olot",
+      "name": "Olot",
+      "kind": "town",
+      "priority": "medium",
+      "lat": 42.182222,
+      "lon": 2.488889,
+      "reason": "Groesserer Garrotxa-Ort mit guter Supermarkt- und Apothekenlage; praktisch, falls der Korridor suedlicher ueber die Vulkanlandschaft gefuehrt wird."
+    },
+    {
+      "id": "service-girona",
+      "name": "Girona",
+      "kind": "city",
+      "priority": "major",
+      "lat": 41.9793006,
+      "lon": 2.8199439,
+      "reason": "Zielhub mit sehr starker Bike-Infrastruktur, vielen Laeden, Werkstaetten, Bahnanschluss und voller Stadtversorgung."
+    }
+  ]
+}

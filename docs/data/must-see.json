@@ -1,0 +1,146 @@
+{
+  "id": "must-see-bilbao-pamplona-tourmalet",
+  "name": "Pyrenaeen Must-See Eckpunkte",
+  "description": "Grobe Pflichtorte fuer die weitere Tourplanung. Das ist bewusst noch keine Tagesplanung.",
+  "planning_notes": [
+    "Must-see Orte zuerst festziehen, danach erst Tagesetappen und schoene Fahrstrecken planen.",
+    "Kommentar: spaeter ein Wetter-Tool einbauen, um Pass- und Tagesentscheidungen besser absichern zu koennen."
+  ],
+  "must_see_places": [
+    {
+      "id": "must-see-pamplona",
+      "name": "Pamplona / Iruña",
+      "kind": "city",
+      "priority": "must_see",
+      "lat": 42.815686,
+      "lon": -1.6522353,
+      "reason": "Wichtiger westlicher Eckpunkt und klarer Stadtanker fuer den Tourauftakt in Richtung Pyrenaeen."
+    },
+    {
+      "id": "must-see-torla-ordesa",
+      "name": "Torla-Ordesa",
+      "kind": "gateway",
+      "priority": "must_see",
+      "lat": 42.6276936,
+      "lon": -0.112138,
+      "reason": "Schluesselpunkt fuer Ordesa / Monte Perdido und als grober Zentralanker auf der Suedseite."
+    },
+    {
+      "id": "must-see-col-du-tourmalet",
+      "name": "Col du Tourmalet",
+      "kind": "pass",
+      "priority": "must_see",
+      "lat": 42.9083745,
+      "lon": 0.1452684,
+      "reason": "Klassischer Hauptpass und sicherer Fixpunkt fuer die Nordseiten-Variante."
+    },
+    {
+      "id": "must-see-col-d-aubisque",
+      "name": "Col d'Aubisque",
+      "kind": "pass",
+      "priority": "must_see",
+      "lat": 42.9765752,
+      "lon": -0.339792,
+      "reason": "Legendärer Nordseiten-Pass und starker Fixpunkt fuer eine Tour-de-France-gepraegte Linienfuehrung."
+    },
+    {
+      "id": "must-see-ordesa-monte-perdido",
+      "name": "Ordesa y Monte Perdido",
+      "kind": "national_park",
+      "priority": "must_see",
+      "lat": 42.6544738,
+      "lon": -0.0618873,
+      "reason": "Einer der staerksten Naturanker der Zentralpyrenaeen und klarer Pflichtpunkt fuer die Routenwahl um Torla-Ordesa."
+    },
+    {
+      "id": "must-see-vall-de-boi",
+      "name": "Vall de Boí",
+      "kind": "cultural_landscape",
+      "priority": "must_see",
+      "lat": 42.5045074,
+      "lon": 0.8034184,
+      "reason": "Starker Ost-Pyrenaeen-Anker mit UNESCO-Kirchen und sehr guter Eignung als eigener Landschaftsraum in der Tourplanung."
+    },
+    {
+      "id": "must-see-valle-de-hecho",
+      "name": "Valle de Hecho",
+      "kind": "landscape",
+      "priority": "must_see",
+      "lat": 42.7393952,
+      "lon": -0.7501118,
+      "reason": "Starker West-/Zentralpyrenaeen-Korridor auf der Suedseite und sehr interessant fuer schoene Fahrstrecken abseits der ganz grossen Transitachsen."
+    },
+    {
+      "id": "must-see-aiguestortes",
+      "name": "Aigüestortes i Estany de Sant Maurici NP",
+      "kind": "national_park",
+      "priority": "must_see",
+      "lat": 42.5702746,
+      "lon": 0.9872228,
+      "reason": "Einer der wichtigsten Naturraeume der Ostpyrenaeen und ein sehr starker Fixpunkt fuer die Wahl zwischen Vall de Boi, Val d'Aran und den oestlichen Hochlagen."
+    },
+    {
+      "id": "must-see-col-du-somport",
+      "name": "Col du Somport",
+      "kind": "pass",
+      "priority": "must_see",
+      "lat": 42.7957224,
+      "lon": -0.5248473,
+      "reason": "Wesentlicher Zentralpass fuer den Wechsel zwischen Aspe und Canfranc und ein sehr starker Linienanker fuer die West-/Zentralpyrenaeen."
+    },
+    {
+      "id": "must-see-garrotxa-natural-park",
+      "name": "Garrotxa Natural Park",
+      "kind": "natural_park",
+      "priority": "must_see",
+      "lat": 42.1465614,
+      "lon": 2.5304513,
+      "reason": "Wichtiger oestlicher Naturraum mit Vulkanlandschaft und guter Ankerfunktion fuer den Uebergang Richtung Girona und Katalonien."
+    },
+    {
+      "id": "must-see-pradera-de-ordesa",
+      "name": "Pradera de Ordesa",
+      "kind": "gateway",
+      "priority": "must_see",
+      "lat": 42.6492328,
+      "lon": -0.0597318,
+      "reason": "Konkreter Zugangspunkt in den Ordesa-Raum und deutlich praeziser als nur der grobe Anker Torla-Ordesa."
+    },
+    {
+      "id": "must-see-torla-nerin-corridor",
+      "name": "Torla-Ordesa ↔ Nerín",
+      "kind": "landscape",
+      "priority": "must_see",
+      "lat": 42.573934,
+      "lon": 0.0168571,
+      "reason": "Wichtiger Verbindungskorridor zwischen Ordesa-Suedzugang und Nerin-Balkonen, sinnvoll als eigener Planungsraum fuer die Linienfuehrung."
+    },
+    {
+      "id": "must-see-elorrio",
+      "name": "Elorrio",
+      "kind": "town",
+      "priority": "poi",
+      "lat": 43.122359,
+      "lon": -2.5330079,
+      "reason": "Schoener frueher Baskenland-Inlandanker zwischen Bilbao und den ersten Bergkorridoren Richtung Urkiola."
+    },
+    {
+      "id": "must-see-puerto-de-urkiola",
+      "name": "Puerto de Urkiola",
+      "kind": "pass",
+      "priority": "poi",
+      "lat": 43.1009207,
+      "lon": -2.6462122,
+      "reason": "Klassischer erster Berguebergang im Baskenland und sinnvoller Linienanker zwischen Bilbao-Raum und dem suedlicheren Inland." 
+    },
+    {
+      "id": "must-see-santuario-de-arantzazu",
+      "name": "Santuario de Arantzazu",
+      "kind": "sanctuary",
+      "priority": "poi",
+      "lat": 42.9794186,
+      "lon": -2.4003914,
+      "reason": "Sehr markanter kultureller und landschaftlicher Abstecher oberhalb von Oñati, gut passend fuer den Abschnitt Bilbao bis Pamplona."
+    }
+  ]
+}
