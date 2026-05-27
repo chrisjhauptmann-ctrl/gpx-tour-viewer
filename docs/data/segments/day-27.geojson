@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "creator": "BRouter-1.7.9",
+        "name": "day-27",
+        "track-length": "0",
+        "filtered ascend": "0",
+        "plain-ascend": "0",
+        "total-time": "0",
+        "total-energy": "0",
+        "cost": "5",
+        "messages": [
+          [
+            "Longitude",
+            "Latitude",
+            "Elevation",
+            "Distance",
+            "CostPerKm",
+            "ElevCost",
+            "TurnCost",
+            "NodeCost",
+            "InitialCost",
+            "WayTags",
+            "NodeTags",
+            "Time",
+            "Energy"
+          ]
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.26193,
+            43.710215,
+            21.75
+          ]
+        ]
+      }
+    }
+  ]
+}

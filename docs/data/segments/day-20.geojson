@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "creator": "BRouter-1.7.9",
+        "name": "day-20",
+        "track-length": "1",
+        "filtered ascend": "0",
+        "plain-ascend": "0",
+        "total-time": "0",
+        "total-energy": "40",
+        "cost": "19",
+        "messages": [
+          [
+            "Longitude",
+            "Latitude",
+            "Elevation",
+            "Distance",
+            "CostPerKm",
+            "ElevCost",
+            "TurnCost",
+            "NodeCost",
+            "InitialCost",
+            "WayTags",
+            "NodeTags",
+            "Time",
+            "Energy"
+          ],
+          [
+            "2930180",
+            "41722395",
+            "5",
+            "1",
+            "9079",
+            "0",
+            "1",
+            "0",
+            "0",
+            "highway=secondary surface=asphalt junction=roundabout cycleway:right=no",
+            "",
+            "0",
+            "40"
+          ]
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            2.930186,
+            41.722397,
+            5.0
+          ],
+          [
+            2.93018,
+            41.722395,
+            5.0
+          ]
+        ]
+      }
+    }
+  ]
+}

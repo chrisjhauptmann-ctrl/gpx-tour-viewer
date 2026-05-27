@@ -1,0 +1,3857 @@
+{
+  "schemaVersion": "2.0",
+  "planId": "reiseplan-juni-2026",
+  "name": "Reiseplan Juni 2026",
+  "status": "draft",
+  "source": {
+    "type": "xlsx-import",
+    "file": "//Users/chrishauptmann/Documents/PythonProjects/GPXAI/projects/reiseplan.xlsx",
+    "sheet": "Reiseplan Juni 2026"
+  },
+  "rules": {
+    "defaultRoutingProfile": "gravel",
+    "maxRideDistanceKm": 110.0,
+    "maxRideElevationGainM": 1800.0,
+    "maxConsecutiveRideDays": 5,
+    "requireCampingForBikeDay": true
+  },
+  "days": [
+    {
+      "dayId": "day-01",
+      "index": 1,
+      "date": "2026-05-29",
+      "displayDate": "29.05.2026",
+      "weekday": "Freitag",
+      "type": "arrival_day",
+      "mode": "flight",
+      "title": "Berlin BER nach Bilbao",
+      "notes": "Anreise ✈️ Berlin → Bilbao",
+      "travelInfo": "Anreise ✈️ Berlin → Bilbao",
+      "start": {
+        "name": "Berlin BER",
+        "lat": null,
+        "lon": null,
+        "source": "missing"
+      },
+      "goal": {
+        "name": "Bilbao",
+        "lat": 43.2633799,
+        "lon": -2.9348121,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Hotel/Hostel Bilbao Zentrum",
+        "type": "hostel",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Sopelana (15km, Küste)",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "✈️ EW 17:05 BER→BIO",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Guggenheim",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Casco Viejo",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Pintxos",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "arrival_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": false,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-02",
+      "index": 2,
+      "date": "2026-05-30",
+      "displayDate": "30.05.2026",
+      "weekday": "Samstag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Bilbao nach Laguardia",
+      "notes": "Camping Laguardia, Rioja Alavesa",
+      "travelInfo": "",
+      "start": {
+        "name": "Bilbao",
+        "lat": 43.2633799,
+        "lon": -2.9348121,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Laguardia",
+        "lat": 42.5535542,
+        "lon": -2.5848054,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Laguardia, Rioja Alavesa",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Rioja Alavesa",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Hostel Laguardia",
+          "type": "hostel",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Baskenland Hinterland",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Rioja Alavesa Weinberge",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Laguardia 🏰 mittelalterlich ummauert (4,7⭐)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Weindegustation",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Tapas",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 80.0,
+        "elevationGainM": 1600.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-03",
+      "index": 3,
+      "date": "2026-05-31",
+      "displayDate": "31.05.2026",
+      "weekday": "Sonntag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Laguardia nach Pamplona",
+      "notes": "Camping Ezcaba, Pamplona",
+      "travelInfo": "",
+      "start": {
+        "name": "Laguardia",
+        "lat": 42.5535542,
+        "lon": -2.5848054,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Pamplona",
+        "lat": 42.812526,
+        "lon": -1.6457745,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Ezcaba, Pamplona",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Errota El Molino",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Etxarri",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Rioja Alavesa",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Navarra Hügelland",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Jakobsweg-Route",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Festung Pamplona",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Altstadt",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Calle Estafeta",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 75.0,
+        "elevationGainM": 1400.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-04",
+      "index": 4,
+      "date": "2026-06-01",
+      "displayDate": "01.06.2026",
+      "weekday": "Montag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Pamplona nach Roncesvalles",
+      "notes": "Vormittag Sightseeing Pamplona",
+      "travelInfo": "Vormittag Sightseeing Pamplona",
+      "start": {
+        "name": "Pamplona",
+        "lat": 42.812526,
+        "lon": -1.6457745,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Roncesvalles",
+        "lat": 43.0089037,
+        "lon": -1.3193442,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Urrobi, Espinal",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Albergue Roncesvalles",
+          "type": "hostel",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Iruaxpe (Auritz)",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Kloster Roncesvalles",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Col de Ibañeta",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Selva de Irati Rand",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 48.0,
+        "elevationGainM": 900.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-05",
+      "index": 5,
+      "date": "2026-06-02",
+      "displayDate": "02.06.2026",
+      "weekday": "Dienstag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Roncesvalles nach Ochagavía",
+      "notes": "Camping Osate, Ochagavía",
+      "travelInfo": "",
+      "start": {
+        "name": "Roncesvalles",
+        "lat": 43.0089037,
+        "lon": -1.3193442,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Ochagavía",
+        "lat": 42.9055919,
+        "lon": -1.0900224,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Osate, Ochagavía",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Asolaze (Isaba)",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Urrobi (Espinal)",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Selva de Irati (Urwald!)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Ochagavía mittelalterlich",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "natürl. Flusspool",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 65.0,
+        "elevationGainM": 1400.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-06",
+      "index": 6,
+      "date": "2026-06-03",
+      "displayDate": "03.06.2026",
+      "weekday": "Mittwoch",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Ochagavía nach Gavarnie",
+      "notes": "Camping Le Pain de Sucre, Gavarnie",
+      "travelInfo": "",
+      "start": {
+        "name": "Ochagavía",
+        "lat": 42.9055919,
+        "lon": -1.0900224,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Gavarnie",
+        "lat": 42.7314,
+        "lon": -0.0107,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Le Pain de Sucre, Gavarnie",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping La Bergerie, Gavarnie",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Pyrénées, Gèdre",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Col du Soulor (1.474m)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Col d'Aubisque (1.709m) ⭐",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Ankunft Gavarnie abends",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 85.0,
+        "elevationGainM": 2000.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "flagged",
+        "score": null,
+        "issues": [
+          {
+            "code": "planned_climb_above_limit",
+            "severity": "medium",
+            "message": "Planned climb 2000 hm exceeds the configured limit of 1800 hm.",
+            "suggestion": "Reduce climbing or add an intermediate stop."
+          }
+        ],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-07",
+      "index": 7,
+      "date": "2026-06-04",
+      "displayDate": "04.06.2026",
+      "weekday": "Donnerstag",
+      "type": "rest_day",
+      "mode": "rest",
+      "title": "Gavarnie nach Gavarnie",
+      "notes": "🛑 Ruhetag",
+      "travelInfo": "🛑 Ruhetag",
+      "start": {
+        "name": "Gavarnie",
+        "lat": 42.7314,
+        "lon": -0.0107,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Gavarnie",
+        "lat": 42.7002771,
+        "lon": -0.0163231,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Le Pain de Sucre, Gavarnie",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping La Bergerie, Gavarnie",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🌀 Cirque de Gavarnie UNESCO (Wanderung ~4h)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Wasserfall 422m",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Pässe erkunden",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Ruhe genießen",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "rest_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-08",
+      "index": 8,
+      "date": "2026-06-05",
+      "displayDate": "05.06.2026",
+      "weekday": "Freitag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Gavarnie nach Torla-Ordesa",
+      "notes": "Camping Valle de Bujaruelo, Torla",
+      "travelInfo": "",
+      "start": {
+        "name": "Gavarnie",
+        "lat": 42.7002771,
+        "lon": -0.0163231,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Torla-Ordesa",
+        "lat": 42.62867749999999,
+        "lon": -0.1126542,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Valle de Bujaruelo, Torla",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Ordesa, Torla",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Río Ara, Broto",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🚴 Col du Tourmalet (2.115m) ⭐⭐ DER Klassiker!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Pic du Midi Aussicht",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Grenze → Spanien",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Torla",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 80.0,
+        "elevationGainM": 2500.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "flagged",
+        "score": null,
+        "issues": [
+          {
+            "code": "planned_climb_above_limit",
+            "severity": "medium",
+            "message": "Planned climb 2500 hm exceeds the configured limit of 1800 hm.",
+            "suggestion": "Reduce climbing or add an intermediate stop."
+          }
+        ],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-09",
+      "index": 9,
+      "date": "2026-06-06",
+      "displayDate": "06.06.2026",
+      "weekday": "Samstag",
+      "type": "rest_day",
+      "mode": "rest",
+      "title": "Torla nach Torla",
+      "notes": "🛑 Ruhetag",
+      "travelInfo": "🛑 Ruhetag",
+      "start": {
+        "name": "Torla",
+        "lat": null,
+        "lon": null,
+        "source": "missing"
+      },
+      "goal": {
+        "name": "Torla",
+        "lat": 42.6468705,
+        "lon": 0.0349001,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Valle de Bujaruelo, Torla",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Ordesa, Torla",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Río Ara, Broto",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🏔️ Ordesa y Monte Perdido NP (4,9⭐)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Bus ab Torla",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Wanderung Faja de Pelay",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Wasserfall Cola de Caballo",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "rest_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-10",
+      "index": 10,
+      "date": "2026-06-07",
+      "displayDate": "07.06.2026",
+      "weekday": "Sonntag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Torla-Ordesa nach Aínsa",
+      "notes": "Camping Ainsa, Aínsa",
+      "travelInfo": "",
+      "start": {
+        "name": "Torla-Ordesa",
+        "lat": null,
+        "lon": null,
+        "source": "missing"
+      },
+      "goal": {
+        "name": "Aínsa",
+        "lat": 42.4146941,
+        "lon": 0.1403811,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Ainsa, Aínsa",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Peña Montañesa",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Boltaña",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Schlucht Añisclo",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Aínsa mittelalterliche Altstadt ⭐",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Plaza Mayor",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Tapas abends",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 55.0,
+        "elevationGainM": 900.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "flagged",
+        "score": null,
+        "issues": [
+          {
+            "code": "missing_start_coordinates",
+            "severity": "high",
+            "message": "Bike day has no start coordinates.",
+            "suggestion": "Link the start to the previous day target or set it manually."
+          }
+        ],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-11",
+      "index": 11,
+      "date": "2026-06-08",
+      "displayDate": "08.06.2026",
+      "weekday": "Montag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Aínsa nach Benasque",
+      "notes": "Camping Aneto, Benasque",
+      "travelInfo": "",
+      "start": {
+        "name": "Aínsa",
+        "lat": 42.4146941,
+        "lon": 0.1403811,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Benasque",
+        "lat": 42.6042858,
+        "lon": 0.5228286,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Aneto, Benasque",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Ixeia, Benasque",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Barlonguera",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Schlucht Cañón de Añisclo",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Valle de Benasque",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Pico Aneto (3.404m) sichtbar",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "einsame Bergstraßen",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 75.0,
+        "elevationGainM": 1800.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-12",
+      "index": 12,
+      "date": "2026-06-09",
+      "displayDate": "09.06.2026",
+      "weekday": "Dienstag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Benasque nach Sort",
+      "notes": "Camping La Noguera, Sort",
+      "travelInfo": "",
+      "start": {
+        "name": "Benasque",
+        "lat": 42.6042858,
+        "lon": 0.5228286,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Sort",
+        "lat": 42.4102921,
+        "lon": 1.1287358,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping La Noguera, Sort",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Collegats",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Tribu, Sort",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Vall de Boí (romanische Kirchen UNESCO!)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Schlucht Collegats ⭐",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Sort Wildwasserhauptstadt",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 85.0,
+        "elevationGainM": 1600.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-13",
+      "index": 13,
+      "date": "2026-06-10",
+      "displayDate": "10.06.2026",
+      "weekday": "Mittwoch",
+      "type": "rest_day",
+      "mode": "rest",
+      "title": "Sort nach Sort",
+      "notes": "🛑 Ruhetag",
+      "travelInfo": "🛑 Ruhetag",
+      "start": {
+        "name": "Sort",
+        "lat": 42.4102921,
+        "lon": 1.1287358,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Sort",
+        "lat": 42.4102921,
+        "lon": 1.1287358,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping La Noguera, Sort",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Collegats",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Tribu, Sort",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Schlucht Collegats wandern",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Wildwasser zuschauen",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Erholung",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Palau de Gerri (romanisch)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "rest_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-14",
+      "index": 14,
+      "date": "2026-06-11",
+      "displayDate": "11.06.2026",
+      "weekday": "Donnerstag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Sort nach Ripoll",
+      "notes": "Camping Vall de Camprodon, Ripoll",
+      "travelInfo": "",
+      "start": {
+        "name": "Sort",
+        "lat": 42.4102921,
+        "lon": 1.1287358,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Ripoll",
+        "lat": 42.1994589,
+        "lon": 2.1907618,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Vall de Camprodon, Ripoll",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Ripoll",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping La Vall",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Vorpyrenäen Katalonien",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Coll de la Creu",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Romanisches Kloster Santa Maria de Ripoll ⭐",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 80.0,
+        "elevationGainM": 1200.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-15",
+      "index": 15,
+      "date": "2026-06-12",
+      "displayDate": "12.06.2026",
+      "weekday": "Freitag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Ripoll nach Girona",
+      "notes": "Camping Girona, Domeny",
+      "travelInfo": "",
+      "start": {
+        "name": "Ripoll",
+        "lat": 42.1994589,
+        "lon": 2.1907618,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Girona",
+        "lat": 42.18086700000001,
+        "lon": 2.4891623,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Girona, Domeny",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Can Toni",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Municipal Girona",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🌋 Olot Vulkane (Mittagsstopp)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Fageda d'en Jordà",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Besalú 🏰 Brücke ⭐",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Girona abends",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 90.0,
+        "elevationGainM": 1000.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-16",
+      "index": 16,
+      "date": "2026-06-13",
+      "displayDate": "13.06.2026",
+      "weekday": "Samstag",
+      "type": "rest_day",
+      "mode": "rest",
+      "title": "Girona nach Girona",
+      "notes": "🛑 Ruhetag",
+      "travelInfo": "🛑 Ruhetag",
+      "start": {
+        "name": "Girona",
+        "lat": 42.18086700000001,
+        "lon": 2.4891623,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Girona",
+        "lat": 41.9832846,
+        "lon": 2.8247119,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Girona, Domeny",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Can Toni",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Municipal Girona",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🏰 Girona Altstadt",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Kathedrale",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "jüdisches Viertel",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Game of Thrones Drehorte",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "rest_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-17",
+      "index": 17,
+      "date": "2026-06-14",
+      "displayDate": "14.06.2026",
+      "weekday": "Sonntag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Girona nach Tossa de Mar",
+      "notes": "Camping Pola, Tossa de Mar",
+      "travelInfo": "",
+      "start": {
+        "name": "Girona",
+        "lat": 41.9832846,
+        "lon": 2.8247119,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Tossa de Mar",
+        "lat": 41.9832846,
+        "lon": 2.8247119,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Pola, Tossa de Mar",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Can Martí",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Cala Llevadó",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Costa Brava Küstenstraße",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Tossa de Mar Burg ⭐",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "erster Meerblick!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 50.0,
+        "elevationGainM": 700.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-18",
+      "index": 18,
+      "date": "2026-06-15",
+      "displayDate": "15.06.2026",
+      "weekday": "Montag",
+      "type": "rest_day",
+      "mode": "rest",
+      "title": "Tossa de Mar nach Tossa de Mar",
+      "notes": "🏖️ Ruhetag",
+      "travelInfo": "🏖️ Ruhetag",
+      "start": {
+        "name": "Tossa de Mar",
+        "lat": 41.9832846,
+        "lon": 2.8247119,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Tossa de Mar",
+        "lat": 41.7223958,
+        "lon": 2.9301806,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Pola, Tossa de Mar",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Can Martí",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Cala Llevadó",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🏖️ Strand",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Burg Vila Vella",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Schnorcheln",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Faulenzen",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "NICHTS TUN!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "rest_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-19",
+      "index": 19,
+      "date": "2026-06-16",
+      "displayDate": "16.06.2026",
+      "weekday": "Dienstag",
+      "type": "rest_day",
+      "mode": "rest",
+      "title": "Tossa de Mar nach Tossa de Mar",
+      "notes": "🏖️ Ruhetag",
+      "travelInfo": "🏖️ Ruhetag",
+      "start": {
+        "name": "Tossa de Mar",
+        "lat": 41.7223958,
+        "lon": 2.9301806,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Tossa de Mar",
+        "lat": 41.7223958,
+        "lon": 2.9301806,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Pola, Tossa de Mar",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Can Martí",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Cala Llevadó",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🏖️ Strand Tag 2",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Kayak",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Buchten erkunden",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "NICHTS TUN!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "rest_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-20",
+      "index": 20,
+      "date": "2026-06-17",
+      "displayDate": "17.06.2026",
+      "weekday": "Mittwoch",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Tossa de Mar nach L'Escala",
+      "notes": "Camping Empúries, L'Escala",
+      "travelInfo": "",
+      "start": {
+        "name": "Tossa de Mar",
+        "lat": 41.7223958,
+        "lon": 2.9301806,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "L'Escala",
+        "lat": 41.7223958,
+        "lon": 2.9301806,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Empúries, L'Escala",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping La Ballena Alegre",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Neus",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Costa Brava",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Begur Burgruine",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Calella de Palafrugell",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Empúries römische Ruinen ⭐",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 100.0,
+        "elevationGainM": 1000.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-21",
+      "index": 21,
+      "date": "2026-06-18",
+      "displayDate": "18.06.2026",
+      "weekday": "Donnerstag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "L'Escala nach Figueres",
+      "notes": "Camping Mas Nou, Figueres",
+      "travelInfo": "",
+      "start": {
+        "name": "L'Escala",
+        "lat": 41.7223958,
+        "lon": 2.9301806,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Figueres",
+        "lat": 42.1340179,
+        "lon": 3.112428,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Mas Nou, Figueres",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping La Garriga",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Pyrenees",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Cadaqués ⭐ schönstes Dorf Costa Brava!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Cap de Creus 🌊 östlichster Punkt Spaniens!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Figueres",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 100.0,
+        "elevationGainM": 1200.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-22",
+      "index": 22,
+      "date": "2026-06-19",
+      "displayDate": "19.06.2026",
+      "weekday": "Freitag",
+      "type": "transfer_day",
+      "mode": "train",
+      "title": "Figueres 🚂 nach Avignon",
+      "notes": "🚂 Zugtag",
+      "travelInfo": "🚂 Zugtag",
+      "start": {
+        "name": "Figueres 🚂",
+        "lat": null,
+        "lon": null,
+        "source": "missing"
+      },
+      "goal": {
+        "name": "Avignon",
+        "lat": 42.2654818,
+        "lon": 2.9579232,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Bagatelle, Avignon",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping du Pont d'Avignon",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Hostel Avignon",
+          "type": "hostel",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🚂 Figueres → Perpignan → Montpellier → Avignon",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Papstpalast ⭐",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Pont d'Avignon",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Altstadt abends",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "transfer_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-23",
+      "index": 23,
+      "date": "2026-06-20",
+      "displayDate": "20.06.2026",
+      "weekday": "Samstag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Avignon nach Lourmarin",
+      "notes": "Camping Les Hautes Prairies, Lourmarin",
+      "travelInfo": "",
+      "start": {
+        "name": "Avignon",
+        "lat": 42.2654818,
+        "lon": 2.9579232,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Lourmarin",
+        "lat": 43.9508521,
+        "lon": 4.8076971,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Les Hautes Prairies, Lourmarin",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Domaine de Pierredon",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Gordes 🏰 schönstes Dorf Provence",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Village des Bories",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Roussillon 🎨 Ockerfelder (4,6⭐)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Lourmarin",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 110.0,
+        "elevationGainM": 1200.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-24",
+      "index": 24,
+      "date": "2026-06-21",
+      "displayDate": "21.06.2026",
+      "weekday": "Sonntag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Lourmarin nach Gorges du Verdon",
+      "notes": "Camping Gorges du Verdon, La Palud",
+      "travelInfo": "",
+      "start": {
+        "name": "Lourmarin",
+        "lat": 43.9508521,
+        "lon": 4.8076971,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Gorges du Verdon",
+        "lat": 43.76411299999999,
+        "lon": 5.36283,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Gorges du Verdon, La Palud",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Le Galetas, Moustiers",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Castellane",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "💜 Plateau de Valensole Lavendelfelder!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Moustiers-Sainte-Marie 🏘️ (4,7⭐)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Route des Crêtes (4,9⭐)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Point Sublime",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 95.0,
+        "elevationGainM": 1600.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-25",
+      "index": 25,
+      "date": "2026-06-22",
+      "displayDate": "22.06.2026",
+      "weekday": "Montag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Gorges du Verdon nach Nizza",
+      "notes": "Camping Terry, Nizza",
+      "travelInfo": "",
+      "start": {
+        "name": "Gorges du Verdon",
+        "lat": 43.76411299999999,
+        "lon": 5.36283,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Nizza",
+        "lat": 43.7613593,
+        "lon": 6.3788372,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Terry, Nizza",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Magnan",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Cap 3000",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Verdon Ostseite",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Castellane 🏘️",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Var-Tal",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Grasse (Parfümstadt)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Nizza Ankunft",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 95.0,
+        "elevationGainM": 1200.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-26",
+      "index": 26,
+      "date": "2026-06-23",
+      "displayDate": "23.06.2026",
+      "weekday": "Dienstag",
+      "type": "rest_day",
+      "mode": "rest",
+      "title": "Nizza nach Nizza",
+      "notes": "🏖️ Ruhetag",
+      "travelInfo": "🏖️ Ruhetag",
+      "start": {
+        "name": "Nizza",
+        "lat": 43.7613593,
+        "lon": 6.3788372,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Nizza",
+        "lat": 43.7101728,
+        "lon": 7.261953200000001,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Terry, Nizza",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Magnan",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Cap 3000",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "Promenade des Anglais",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Vieux Nice Altstadt",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Marché du Cours Saleya",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Strand",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Ruhe!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "rest_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-27",
+      "index": 27,
+      "date": "2026-06-24",
+      "displayDate": "24.06.2026",
+      "weekday": "Mittwoch",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Nizza nach San Remo",
+      "notes": "Camping Villaggio dei Fiori, San Remo",
+      "travelInfo": "",
+      "start": {
+        "name": "Nizza",
+        "lat": 43.7101728,
+        "lon": 7.261953200000001,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "San Remo",
+        "lat": 43.7101728,
+        "lon": 7.261953200000001,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Villaggio dei Fiori, San Remo",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Ariston",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Due Palme",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🇮🇹 Grenze Italien!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Ventimiglia",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Blumenriviera",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "San Remo Altstadt La Pigna",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 75.0,
+        "elevationGainM": 800.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-28",
+      "index": 28,
+      "date": "2026-06-25",
+      "displayDate": "25.06.2026",
+      "weekday": "Donnerstag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "San Remo nach Savona",
+      "notes": "Camping Buggi, Savona",
+      "travelInfo": "",
+      "start": {
+        "name": "San Remo",
+        "lat": 43.7101728,
+        "lon": 7.261953200000001,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Savona",
+        "lat": 43.8158851,
+        "lon": 7.775716,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Buggi, Savona",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping La Quiete",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Camping Sassello",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🚴 Letzter Radtag!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Imperia",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Albenga",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Savona Hafen",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Rad in Tasche packen (Decathlon!)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": 90.0,
+        "elevationGainM": 900.0,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-29",
+      "index": 29,
+      "date": "2026-06-26",
+      "displayDate": "26.06.2026",
+      "weekday": "Freitag",
+      "type": "transfer_day",
+      "mode": "train",
+      "title": "Savona 🚂 nach Rovereto",
+      "notes": "🚂 Zugtag",
+      "travelInfo": "🚂 Zugtag",
+      "start": {
+        "name": "Savona 🚂",
+        "lat": null,
+        "lon": null,
+        "source": "missing"
+      },
+      "goal": {
+        "name": "Rovereto",
+        "lat": 44.3067811,
+        "lon": 8.481165800000001,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Rovereto, Lizzanella",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Al Lago, Torbole",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        },
+        {
+          "name": "Hostel Rovereto",
+          "type": "hostel",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🚂 Savona → Genua → Mailand → Verona → Rovereto",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Gardasee Nähe",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "letzter Abend Italien",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "transfer_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-30",
+      "index": 30,
+      "date": "2026-06-27",
+      "displayDate": "27.06.2026",
+      "weekday": "Samstag",
+      "type": "rest_day",
+      "mode": "rest",
+      "title": "Rovereto nach Rovereto",
+      "notes": "🏖️ Gardasee",
+      "travelInfo": "🏖️ Gardasee",
+      "start": {
+        "name": "Rovereto",
+        "lat": 44.3067811,
+        "lon": 8.481165800000001,
+        "source": "linked-day"
+      },
+      "goal": {
+        "name": "Rovereto",
+        "lat": 45.8910217,
+        "lon": 11.0397667,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Camping Rovereto, Lizzanella",
+        "type": "camping",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [
+        {
+          "name": "Camping Al Lago, Torbole",
+          "type": "camping",
+          "lat": null,
+          "lon": null,
+          "status": "candidate"
+        }
+      ],
+      "pois": [
+        {
+          "name": "🏖️ Gardasee Torbole/Riva del Garda (~20km)",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Schwimmen",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Wein",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "letzter Abend Italien!",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": false,
+        "engine": null,
+        "profile": null,
+        "status": "skipped",
+        "skipReason": "rest_day"
+      },
+      "overnight": {
+        "requiredType": null,
+        "hasPrimaryCamping": true,
+        "hasAnyCampingOption": true
+      },
+      "assessment": {
+        "status": "pending",
+        "score": null,
+        "issues": [],
+        "recommendation": null
+      }
+    },
+    {
+      "dayId": "day-31",
+      "index": 31,
+      "date": "2026-06-28",
+      "displayDate": "28.06.2026",
+      "weekday": "Sonntag",
+      "type": "bike_day",
+      "mode": "bike",
+      "title": "Rovereto 🚂 nach Dresden 🏠",
+      "notes": "🚂 Heimreise",
+      "travelInfo": "🚂 Heimreise",
+      "start": {
+        "name": "Rovereto 🚂",
+        "lat": null,
+        "lon": null,
+        "source": "missing"
+      },
+      "goal": {
+        "name": "Dresden 🏠",
+        "lat": 51.0504088,
+        "lon": 13.7372621,
+        "source": "excel"
+      },
+      "waypoints": [],
+      "stay": {
+        "name": "Zuhause Dresden! 🏠",
+        "type": "sleep",
+        "lat": null,
+        "lon": null,
+        "status": "candidate"
+      },
+      "alternatives": [],
+      "pois": [
+        {
+          "name": "🚂 Rovereto → Innsbruck → München → Dresden",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        },
+        {
+          "name": "Ankunft Dresden abends 🎉",
+          "type": "poi_idea",
+          "lat": null,
+          "lon": null,
+          "status": "idea"
+        }
+      ],
+      "targets": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "computed": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null
+      },
+      "routing": {
+        "required": true,
+        "engine": "brouter",
+        "profile": "gravel",
+        "status": "pending",
+        "skipReason": null
+      },
+      "overnight": {
+        "requiredType": "camping",
+        "hasPrimaryCamping": false,
+        "hasAnyCampingOption": false
+      },
+      "assessment": {
+        "status": "flagged",
+        "score": null,
+        "issues": [
+          {
+            "code": "missing_start_coordinates",
+            "severity": "high",
+            "message": "Bike day has no start coordinates.",
+            "suggestion": "Link the start to the previous day target or set it manually."
+          },
+          {
+            "code": "missing_camping_finish",
+            "severity": "high",
+            "message": "Bike day has no camping place at the end of the stage.",
+            "suggestion": "Choose a camping destination or add a camping alternative before routing the day."
+          }
+        ],
+        "recommendation": null
+      }
+    }
+  ],
+  "routeSegments": [
+    {
+      "segmentId": "seg-day-02",
+      "dayId": "day-02",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Bilbao",
+          "lat": 43.2633799,
+          "lon": -2.9348121,
+          "source": "linked-day"
+        },
+        {
+          "name": "Laguardia",
+          "lat": 42.5535542,
+          "lon": -2.5848054,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-02.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-02.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-03",
+      "dayId": "day-03",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Laguardia",
+          "lat": 42.5535542,
+          "lon": -2.5848054,
+          "source": "linked-day"
+        },
+        {
+          "name": "Pamplona",
+          "lat": 42.812526,
+          "lon": -1.6457745,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-03.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-03.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-04",
+      "dayId": "day-04",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Pamplona",
+          "lat": 42.812526,
+          "lon": -1.6457745,
+          "source": "linked-day"
+        },
+        {
+          "name": "Roncesvalles",
+          "lat": 43.0089037,
+          "lon": -1.3193442,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-04.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-04.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-05",
+      "dayId": "day-05",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Roncesvalles",
+          "lat": 43.0089037,
+          "lon": -1.3193442,
+          "source": "linked-day"
+        },
+        {
+          "name": "Ochagavía",
+          "lat": 42.9055919,
+          "lon": -1.0900224,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-05.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-05.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-06",
+      "dayId": "day-06",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Ochagavía",
+          "lat": 42.9055919,
+          "lon": -1.0900224,
+          "source": "linked-day"
+        },
+        {
+          "name": "Gavarnie",
+          "lat": 42.7314,
+          "lon": -0.0107,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-06.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-06.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-08",
+      "dayId": "day-08",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Gavarnie",
+          "lat": 42.7002771,
+          "lon": -0.0163231,
+          "source": "linked-day"
+        },
+        {
+          "name": "Torla-Ordesa",
+          "lat": 42.62867749999999,
+          "lon": -0.1126542,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-08.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-08.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-10",
+      "dayId": "day-10",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Torla-Ordesa",
+          "lat": null,
+          "lon": null,
+          "source": "missing"
+        },
+        {
+          "name": "Aínsa",
+          "lat": 42.4146941,
+          "lon": 0.1403811,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-10.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-10.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-11",
+      "dayId": "day-11",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Aínsa",
+          "lat": 42.4146941,
+          "lon": 0.1403811,
+          "source": "linked-day"
+        },
+        {
+          "name": "Benasque",
+          "lat": 42.6042858,
+          "lon": 0.5228286,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-11.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-11.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-12",
+      "dayId": "day-12",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Benasque",
+          "lat": 42.6042858,
+          "lon": 0.5228286,
+          "source": "linked-day"
+        },
+        {
+          "name": "Sort",
+          "lat": 42.4102921,
+          "lon": 1.1287358,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-12.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-12.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-14",
+      "dayId": "day-14",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Sort",
+          "lat": 42.4102921,
+          "lon": 1.1287358,
+          "source": "linked-day"
+        },
+        {
+          "name": "Ripoll",
+          "lat": 42.1994589,
+          "lon": 2.1907618,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-14.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-14.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-15",
+      "dayId": "day-15",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Ripoll",
+          "lat": 42.1994589,
+          "lon": 2.1907618,
+          "source": "linked-day"
+        },
+        {
+          "name": "Girona",
+          "lat": 42.18086700000001,
+          "lon": 2.4891623,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-15.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-15.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-17",
+      "dayId": "day-17",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Girona",
+          "lat": 41.9832846,
+          "lon": 2.8247119,
+          "source": "linked-day"
+        },
+        {
+          "name": "Tossa de Mar",
+          "lat": 41.9832846,
+          "lon": 2.8247119,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-17.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-17.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-20",
+      "dayId": "day-20",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Tossa de Mar",
+          "lat": 41.7223958,
+          "lon": 2.9301806,
+          "source": "linked-day"
+        },
+        {
+          "name": "L'Escala",
+          "lat": 41.7223958,
+          "lon": 2.9301806,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-20.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-20.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-21",
+      "dayId": "day-21",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "L'Escala",
+          "lat": 41.7223958,
+          "lon": 2.9301806,
+          "source": "linked-day"
+        },
+        {
+          "name": "Figueres",
+          "lat": 42.1340179,
+          "lon": 3.112428,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-21.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-21.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-23",
+      "dayId": "day-23",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Avignon",
+          "lat": 42.2654818,
+          "lon": 2.9579232,
+          "source": "linked-day"
+        },
+        {
+          "name": "Lourmarin",
+          "lat": 43.9508521,
+          "lon": 4.8076971,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-23.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-23.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-24",
+      "dayId": "day-24",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Lourmarin",
+          "lat": 43.9508521,
+          "lon": 4.8076971,
+          "source": "linked-day"
+        },
+        {
+          "name": "Gorges du Verdon",
+          "lat": 43.76411299999999,
+          "lon": 5.36283,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-24.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-24.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-25",
+      "dayId": "day-25",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Gorges du Verdon",
+          "lat": 43.76411299999999,
+          "lon": 5.36283,
+          "source": "linked-day"
+        },
+        {
+          "name": "Nizza",
+          "lat": 43.7613593,
+          "lon": 6.3788372,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-25.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-25.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-27",
+      "dayId": "day-27",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Nizza",
+          "lat": 43.7101728,
+          "lon": 7.261953200000001,
+          "source": "linked-day"
+        },
+        {
+          "name": "San Remo",
+          "lat": 43.7101728,
+          "lon": 7.261953200000001,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-27.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-27.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-28",
+      "dayId": "day-28",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "San Remo",
+          "lat": 43.7101728,
+          "lon": 7.261953200000001,
+          "source": "linked-day"
+        },
+        {
+          "name": "Savona",
+          "lat": 43.8158851,
+          "lon": 7.775716,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-28.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-28.gpx"
+      },
+      "status": "pending"
+    },
+    {
+      "segmentId": "seg-day-31",
+      "dayId": "day-31",
+      "engine": "brouter",
+      "profile": "gravel",
+      "requestedPoints": [
+        {
+          "name": "Rovereto 🚂",
+          "lat": null,
+          "lon": null,
+          "source": "missing"
+        },
+        {
+          "name": "Dresden 🏠",
+          "lat": 51.0504088,
+          "lon": 13.7372621,
+          "source": "excel"
+        }
+      ],
+      "result": {
+        "distanceKm": null,
+        "elevationGainM": null,
+        "rideHours": null,
+        "geometryPath": "/projects/reiseplan_juni_2026/segments/day-31.geojson",
+        "gpxPath": "/projects/reiseplan_juni_2026/segments/day-31.gpx"
+      },
+      "status": "pending"
+    }
+  ],
+  "summary": {
+    "dayCount": 31,
+    "bikeDayCount": 20,
+    "restDayCount": 8,
+    "transferDayCount": 3,
+    "plannedDistanceKm": 1533.0,
+    "validatedDistanceKm": 0
+  },
+  "validation": {
+    "status": "pending",
+    "issues": [
+      {
+        "code": "days_need_routing",
+        "severity": "info",
+        "message": "20 bike days still need BRouter routing results.",
+        "suggestion": "Run the route builder before asking the AI for realism checks."
+      }
+    ]
+  }
+}

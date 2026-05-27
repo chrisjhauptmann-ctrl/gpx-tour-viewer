@@ -1,0 +1,812 @@
+{
+  "type": "FeatureCollection",
+  "name": "Reiseplan Juni 2026",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 1: Bilbao",
+        "category": "Plan: Tagesstation",
+        "day": "1",
+        "weekday": "Freitag",
+        "date": "29.05.2026",
+        "from": "Berlin BER",
+        "to": "Bilbao",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "Anreise ✈️ Berlin → Bilbao",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Hotel/Hostel Bilbao Zentrum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9348121,
+          43.2633799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 2: Laguardia",
+        "category": "Plan: Tagesstation",
+        "day": "2",
+        "weekday": "Samstag",
+        "date": "30.05.2026",
+        "from": "Bilbao",
+        "to": "Laguardia",
+        "distanceKm": 80.0,
+        "elevationGainM": 1600.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Laguardia, Rioja Alavesa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5848054,
+          42.5535542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 3: Pamplona",
+        "category": "Plan: Tagesstation",
+        "day": "3",
+        "weekday": "Sonntag",
+        "date": "31.05.2026",
+        "from": "Laguardia",
+        "to": "Pamplona",
+        "distanceKm": 75.0,
+        "elevationGainM": 1400.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Ezcaba, Pamplona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6457745,
+          42.812526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 4: Roncesvalles",
+        "category": "Plan: Tagesstation",
+        "day": "4",
+        "weekday": "Montag",
+        "date": "01.06.2026",
+        "from": "Pamplona",
+        "to": "Roncesvalles",
+        "distanceKm": 48.0,
+        "elevationGainM": 900.0,
+        "travelInfo": "Vormittag Sightseeing Pamplona",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Urrobi, Espinal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3193442,
+          43.0089037
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 5: Ochagavía",
+        "category": "Plan: Tagesstation",
+        "day": "5",
+        "weekday": "Dienstag",
+        "date": "02.06.2026",
+        "from": "Roncesvalles",
+        "to": "Ochagavía",
+        "distanceKm": 65.0,
+        "elevationGainM": 1400.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Osate, Ochagavía"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0900224,
+          42.9055919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 6: Gavarnie",
+        "category": "Plan: Tagesstation",
+        "day": "6",
+        "weekday": "Mittwoch",
+        "date": "03.06.2026",
+        "from": "Ochagavía",
+        "to": "Gavarnie",
+        "distanceKm": 85.0,
+        "elevationGainM": 2000.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Le Pain de Sucre, Gavarnie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0107,
+          42.7314
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 7: Gavarnie",
+        "category": "Plan: Tagesstation",
+        "day": "7",
+        "weekday": "Donnerstag",
+        "date": "04.06.2026",
+        "from": "Gavarnie",
+        "to": "Gavarnie",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🛑 Ruhetag",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Le Pain de Sucre, Gavarnie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0163231,
+          42.7002771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 8: Torla-Ordesa",
+        "category": "Plan: Tagesstation",
+        "day": "8",
+        "weekday": "Freitag",
+        "date": "05.06.2026",
+        "from": "Gavarnie",
+        "to": "Torla-Ordesa",
+        "distanceKm": 80.0,
+        "elevationGainM": 2500.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Valle de Bujaruelo, Torla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1126542,
+          42.62867749999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 9: Torla",
+        "category": "Plan: Tagesstation",
+        "day": "9",
+        "weekday": "Samstag",
+        "date": "06.06.2026",
+        "from": "Torla",
+        "to": "Torla",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🛑 Ruhetag",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Valle de Bujaruelo, Torla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0349001,
+          42.6468705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 10: Aínsa",
+        "category": "Plan: Tagesstation",
+        "day": "10",
+        "weekday": "Sonntag",
+        "date": "07.06.2026",
+        "from": "Torla-Ordesa",
+        "to": "Aínsa",
+        "distanceKm": 55.0,
+        "elevationGainM": 900.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Ainsa, Aínsa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1403811,
+          42.4146941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 11: Benasque",
+        "category": "Plan: Tagesstation",
+        "day": "11",
+        "weekday": "Montag",
+        "date": "08.06.2026",
+        "from": "Aínsa",
+        "to": "Benasque",
+        "distanceKm": 75.0,
+        "elevationGainM": 1800.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Aneto, Benasque"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5228286,
+          42.6042858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 12: Sort",
+        "category": "Plan: Tagesstation",
+        "day": "12",
+        "weekday": "Dienstag",
+        "date": "09.06.2026",
+        "from": "Benasque",
+        "to": "Sort",
+        "distanceKm": 85.0,
+        "elevationGainM": 1600.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping La Noguera, Sort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1287358,
+          42.4102921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 13: Sort",
+        "category": "Plan: Tagesstation",
+        "day": "13",
+        "weekday": "Mittwoch",
+        "date": "10.06.2026",
+        "from": "Sort",
+        "to": "Sort",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🛑 Ruhetag",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping La Noguera, Sort"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1287358,
+          42.4102921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 14: Ripoll",
+        "category": "Plan: Tagesstation",
+        "day": "14",
+        "weekday": "Donnerstag",
+        "date": "11.06.2026",
+        "from": "Sort",
+        "to": "Ripoll",
+        "distanceKm": 80.0,
+        "elevationGainM": 1200.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Vall de Camprodon, Ripoll"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1907618,
+          42.1994589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 15: Girona",
+        "category": "Plan: Tagesstation",
+        "day": "15",
+        "weekday": "Freitag",
+        "date": "12.06.2026",
+        "from": "Ripoll",
+        "to": "Girona",
+        "distanceKm": 90.0,
+        "elevationGainM": 1000.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Girona, Domeny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4891623,
+          42.18086700000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 16: Girona",
+        "category": "Plan: Tagesstation",
+        "day": "16",
+        "weekday": "Samstag",
+        "date": "13.06.2026",
+        "from": "Girona",
+        "to": "Girona",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🛑 Ruhetag",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Girona, Domeny"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8247119,
+          41.9832846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 17: Tossa de Mar",
+        "category": "Plan: Tagesstation",
+        "day": "17",
+        "weekday": "Sonntag",
+        "date": "14.06.2026",
+        "from": "Girona",
+        "to": "Tossa de Mar",
+        "distanceKm": 50.0,
+        "elevationGainM": 700.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Pola, Tossa de Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8247119,
+          41.9832846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 18: Tossa de Mar",
+        "category": "Plan: Tagesstation",
+        "day": "18",
+        "weekday": "Montag",
+        "date": "15.06.2026",
+        "from": "Tossa de Mar",
+        "to": "Tossa de Mar",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🏖️ Ruhetag",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Pola, Tossa de Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9301806,
+          41.7223958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 19: Tossa de Mar",
+        "category": "Plan: Tagesstation",
+        "day": "19",
+        "weekday": "Dienstag",
+        "date": "16.06.2026",
+        "from": "Tossa de Mar",
+        "to": "Tossa de Mar",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🏖️ Ruhetag",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Pola, Tossa de Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9301806,
+          41.7223958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 20: L'Escala",
+        "category": "Plan: Tagesstation",
+        "day": "20",
+        "weekday": "Mittwoch",
+        "date": "17.06.2026",
+        "from": "Tossa de Mar",
+        "to": "L'Escala",
+        "distanceKm": 100.0,
+        "elevationGainM": 1000.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Empúries, L'Escala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9301806,
+          41.7223958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 21: Figueres",
+        "category": "Plan: Tagesstation",
+        "day": "21",
+        "weekday": "Donnerstag",
+        "date": "18.06.2026",
+        "from": "L'Escala",
+        "to": "Figueres",
+        "distanceKm": 100.0,
+        "elevationGainM": 1200.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Mas Nou, Figueres"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.112428,
+          42.1340179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 22: Avignon",
+        "category": "Plan: Tagesstation",
+        "day": "22",
+        "weekday": "Freitag",
+        "date": "19.06.2026",
+        "from": "Figueres 🚂",
+        "to": "Avignon",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🚂 Zugtag",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Bagatelle, Avignon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9579232,
+          42.2654818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 23: Lourmarin",
+        "category": "Plan: Tagesstation",
+        "day": "23",
+        "weekday": "Samstag",
+        "date": "20.06.2026",
+        "from": "Avignon",
+        "to": "Lourmarin",
+        "distanceKm": 110.0,
+        "elevationGainM": 1200.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Les Hautes Prairies, Lourmarin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8076971,
+          43.9508521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 24: Gorges du Verdon",
+        "category": "Plan: Tagesstation",
+        "day": "24",
+        "weekday": "Sonntag",
+        "date": "21.06.2026",
+        "from": "Lourmarin",
+        "to": "Gorges du Verdon",
+        "distanceKm": 95.0,
+        "elevationGainM": 1600.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Gorges du Verdon, La Palud"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.36283,
+          43.76411299999999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 25: Nizza",
+        "category": "Plan: Tagesstation",
+        "day": "25",
+        "weekday": "Montag",
+        "date": "22.06.2026",
+        "from": "Gorges du Verdon",
+        "to": "Nizza",
+        "distanceKm": 95.0,
+        "elevationGainM": 1200.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Terry, Nizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3788372,
+          43.7613593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 26: Nizza",
+        "category": "Plan: Tagesstation",
+        "day": "26",
+        "weekday": "Dienstag",
+        "date": "23.06.2026",
+        "from": "Nizza",
+        "to": "Nizza",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🏖️ Ruhetag",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Terry, Nizza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.261953200000001,
+          43.7101728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 27: San Remo",
+        "category": "Plan: Tagesstation",
+        "day": "27",
+        "weekday": "Mittwoch",
+        "date": "24.06.2026",
+        "from": "Nizza",
+        "to": "San Remo",
+        "distanceKm": 75.0,
+        "elevationGainM": 800.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Villaggio dei Fiori, San Remo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.261953200000001,
+          43.7101728
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 28: Savona",
+        "category": "Plan: Tagesstation",
+        "day": "28",
+        "weekday": "Donnerstag",
+        "date": "25.06.2026",
+        "from": "San Remo",
+        "to": "Savona",
+        "distanceKm": 90.0,
+        "elevationGainM": 900.0,
+        "travelInfo": "",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Buggi, Savona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.775716,
+          43.8158851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 29: Rovereto",
+        "category": "Plan: Tagesstation",
+        "day": "29",
+        "weekday": "Freitag",
+        "date": "26.06.2026",
+        "from": "Savona 🚂",
+        "to": "Rovereto",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🚂 Zugtag",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Rovereto, Lizzanella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.481165800000001,
+          44.3067811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 30: Rovereto",
+        "category": "Plan: Tagesstation",
+        "day": "30",
+        "weekday": "Samstag",
+        "date": "27.06.2026",
+        "from": "Rovereto",
+        "to": "Rovereto",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🏖️ Gardasee",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Camping Rovereto, Lizzanella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0397667,
+          45.8910217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tag 31: Dresden 🏠",
+        "category": "Plan: Tagesstation",
+        "day": "31",
+        "weekday": "Sonntag",
+        "date": "28.06.2026",
+        "from": "Rovereto 🚂",
+        "to": "Dresden 🏠",
+        "distanceKm": null,
+        "elevationGainM": null,
+        "travelInfo": "🚂 Heimreise",
+        "source": "reiseplan.xlsx",
+        "status": "active",
+        "planType": "route_station",
+        "note": "Zuhause Dresden! 🏠"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.7372621,
+          51.0504088
+        ]
+      }
+    }
+  ]
+}
