@@ -1,0 +1,1532 @@
+{
+  "id": "tour-reiseplan3",
+  "name": "Reiseplan Juni 2026 (Excel-Import)",
+  "rules": {
+    "overnight_must_match_bike_end": true,
+    "overnight_must_be_camping_on_bike_days": true,
+    "max_km_per_bike_day": 100.0,
+    "max_hm_per_bike_day": 1800.0
+  },
+  "places": [
+    {
+      "id": "city-berlin-ber",
+      "name": "Berlin BER",
+      "kind": "city",
+      "lat": 0.0,
+      "lon": 0.0
+    },
+    {
+      "id": "city-bilbao",
+      "name": "Bilbao",
+      "kind": "city",
+      "lat": 43.2633799,
+      "lon": -2.9348121
+    },
+    {
+      "id": "stay-camping-sopelana-15km-k-ste-oder-hostel-bilbao-zentrum",
+      "name": "Camping Sopelana (15km, Küste) oder Hostel Bilbao Zentrum",
+      "kind": "camping",
+      "lat": 43.2633799,
+      "lon": -2.9348121
+    },
+    {
+      "id": "city-zumaia",
+      "name": "Zumaia",
+      "kind": "city",
+      "lat": 43.289727,
+      "lon": -2.247827
+    },
+    {
+      "id": "stay-camping-zumaia-kanpina-4-1-direkt-am-ort",
+      "name": "Camping Zumaia Kanpina (4,1⭐, direkt am Ort)",
+      "kind": "camping",
+      "lat": 43.289727,
+      "lon": -2.247827
+    },
+    {
+      "id": "city-pamplona",
+      "name": "Pamplona",
+      "kind": "city",
+      "lat": 42.812526,
+      "lon": -1.6457745
+    },
+    {
+      "id": "stay-camping-ezcaba-oric-in-5km-von-pamplona-fahrrad-10min",
+      "name": "Camping Ezcaba, Oricáin (5km von Pamplona, Fahrrad 10min)",
+      "kind": "camping",
+      "lat": 42.812526,
+      "lon": -1.6457745
+    },
+    {
+      "id": "city-roncesvalles",
+      "name": "Roncesvalles",
+      "kind": "city",
+      "lat": 43.0089037,
+      "lon": -1.3193442
+    },
+    {
+      "id": "stay-camping-urrobi-aurizberri-espinal-3km-von-roncesvalles",
+      "name": "Camping Urrobi, Aurizberri/Espinal (3km von Roncesvalles)",
+      "kind": "camping",
+      "lat": 43.0089037,
+      "lon": -1.3193442
+    },
+    {
+      "id": "city-gavarnie",
+      "name": "Gavarnie",
+      "kind": "city",
+      "lat": 42.7314,
+      "lon": -0.0107
+    },
+    {
+      "id": "stay-camping-le-pain-de-sucre-gavarnie",
+      "name": "Camping Le Pain de Sucre, Gavarnie",
+      "kind": "camping",
+      "lat": 42.7314,
+      "lon": -0.0107
+    },
+    {
+      "id": "city-argel-s-gazost",
+      "name": "Argelès-Gazost",
+      "kind": "city",
+      "lat": 43.0,
+      "lon": -0.1
+    },
+    {
+      "id": "stay-camping-les-lustrous-argel-s-gazost",
+      "name": "Camping Les Lustrous, Argelès-Gazost",
+      "kind": "camping",
+      "lat": 43.0,
+      "lon": -0.1
+    },
+    {
+      "id": "city-torla-ordesa",
+      "name": "Torla-Ordesa",
+      "kind": "city",
+      "lat": 42.62867749999999,
+      "lon": -0.1126542
+    },
+    {
+      "id": "stay-camping-valle-de-bujaruelo-torla-am-fluss-ara-sehr-sch-n",
+      "name": "Camping Valle de Bujaruelo, Torla (am Fluss Ara, sehr schön)",
+      "kind": "camping",
+      "lat": 42.62867749999999,
+      "lon": -0.1126542
+    },
+    {
+      "id": "city-torla",
+      "name": "Torla",
+      "kind": "city",
+      "lat": 42.6468705,
+      "lon": 0.0349001
+    },
+    {
+      "id": "city-a-nsa",
+      "name": "Aínsa",
+      "kind": "city",
+      "lat": 42.4146941,
+      "lon": 0.1403811
+    },
+    {
+      "id": "stay-camping-ainsa-direkt-unterm-dorf-flusslage",
+      "name": "Camping Ainsa (direkt unterm Dorf, Flusslage)",
+      "kind": "camping",
+      "lat": 42.4146941,
+      "lon": 0.1403811
+    },
+    {
+      "id": "city-benasque",
+      "name": "Benasque",
+      "kind": "city",
+      "lat": 42.6042858,
+      "lon": 0.5228286
+    },
+    {
+      "id": "stay-camping-aneto-benasque-fluss-sera-3",
+      "name": "Camping Aneto, Benasque (Fluss Ésera, 3⭐)",
+      "kind": "camping",
+      "lat": 42.6042858,
+      "lon": 0.5228286
+    },
+    {
+      "id": "city-sort",
+      "name": "Sort",
+      "kind": "city",
+      "lat": 42.4102921,
+      "lon": 1.1287358
+    },
+    {
+      "id": "stay-camping-la-noguera-sort-am-fluss-g-nstig",
+      "name": "Camping La Noguera, Sort (am Fluss, günstig)",
+      "kind": "camping",
+      "lat": 42.4102921,
+      "lon": 1.1287358
+    },
+    {
+      "id": "city-ripoll",
+      "name": "Ripoll",
+      "kind": "city",
+      "lat": 42.1994589,
+      "lon": 2.1907618
+    },
+    {
+      "id": "stay-camping-vall-de-camprodon-ripoll",
+      "name": "Camping Vall de Camprodon, Ripoll",
+      "kind": "camping",
+      "lat": 42.1994589,
+      "lon": 2.1907618
+    },
+    {
+      "id": "city-girona",
+      "name": "Girona",
+      "kind": "city",
+      "lat": 42.18086700000001,
+      "lon": 2.4891623
+    },
+    {
+      "id": "stay-camping-girona-domeny-4km-vom-zentrum-busverbindung",
+      "name": "Camping Girona, Domeny (4km vom Zentrum, Busverbindung)",
+      "kind": "camping",
+      "lat": 42.18086700000001,
+      "lon": 2.4891623
+    },
+    {
+      "id": "city-tossa-de-mar",
+      "name": "Tossa de Mar",
+      "kind": "city",
+      "lat": 41.7223958,
+      "lon": 2.9301806
+    },
+    {
+      "id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
+      "name": "Camping Pola, Tossa de Mar (300m vom Strand, 4⭐)",
+      "kind": "camping",
+      "lat": 41.7223958,
+      "lon": 2.9301806
+    },
+    {
+      "id": "city-l-escala",
+      "name": "L'Escala",
+      "kind": "city",
+      "lat": 42.1340179,
+      "lon": 3.112428
+    },
+    {
+      "id": "stay-camping-emp-ries-l-escala-direkt-bei-den-ruinen",
+      "name": "Camping Empúries, L'Escala (direkt bei den Ruinen!)",
+      "kind": "camping",
+      "lat": 42.1340179,
+      "lon": 3.112428
+    },
+    {
+      "id": "city-figueres",
+      "name": "Figueres",
+      "kind": "city",
+      "lat": 42.2654818,
+      "lon": 2.9579232
+    },
+    {
+      "id": "stay-camping-mas-nou-figueres-ruhig-3km-zentrum",
+      "name": "Camping Mas Nou, Figueres (ruhig, 3km Zentrum)",
+      "kind": "camping",
+      "lat": 42.2654818,
+      "lon": 2.9579232
+    },
+    {
+      "id": "city-avignon",
+      "name": "Avignon",
+      "kind": "city",
+      "lat": 43.9519,
+      "lon": 4.8076
+    },
+    {
+      "id": "stay-camping-bagatelle-avignon-direkt-an-der-rh-ne-4-shuttle-in-stadt",
+      "name": "Camping Bagatelle, Avignon (direkt an der Rhône, 4⭐, Shuttle in Stadt)",
+      "kind": "camping",
+      "lat": 43.9519,
+      "lon": 4.8076
+    },
+    {
+      "id": "city-lourmarin",
+      "name": "Lourmarin",
+      "kind": "city",
+      "lat": 43.7755825,
+      "lon": 5.3515561
+    },
+    {
+      "id": "stay-camping-les-hautes-prairies-lourmarin-4-pool",
+      "name": "Camping Les Hautes Prairies, Lourmarin (4⭐, Pool)",
+      "kind": "camping",
+      "lat": 43.7685592,
+      "lon": 5.3740913
+    },
+    {
+      "id": "city-gorges-du-verdon",
+      "name": "Gorges du Verdon",
+      "kind": "city",
+      "lat": 43.7796864,
+      "lon": 6.3413854
+    },
+    {
+      "id": "stay-camping-gorges-du-verdon-la-palud-sur-verdon-spektakul-re-lage",
+      "name": "Camping Gorges du Verdon, La Palud-sur-Verdon (spektakuläre Lage!)",
+      "kind": "camping",
+      "lat": 43.7796864,
+      "lon": 6.3413854
+    },
+    {
+      "id": "city-nizza",
+      "name": "Nizza",
+      "kind": "city",
+      "lat": 43.7009358,
+      "lon": 7.2683912
+    },
+    {
+      "id": "stay-camping-terry-nizza-bus-ins-zentrum",
+      "name": "Camping Terry, Nizza (Bus ins Zentrum)",
+      "kind": "camping",
+      "lat": 43.7009358,
+      "lon": 7.2683912
+    },
+    {
+      "id": "city-san-remo",
+      "name": "San Remo",
+      "kind": "city",
+      "lat": 43.8158851,
+      "lon": 7.775716
+    },
+    {
+      "id": "stay-camping-villaggio-dei-fiori-san-remo-4-500m-strand",
+      "name": "Camping Villaggio dei Fiori, San Remo (4⭐, 500m Strand)",
+      "kind": "camping",
+      "lat": 43.8158851,
+      "lon": 7.775716
+    },
+    {
+      "id": "city-savona",
+      "name": "Savona",
+      "kind": "city",
+      "lat": 44.3067811,
+      "lon": 8.4811658
+    },
+    {
+      "id": "stay-camping-buggi-savona-stadtnahe-g-nstig",
+      "name": "Camping Buggi, Savona (stadtnahe, günstig)",
+      "kind": "camping",
+      "lat": 44.3067811,
+      "lon": 8.4811658
+    },
+    {
+      "id": "city-rovereto",
+      "name": "Rovereto",
+      "kind": "city",
+      "lat": 44.3067811,
+      "lon": 8.481165800000001
+    },
+    {
+      "id": "stay-camping-rovereto-lizzanella-4km-zentrum-gardasee-n-he",
+      "name": "Camping Rovereto, Lizzanella (4km Zentrum, Gardasee-Nähe)",
+      "kind": "camping",
+      "lat": 44.3067811,
+      "lon": 8.481165800000001
+    },
+    {
+      "id": "city-dresden",
+      "name": "Dresden 🏠",
+      "kind": "city",
+      "lat": 51.0504088,
+      "lon": 13.7372621
+    },
+    {
+      "id": "stay-zuhause",
+      "name": "Zuhause! 🏠",
+      "kind": "sleep",
+      "lat": 51.0504088,
+      "lon": 13.7372621
+    }
+  ],
+  "days": [
+    {
+      "id": "day-01",
+      "date": "2026-05-29",
+      "day_type": "arrival_day",
+      "notes": [
+        "Travel: Anreise ✈️ Berlin → Bilbao",
+        "Stay: Camping Sopelana (15km, Küste) oder Hostel Bilbao Zentrum",
+        "Alternative: Camping Arrien de Gorlitz",
+        "Alternative: Camping Leagi (Markina)",
+        "Alternative: Hostel Bilbao BBK",
+        "Highlight: ✈️ Eurowings 17:05 BER→BIO",
+        "Highlight: Guggenheim Bilbao (Frank Gehry)",
+        "Highlight: Casco Viejo Altstadt",
+        "Highlight: Pintxos Bar Hopping",
+        "Highlight: Mercado de la Ribera",
+        "Highlight: Ría de Bilbao Promenade"
+      ],
+      "travel": {
+        "mode": "flight",
+        "start_place_id": "city-berlin-ber",
+        "end_place_id": "city-bilbao"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-sopelana-15km-k-ste-oder-hostel-bilbao-zentrum",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-02",
+      "date": "2026-05-30",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Zumaia Kanpina (4,1⭐, direkt am Ort)",
+        "Alternative: Gran Camping Zarautz",
+        "Alternative: Camping Orio",
+        "Alternative: Wild Camping Küste",
+        "Highlight: Baskenland Küstenstraße",
+        "Highlight: Zarautz 🏄 langer Sandstrand (4,6⭐)",
+        "Highlight: Flysch de Zumaia 🌊 (4,8⭐) Game of Thrones Drachenstein!",
+        "Highlight: spektakuläre Felsküste",
+        "Highlight: Zumaia Fischerhafen",
+        "Planned: 80.0 km / 1400.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-sopelana-15km-k-ste-oder-hostel-bilbao-zentrum",
+        "end_place_id": "stay-camping-zumaia-kanpina-4-1-direkt-am-ort",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-zumaia-kanpina-4-1-direkt-am-ort",
+      "validation": {
+        "status": "ok",
+        "distance_km": 95.45,
+        "elevation_gain_m": 1064,
+        "estimated_time_h": 5.83,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-02.gpx",
+        "geojson_path": "data/segments/day-02.geojson"
+      }
+    },
+    {
+      "id": "day-03",
+      "date": "2026-05-31",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Ezcaba, Oricáin (5km von Pamplona, Fahrrad 10min)",
+        "Alternative: Camping Errota El Molino",
+        "Alternative: Camping Etxarri",
+        "Alternative: Albergue Calle Eslava",
+        "Highlight: Baskenland Hinterland",
+        "Highlight: Navarra Berge",
+        "Highlight: langer Tag!",
+        "Highlight: Pamplona Festung Ciudadela",
+        "Highlight: Altstadt",
+        "Highlight: Calle Estafeta (Stierlauf-Strecke)",
+        "Highlight: Plaza del Castillo",
+        "Planned: 120.0 km / 1800.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-zumaia-kanpina-4-1-direkt-am-ort",
+        "end_place_id": "stay-camping-ezcaba-oric-in-5km-von-pamplona-fahrrad-10min",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-ezcaba-oric-in-5km-von-pamplona-fahrrad-10min",
+      "validation": {
+        "status": "flagged",
+        "distance_km": 112.69,
+        "elevation_gain_m": 1751,
+        "estimated_time_h": 7.67,
+        "issues": [
+          {
+            "code": "distance_too_high",
+            "message": "112.69 km exceeds the daily limit of 100.0 km."
+          }
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-03.gpx",
+        "geojson_path": "data/segments/day-03.geojson"
+      }
+    },
+    {
+      "id": "day-04",
+      "date": "2026-06-01",
+      "day_type": "bike_day",
+      "notes": [
+        "Travel: Vormittag Sightseeing Pamplona",
+        "Stay: Camping Urrobi, Aurizberri/Espinal (3km von Roncesvalles)",
+        "Alternative: Albergue Roncesvalles (Kloster!)",
+        "Alternative: Camping Iruaxpe",
+        "Alternative: Wild Camping Wald",
+        "Highlight: Pamplona Vormittag: Festung",
+        "Highlight: Kathedrale",
+        "Highlight: Plaza del Castillo Kaffee",
+        "Highlight: Col de Ibañeta (1057m)",
+        "Highlight: Kloster Roncesvalles ⭐ (Jakobsweg)",
+        "Highlight: Roland-Denkmal",
+        "Highlight: Selva de Irati Rand",
+        "Planned: 48.0 km / 900.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-ezcaba-oric-in-5km-von-pamplona-fahrrad-10min",
+        "end_place_id": "stay-camping-urrobi-aurizberri-espinal-3km-von-roncesvalles",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-urrobi-aurizberri-espinal-3km-von-roncesvalles",
+      "validation": {
+        "status": "ok",
+        "distance_km": 62.44,
+        "elevation_gain_m": 864,
+        "estimated_time_h": 4.25,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-04.gpx",
+        "geojson_path": "data/segments/day-04.geojson"
+      }
+    },
+    {
+      "id": "day-05",
+      "date": "2026-06-02",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Le Pain de Sucre, Gavarnie",
+        "Alternative: Camping La Bergerie",
+        "Alternative: Camping Les Tilleuls, Gèdre",
+        "Alternative: Gîte d'étape",
+        "Highlight: Selva de Irati 🌲 (Buchenwald, kurz durchfahren!)",
+        "Highlight: Col d'Orgambide",
+        "Highlight: Frankreich",
+        "Highlight: Vallée d'Ossau",
+        "Highlight: Gavarnie Dorf",
+        "Highlight: Abend Cirque de Gavarnie",
+        "Planned: 85.0 km / 1800.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-urrobi-aurizberri-espinal-3km-von-roncesvalles",
+        "end_place_id": "stay-camping-le-pain-de-sucre-gavarnie",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-le-pain-de-sucre-gavarnie",
+      "validation": {
+        "status": "flagged",
+        "distance_km": 228.47,
+        "elevation_gain_m": 3033,
+        "estimated_time_h": 14.55,
+        "issues": [
+          {
+            "code": "distance_too_high",
+            "message": "228.47 km exceeds the daily limit of 100.0 km."
+          },
+          {
+            "code": "elevation_too_high",
+            "message": "3033 hm exceeds the daily limit of 1800.0 hm."
+          }
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-05.gpx",
+        "geojson_path": "data/segments/day-05.geojson"
+      }
+    },
+    {
+      "id": "day-06",
+      "date": "2026-06-03",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Les Lustrous, Argelès-Gazost",
+        "Alternative: Camping Le Gave",
+        "Alternative: Camping Pyrénées Natura",
+        "Alternative: Camping du Lavedan",
+        "Highlight: Col du Soulor (1474m)",
+        "Highlight: Col d'Aubisque (1709m) 4,9⭐ Tour de France!",
+        "Highlight: Lamas oben!",
+        "Highlight: Belvédère de l'Écluse",
+        "Highlight: Argelès-Gazost Thermalstadt",
+        "Planned: 90.0 km / 2200.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-le-pain-de-sucre-gavarnie",
+        "end_place_id": "stay-camping-les-lustrous-argel-s-gazost",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-les-lustrous-argel-s-gazost",
+      "validation": {
+        "status": "ok",
+        "distance_km": 38.23,
+        "elevation_gain_m": 386,
+        "estimated_time_h": 1.5,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-06.gpx",
+        "geojson_path": "data/segments/day-06.geojson"
+      }
+    },
+    {
+      "id": "day-07",
+      "date": "2026-06-04",
+      "day_type": "rest_day",
+      "notes": [
+        "Travel: 🛑 Ruhetag",
+        "Stay: Camping Le Pain de Sucre, Gavarnie (direkt unter dem Cirque!)",
+        "Alternative: Camping La Bergerie, Gavarnie",
+        "Alternative: Camping Les Tilleuls, Gèdre",
+        "Alternative: Gîte d'étape",
+        "Highlight: 🌀 Cirque de Gavarnie UNESCO 4,8⭐ (Wanderung 2h)",
+        "Highlight: Wasserfall Grande Cascade (422m!)",
+        "Highlight: Geier beobachten",
+        "Highlight: Dorf Gavarnie mittelalterlich",
+        "Highlight: Pont Napoléon"
+      ],
+      "travel": {
+        "mode": null,
+        "start_place_id": "city-gavarnie",
+        "end_place_id": "city-gavarnie"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-les-lustrous-argel-s-gazost",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-08",
+      "date": "2026-06-05",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Valle de Bujaruelo, Torla (am Fluss Ara, sehr schön)",
+        "Alternative: Camping Ordesa, Torla",
+        "Alternative: Camping Río Ara, Broto",
+        "Alternative: Wild Camping Bujaruelo-Tal",
+        "Highlight: 🚴 Col du Tourmalet (2115m) 4,7⭐ DER Tour de France Pass!",
+        "Highlight: Stèle du Géant Denkmal oben",
+        "Highlight: Pic du Midi de Bigorre (3000m) Seilbahn optional",
+        "Highlight: Luz-Saint-Sauveur mittelalterliche Festungskirche",
+        "Highlight: Grenze Spanien",
+        "Planned: 80.0 km / 2500.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-les-lustrous-argel-s-gazost",
+        "end_place_id": "stay-camping-valle-de-bujaruelo-torla-am-fluss-ara-sehr-sch-n",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-valle-de-bujaruelo-torla-am-fluss-ara-sehr-sch-n",
+      "validation": {
+        "status": "flagged",
+        "distance_km": 62.85,
+        "elevation_gain_m": 2255,
+        "estimated_time_h": 6.69,
+        "issues": [
+          {
+            "code": "elevation_too_high",
+            "message": "2255 hm exceeds the daily limit of 1800.0 hm."
+          }
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-08.gpx",
+        "geojson_path": "data/segments/day-08.geojson"
+      }
+    },
+    {
+      "id": "day-09",
+      "date": "2026-06-06",
+      "day_type": "rest_day",
+      "notes": [
+        "Travel: 🛑 Ruhetag",
+        "Stay: Camping Valle de Bujaruelo, Torla (2. Nacht)",
+        "Alternative: Camping Ordesa, Torla",
+        "Alternative: Refugio Góriz (im Park, Voranmeldung!)",
+        "Highlight: 🏔️ Ordesa y Monte Perdido NP 4,9⭐",
+        "Highlight: Bus ab Torla (Auto verboten im Park!)",
+        "Highlight: Wanderung Faja de Pelay (Panoramaweg)",
+        "Highlight: Wasserfall Cola de Caballo",
+        "Highlight: Geier",
+        "Highlight: Monte Perdido (3355m) sichtbar"
+      ],
+      "travel": {
+        "mode": null,
+        "start_place_id": "city-torla",
+        "end_place_id": "city-torla"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-valle-de-bujaruelo-torla-am-fluss-ara-sehr-sch-n",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-10",
+      "date": "2026-06-07",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Ainsa (direkt unterm Dorf, Flusslage)",
+        "Alternative: Camping Peña Montañesa (8km)",
+        "Alternative: Camping Boltaña",
+        "Alternative: Wild Camping Fluss",
+        "Highlight: Schlucht Cañón de Añisclo ⭐ (kurzer Abstecher!)",
+        "Highlight: Aínsa 🏰 mittelalterliche Altstadt (4,6⭐)",
+        "Highlight: Plaza Mayor mit Arkaden",
+        "Highlight: Romanische Kirche Santa María",
+        "Highlight: Tapas & Rioja Wein abends",
+        "Planned: 55.0 km / 900.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-valle-de-bujaruelo-torla-am-fluss-ara-sehr-sch-n",
+        "end_place_id": "stay-camping-ainsa-direkt-unterm-dorf-flusslage",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-ainsa-direkt-unterm-dorf-flusslage",
+      "validation": {
+        "status": "ok",
+        "distance_km": 55.74,
+        "elevation_gain_m": 963,
+        "estimated_time_h": 3.81,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-10.gpx",
+        "geojson_path": "data/segments/day-10.geojson"
+      }
+    },
+    {
+      "id": "day-11",
+      "date": "2026-06-08",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Aneto, Benasque (Fluss Ésera, 3⭐)",
+        "Alternative: Camping Ixeia, Benasque",
+        "Alternative: Camping Barlonguera",
+        "Alternative: Wild Camping Hochtal",
+        "Highlight: Cañón de Añisclo (wenn 07.06 nicht)",
+        "Highlight: Valle de Benasque",
+        "Highlight: Pico Aneto (3404m, höchster Berg Pyrenäen) sichtbar",
+        "Highlight: Posets-Maladeta Naturpark",
+        "Highlight: Benasque Dorf sehr schön",
+        "Highlight: heiße Quellen Baños de Benasque",
+        "Planned: 75.0 km / 1800.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-ainsa-direkt-unterm-dorf-flusslage",
+        "end_place_id": "stay-camping-aneto-benasque-fluss-sera-3",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-aneto-benasque-fluss-sera-3",
+      "validation": {
+        "status": "flagged",
+        "distance_km": 73.08,
+        "elevation_gain_m": 1823,
+        "estimated_time_h": 6.55,
+        "issues": [
+          {
+            "code": "elevation_too_high",
+            "message": "1823 hm exceeds the daily limit of 1800.0 hm."
+          }
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-11.gpx",
+        "geojson_path": "data/segments/day-11.geojson"
+      }
+    },
+    {
+      "id": "day-12",
+      "date": "2026-06-09",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping La Noguera, Sort (am Fluss, günstig)",
+        "Alternative: Camping Collegats (direkt an der Schlucht!)",
+        "Alternative: Camping Tribu, Sort",
+        "Highlight: Vall de Boí 🏛️ UNESCO romanische Kirchen ⭐⭐ (9 Kirchen, einzigartig!)",
+        "Highlight: Taüll Dorf",
+        "Highlight: Schlucht Collegats 🌊 (spektakulär!)",
+        "Highlight: Sort Wildwasserhauptstadt Spaniens",
+        "Highlight: Kajakfahrer zuschauen",
+        "Planned: 85.0 km / 1600.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-aneto-benasque-fluss-sera-3",
+        "end_place_id": "stay-camping-la-noguera-sort-am-fluss-g-nstig",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-la-noguera-sort-am-fluss-g-nstig",
+      "validation": {
+        "status": "flagged",
+        "distance_km": 114.61,
+        "elevation_gain_m": 2141,
+        "estimated_time_h": 8.41,
+        "issues": [
+          {
+            "code": "distance_too_high",
+            "message": "114.61 km exceeds the daily limit of 100.0 km."
+          },
+          {
+            "code": "elevation_too_high",
+            "message": "2141 hm exceeds the daily limit of 1800.0 hm."
+          }
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-12.gpx",
+        "geojson_path": "data/segments/day-12.geojson"
+      }
+    },
+    {
+      "id": "day-13",
+      "date": "2026-06-10",
+      "day_type": "rest_day",
+      "notes": [
+        "Travel: 🛑 Ruhetag",
+        "Stay: Camping La Noguera, Sort (2. Nacht)",
+        "Alternative: Camping Collegats",
+        "Alternative: Camping Tribu, Sort",
+        "Highlight: 🛑 Sort Ruhetag",
+        "Highlight: Schlucht Collegats Wanderung (kostenlos!)",
+        "Highlight: Wildwasser Río Noguera Pallaresa zuschauen",
+        "Highlight: Palau de Gerri (romanische Kirche, 11.Jh.)",
+        "Highlight: Einkaufen Sort",
+        "Highlight: Ausruhen am Fluss"
+      ],
+      "travel": {
+        "mode": null,
+        "start_place_id": "city-sort",
+        "end_place_id": "city-sort"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-la-noguera-sort-am-fluss-g-nstig",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-14",
+      "date": "2026-06-11",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Vall de Camprodon, Ripoll",
+        "Alternative: Camping Ripoll",
+        "Alternative: Camping La Vall",
+        "Alternative: Camping Lles de Cerdanya",
+        "Highlight: Vorpyrenäen Katalonien",
+        "Highlight: Vall de Lord",
+        "Highlight: Sant Llorenç de Morunys ⭐ (verstecktes mittelalterliches Dorf)",
+        "Highlight: Coll de Port (1738m)",
+        "Highlight: Ripoll mittelalterliche Abtei Santa Maria (UNESCO-Kandidat)",
+        "Planned: 80.0 km / 1200.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-la-noguera-sort-am-fluss-g-nstig",
+        "end_place_id": "stay-camping-vall-de-camprodon-ripoll",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-vall-de-camprodon-ripoll",
+      "validation": {
+        "status": "flagged",
+        "distance_km": 155.24,
+        "elevation_gain_m": 2489,
+        "estimated_time_h": 10.74,
+        "issues": [
+          {
+            "code": "distance_too_high",
+            "message": "155.24 km exceeds the daily limit of 100.0 km."
+          },
+          {
+            "code": "elevation_too_high",
+            "message": "2489 hm exceeds the daily limit of 1800.0 hm."
+          }
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-14.gpx",
+        "geojson_path": "data/segments/day-14.geojson"
+      }
+    },
+    {
+      "id": "day-15",
+      "date": "2026-06-12",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Girona, Domeny (4km vom Zentrum, Busverbindung)",
+        "Alternative: Camping Can Toni Colomer",
+        "Alternative: Camping Municipal Girona",
+        "Alternative: Hostel Girona Backpackers",
+        "Highlight: 🌋 Olot Garrotxa Vulkanlandschaft (Mittagsstopp!)",
+        "Highlight: Santa Margarida Vulkankegel",
+        "Highlight: Fageda d'en Jordà Buchenwald auf Lava 🌲",
+        "Highlight: Besalú 🏰 romanische Brücke (4,7⭐)",
+        "Highlight: Girona Altstadt abends erkunden",
+        "Planned: 90.0 km / 1000.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-vall-de-camprodon-ripoll",
+        "end_place_id": "stay-camping-girona-domeny-4km-vom-zentrum-busverbindung",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-girona-domeny-4km-vom-zentrum-busverbindung",
+      "validation": {
+        "status": "ok",
+        "distance_km": 33.84,
+        "elevation_gain_m": 485,
+        "estimated_time_h": 2.12,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-15.gpx",
+        "geojson_path": "data/segments/day-15.geojson"
+      }
+    },
+    {
+      "id": "day-16",
+      "date": "2026-06-13",
+      "day_type": "rest_day",
+      "notes": [
+        "Travel: 🛑 Ruhetag",
+        "Stay: Camping Girona, Domeny (2. Nacht)",
+        "Alternative: Camping Can Toni",
+        "Alternative: Hostel Girona Backpackers",
+        "Highlight: 🏰 Girona Altstadt (4,8⭐)",
+        "Highlight: Kathedrale Santa Maria (breitestes gotisches Schiff!)",
+        "Highlight: jüdisches Viertel El Call",
+        "Highlight: Game of Thrones Drehorte (Königsweg!)",
+        "Highlight: Rambla de la Llibertat",
+        "Highlight: Tapas & Cava abends"
+      ],
+      "travel": {
+        "mode": null,
+        "start_place_id": "city-girona",
+        "end_place_id": "city-girona"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-girona-domeny-4km-vom-zentrum-busverbindung",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-17",
+      "date": "2026-06-14",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Pola, Tossa de Mar (300m vom Strand, 4⭐)",
+        "Alternative: Camping Can Martí (Wanderwege)",
+        "Alternative: Camping Cala Llevadó (Meerblick!)",
+        "Alternative: Camping Tower",
+        "Highlight: Costa Brava Küstenstraße GI-682 (kurvig & schön!)",
+        "Highlight: Tossa de Mar 🏰 Vila Vella mittelalterliche Burg direkt am Meer ⭐",
+        "Highlight: Platja Gran Strand",
+        "Highlight: Schnorcheln Cala Bona",
+        "Planned: 50.0 km / 700.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-girona-domeny-4km-vom-zentrum-busverbindung",
+        "end_place_id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
+      "validation": {
+        "status": "ok",
+        "distance_km": 95.39,
+        "elevation_gain_m": 477,
+        "estimated_time_h": 4.67,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-17.gpx",
+        "geojson_path": "data/segments/day-17.geojson"
+      }
+    },
+    {
+      "id": "day-18",
+      "date": "2026-06-15",
+      "day_type": "rest_day",
+      "notes": [
+        "Travel: 🏖️ Ruhetag",
+        "Stay: Camping Pola, Tossa de Mar",
+        "Alternative: Camping Can Martí",
+        "Alternative: Camping Cala Llevadó",
+        "Highlight: 🏖️ Tossa Strand Tag 1",
+        "Highlight: Burg Vila Vella Rundgang (kostenlos, abends beleuchtet)",
+        "Highlight: Schnorcheln Cala Bona/Codolar",
+        "Highlight: Kayak mieten",
+        "Highlight: Fischrestaurant Hafen",
+        "Highlight: Sunset von der Burg"
+      ],
+      "travel": {
+        "mode": null,
+        "start_place_id": "city-tossa-de-mar",
+        "end_place_id": "city-tossa-de-mar"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-19",
+      "date": "2026-06-16",
+      "day_type": "rest_day",
+      "notes": [
+        "Travel: 🏖️ Ruhetag",
+        "Stay: Camping Pola, Tossa de Mar",
+        "Alternative: Camping Can Martí",
+        "Alternative: Camping Cala Llevadó",
+        "Highlight: 🏖️ Tossa Strand Tag 2",
+        "Highlight: Glasbodenboot-Tour (Glasbootfahrt zu Grotten)",
+        "Highlight: Wanderung Cami de Ronda Küstenweg",
+        "Highlight: Faulenzertag",
+        "Highlight: lokaler Markt morgens",
+        "Highlight: Meeresfrüchte Abendessen"
+      ],
+      "travel": {
+        "mode": null,
+        "start_place_id": "city-tossa-de-mar",
+        "end_place_id": "city-tossa-de-mar"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-20",
+      "date": "2026-06-17",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Empúries, L'Escala (direkt bei den Ruinen!)",
+        "Alternative: Camping La Ballena Alegre, Roses",
+        "Alternative: Camping Neus, L'Escala",
+        "Alternative: Camping Illa Mateua",
+        "Highlight: Begur 🏰 Burgruine mit Meerblick",
+        "Highlight: Calella de Palafrugell (Fischerboote, Postkartenmotiv)",
+        "Highlight: Palafrugell Wochenmarkt",
+        "Highlight: L'Escala",
+        "Highlight: Empúries 🏛️ römische + griechische Ruinen direkt am Meer (einzigartig in Spanien!) ⭐⭐",
+        "Planned: 100.0 km / 1000.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-pola-tossa-de-mar-300m-vom-strand-4",
+        "end_place_id": "stay-camping-emp-ries-l-escala-direkt-bei-den-ruinen",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-emp-ries-l-escala-direkt-bei-den-ruinen",
+      "validation": {
+        "status": "ok",
+        "distance_km": 84.24,
+        "elevation_gain_m": 525,
+        "estimated_time_h": 4.49,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-20.gpx",
+        "geojson_path": "data/segments/day-20.geojson"
+      }
+    },
+    {
+      "id": "day-21",
+      "date": "2026-06-18",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Mas Nou, Figueres (ruhig, 3km Zentrum)",
+        "Alternative: Camping La Garriga de Castelladral",
+        "Alternative: Camping Empordà",
+        "Alternative: Hostel Figueres",
+        "Highlight: Cadaqués ⭐⭐ schönstes Dorf Costa Brava!",
+        "Highlight: Dalí-Haus Port Lligat",
+        "Highlight: Cap de Creus 🌊 (4,7⭐) östlichster Punkt Spaniens",
+        "Highlight: Naturpark Cap de Creus",
+        "Highlight: Portbou Grenzort",
+        "Highlight: Figueres Ankunft",
+        "Planned: 100.0 km / 1200.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-emp-ries-l-escala-direkt-bei-den-ruinen",
+        "end_place_id": "stay-camping-mas-nou-figueres-ruhig-3km-zentrum",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-mas-nou-figueres-ruhig-3km-zentrum",
+      "validation": {
+        "status": "ok",
+        "distance_km": 30.33,
+        "elevation_gain_m": 42,
+        "estimated_time_h": 1.47,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-21.gpx",
+        "geojson_path": "data/segments/day-21.geojson"
+      }
+    },
+    {
+      "id": "day-22",
+      "date": "2026-06-19",
+      "day_type": "transfer_day",
+      "notes": [
+        "Travel: 🚂 Zugtag",
+        "Stay: Camping Bagatelle, Avignon (direkt an der Rhône, 4⭐, Shuttle in Stadt)",
+        "Alternative: Camping du Pont d'Avignon (sehr nah!)",
+        "Alternative: Camping Île de la Barthelasse",
+        "Highlight: 🚂 Figueres-Vilafant → Perpignan → Nîmes/Montpellier → Avignon",
+        "Highlight: Avignon Papstpalast UNESCO (4,5⭐)",
+        "Highlight: Pont d'Avignon (4,2⭐)",
+        "Highlight: Stadtmauer Spaziergang",
+        "Highlight: Place de l'Horloge abends"
+      ],
+      "travel": {
+        "mode": "train",
+        "start_place_id": "city-figueres",
+        "end_place_id": "city-avignon"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-bagatelle-avignon-direkt-an-der-rh-ne-4-shuttle-in-stadt",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-23",
+      "date": "2026-06-20",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Les Hautes Prairies, Lourmarin (4⭐, Pool)",
+        "Alternative: Camping Domaine de Pierredon",
+        "Alternative: Camping Le Luberon, Apt",
+        "Alternative: Wild Camping Luberon",
+        "Highlight: Gordes 🏰 (4,8⭐) schönstes Dorf Provence auf Felsen",
+        "Highlight: Village des Bories (Steinzeit-Hütten)",
+        "Highlight: Abbaye de Sénanque (Lavendel + Kloster, Foto-Klassiker!)",
+        "Highlight: Roussillon 🎨 (4,6⭐) Ockerfelder",
+        "Highlight: Lourmarin (Camus Grab)",
+        "Highlight: Luberon",
+        "Planned: 110.0 km / 1200.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-bagatelle-avignon-direkt-an-der-rh-ne-4-shuttle-in-stadt",
+        "end_place_id": "stay-camping-les-hautes-prairies-lourmarin-4-pool",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-les-hautes-prairies-lourmarin-4-pool",
+      "validation": {
+        "status": "ok",
+        "distance_km": 66.52,
+        "elevation_gain_m": 450,
+        "estimated_time_h": 3.71,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-23.gpx",
+        "geojson_path": "data/segments/day-23.geojson"
+      }
+    },
+    {
+      "id": "day-24",
+      "date": "2026-06-21",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Gorges du Verdon, La Palud-sur-Verdon (spektakuläre Lage!)",
+        "Alternative: Camping Le Galetas, Moustiers (am See!)",
+        "Alternative: Camping Castellane",
+        "Alternative: Camping La Colle",
+        "Highlight: 💜 Plateau de Valensole Lavendelfelder! (Ende Juni = Hauptblüte, Bienen!)",
+        "Highlight: Moustiers-Sainte-Marie 🏘️ (4,7⭐, Stern über der Schlucht!)",
+        "Highlight: Lac de Sainte-Croix 💙 (4,8⭐)",
+        "Highlight: Route des Crêtes (4,9⭐)",
+        "Highlight: Point Sublime (4,7⭐)",
+        "Highlight: Geier!",
+        "Planned: 95.0 km / 1600.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-les-hautes-prairies-lourmarin-4-pool",
+        "end_place_id": "stay-camping-gorges-du-verdon-la-palud-sur-verdon-spektakul-re-lage",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-gorges-du-verdon-la-palud-sur-verdon-spektakul-re-lage",
+      "validation": {
+        "status": "flagged",
+        "distance_km": 106.82,
+        "elevation_gain_m": 1603,
+        "estimated_time_h": 7.34,
+        "issues": [
+          {
+            "code": "distance_too_high",
+            "message": "106.82 km exceeds the daily limit of 100.0 km."
+          }
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-24.gpx",
+        "geojson_path": "data/segments/day-24.geojson"
+      }
+    },
+    {
+      "id": "day-25",
+      "date": "2026-06-22",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Terry, Nizza (Bus ins Zentrum)",
+        "Alternative: Camping Magnan (näher Zentrum)",
+        "Alternative: Camping Cap 3000",
+        "Alternative: Camping Les Pins Parasols",
+        "Highlight: Verdon Ostseite",
+        "Highlight: Castellane 🏘️ (Kapelle auf Fels!)",
+        "Highlight: Var-Tal kleine Straßen",
+        "Highlight: Grasse 🌸 Parfümstadt (Molinard, Fragonard Führungen)",
+        "Highlight: Gorges du Loup",
+        "Highlight: Nizza Promenade des Anglais abends",
+        "Planned: 95.0 km / 1200.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-gorges-du-verdon-la-palud-sur-verdon-spektakul-re-lage",
+        "end_place_id": "stay-camping-terry-nizza-bus-ins-zentrum",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-terry-nizza-bus-ins-zentrum",
+      "validation": {
+        "status": "flagged",
+        "distance_km": 112.54,
+        "elevation_gain_m": 1231,
+        "estimated_time_h": 6.21,
+        "issues": [
+          {
+            "code": "distance_too_high",
+            "message": "112.54 km exceeds the daily limit of 100.0 km."
+          }
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-25.gpx",
+        "geojson_path": "data/segments/day-25.geojson"
+      }
+    },
+    {
+      "id": "day-26",
+      "date": "2026-06-23",
+      "day_type": "rest_day",
+      "notes": [
+        "Travel: 🏖️ Ruhetag",
+        "Stay: Camping Terry, Nizza (2. Nacht)",
+        "Alternative: Camping Magnan",
+        "Alternative: Camping Cap 3000",
+        "Highlight: 🏖️ Promenade des Anglais",
+        "Highlight: Vieux Nice Altstadt 🏘️ (4,7⭐)",
+        "Highlight: Marché du Cours Saleya (Blumen + Essen!)",
+        "Highlight: Colline du Château (Panorama, kostenlos!)",
+        "Highlight: Socca essen (Kichererbsen-Pfannkuchen!)",
+        "Highlight: Strand abends"
+      ],
+      "travel": {
+        "mode": null,
+        "start_place_id": "city-nizza",
+        "end_place_id": "city-nizza"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-terry-nizza-bus-ins-zentrum",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-27",
+      "date": "2026-06-24",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Villaggio dei Fiori, San Remo (4⭐, 500m Strand)",
+        "Alternative: Camping Ariston San Remo",
+        "Alternative: Camping Due Palme, Ospedaletti",
+        "Alternative: Camping Capo Don",
+        "Highlight: 🇮🇹 Grenze bei Ventimiglia",
+        "Highlight: Blumenriviera (Mimosen, Palmen)",
+        "Highlight: Ventimiglia Altstadt + Markt (Freitags!)",
+        "Highlight: San Remo 🏘️ Altstadt La Pigna",
+        "Highlight: Kathedrale San Siro",
+        "Highlight: Kasino (außen anschauen)",
+        "Highlight: Via del Mare Radweg",
+        "Planned: 75.0 km / 800.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-terry-nizza-bus-ins-zentrum",
+        "end_place_id": "stay-camping-villaggio-dei-fiori-san-remo-4-500m-strand",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-villaggio-dei-fiori-san-remo-4-500m-strand",
+      "validation": {
+        "status": "flagged",
+        "distance_km": 166.66,
+        "elevation_gain_m": 2237,
+        "estimated_time_h": 10.19,
+        "issues": [
+          {
+            "code": "distance_too_high",
+            "message": "166.66 km exceeds the daily limit of 100.0 km."
+          },
+          {
+            "code": "elevation_too_high",
+            "message": "2237 hm exceeds the daily limit of 1800.0 hm."
+          }
+        ],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-27.gpx",
+        "geojson_path": "data/segments/day-27.geojson"
+      }
+    },
+    {
+      "id": "day-28",
+      "date": "2026-06-25",
+      "day_type": "bike_day",
+      "notes": [
+        "Stay: Camping Buggi, Savona (stadtnahe, günstig)",
+        "Alternative: Camping La Quiete (ruhiger)",
+        "Alternative: Camping Sassello (Hinterland)",
+        "Alternative: Hostel Savona",
+        "Highlight: 🚴 Letzter Radtag!",
+        "Highlight: Imperia Hafen",
+        "Highlight: Albenga 🏘️ mittelalterliche Altstadt (sehr schön, kaum Touristen!)",
+        "Highlight: Alassio Strand",
+        "Highlight: Finale Ligure (Klettergebiet)",
+        "Highlight: Savona Hafen",
+        "Highlight: Decathlon Savona → Radtasche kaufen!",
+        "Planned: 90.0 km / 900.0 hm"
+      ],
+      "travel": null,
+      "bike": {
+        "start_mode": "linked_previous_overnight",
+        "start_place_id": "stay-camping-villaggio-dei-fiori-san-remo-4-500m-strand",
+        "end_place_id": "stay-camping-buggi-savona-stadtnahe-g-nstig",
+        "required_via_place_ids": [],
+        "optional_via_place_ids": [],
+        "route_type": "touring"
+      },
+      "overnight_place_id": "stay-camping-buggi-savona-stadtnahe-g-nstig",
+      "validation": {
+        "status": "ok",
+        "distance_km": 99.32,
+        "elevation_gain_m": 548,
+        "estimated_time_h": 5.41,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": "tour_planner/projects/reiseplan3-longtour/segments/day-28.gpx",
+        "geojson_path": "data/segments/day-28.geojson"
+      }
+    },
+    {
+      "id": "day-29",
+      "date": "2026-06-26",
+      "day_type": "transfer_day",
+      "notes": [
+        "Travel: 🚂 Zugtag",
+        "Stay: Camping Rovereto, Lizzanella (4km Zentrum, Gardasee-Nähe)",
+        "Alternative: Camping Al Lago, Torbole am Gardasee (20km)",
+        "Alternative: Agriturismo Rovereto",
+        "Alternative: Hostel Rovereto",
+        "Highlight: 🚂 Savona → Genua Stazione Principe → Mailand Centrale → Verona → Rovereto",
+        "Highlight: Rovereto Altstadt 🏘️ (MART Museum optional)",
+        "Highlight: Etschtal Abendspaziergang",
+        "Highlight: Gute Pasta abends!"
+      ],
+      "travel": {
+        "mode": "train",
+        "start_place_id": "city-savona",
+        "end_place_id": "city-rovereto"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-rovereto-lizzanella-4km-zentrum-gardasee-n-he",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-30",
+      "date": "2026-06-27",
+      "day_type": "rest_day",
+      "notes": [
+        "Travel: 🏖️ Gardasee",
+        "Stay: Camping Rovereto (2. Nacht) oder Camping Al Lago, Torbole (direkt am See!)",
+        "Alternative: Camping Bellariva, Riva del Garda",
+        "Alternative: Camping Bavaria, Torbole",
+        "Alternative: Wild Camping See",
+        "Highlight: 🏖️ Gardasee Torbole/Riva del Garda (20km Rad oder Bus)",
+        "Highlight: Surfer & Kitesurfer (weltbekannter Windspot!)",
+        "Highlight: Riva del Garda Altstadt",
+        "Highlight: Castello di Arco ⭐ (Burgruine)",
+        "Highlight: Schwimmen",
+        "Highlight: Weißwein trinken",
+        "Highlight: letzter Abend Italien 🇮🇹"
+      ],
+      "travel": {
+        "mode": null,
+        "start_place_id": "city-rovereto",
+        "end_place_id": "city-rovereto"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-camping-rovereto-lizzanella-4km-zentrum-gardasee-n-he",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    },
+    {
+      "id": "day-31",
+      "date": "2026-06-28",
+      "day_type": "transfer_day",
+      "notes": [
+        "Travel: 🚂 Heimreise",
+        "Stay: Zuhause! 🏠",
+        "Highlight: 🚂 Rovereto → Trento → Brenner → Innsbruck → München Hbf → Dresden Hbf",
+        "Highlight: Morgens noch kurz Gardasee?",
+        "Highlight: Ankunft Dresden abends 🎉",
+        "Highlight: TOUR GESCHAFFT! 🥂"
+      ],
+      "travel": {
+        "mode": "train",
+        "start_place_id": "city-rovereto",
+        "end_place_id": "city-dresden"
+      },
+      "bike": null,
+      "overnight_place_id": "stay-zuhause",
+      "validation": {
+        "status": "not_applicable",
+        "distance_km": null,
+        "elevation_gain_m": null,
+        "estimated_time_h": null,
+        "issues": [],
+        "used_optional_via_place_ids": [],
+        "gpx_path": null,
+        "geojson_path": null
+      }
+    }
+  ]
+}

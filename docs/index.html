@@ -1,364 +1,663 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pyrenäen-Tour Juni 2026</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <style>
-    *{box-sizing:border-box;margin:0;padding:0}
-    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#111827;color:#e5e7eb;height:100vh;display:flex;flex-direction:column;overflow:hidden}
-
-    /* ── Header ─────────────────────────────────────────── */
-    header{
-      background:#1f2937;padding:10px 18px;border-bottom:1px solid #374151;
-      display:flex;align-items:center;gap:14px;flex-shrink:0;
+    :root {
+      --bg: #f7f4ee;
+      --panel: rgba(255, 252, 247, 0.95);
+      --ink: #1f2937;
+      --muted: #6b7280;
+      --line: #d97706;
+      --transfer: #9ca3af;
+      --flagged: #b91c1c;
+      --ok: #0f766e;
+      --camp: #047857;
+      --city: #1d4ed8;
+      --mustsee: #c2410c;
+      --service: #7c3aed;
+      --gpx-guided: #0f4c81;
     }
-    header h1{font-size:1.05rem;font-weight:700;color:#f9fafb;white-space:nowrap}
-    .hstats{display:flex;gap:16px;margin-left:auto;flex-wrap:wrap}
-    .hstat{font-size:0.78rem;color:#9ca3af}
-    .hstat strong{color:#f3f4f6;font-weight:600}
-    .dates{font-size:0.75rem;color:#6b7280}
 
-    /* ── Layout ──────────────────────────────────────────── */
-    .main{display:flex;flex:1;overflow:hidden}
-
-    /* ── Sidebar ─────────────────────────────────────────── */
-    #sidebar{
-      width:310px;flex-shrink:0;
-      background:#1f2937;border-right:1px solid #374151;
-      overflow-y:auto;
+    * { box-sizing: border-box; }
+    html, body { margin: 0; height: 100%; font-family: Georgia, serif; background: var(--bg); color: var(--ink); }
+    .app { display: grid; grid-template-columns: 360px 1fr; height: 100%; }
+    .panel { overflow: auto; padding: 18px; background: var(--panel); border-right: 1px solid rgba(17, 24, 39, 0.08); }
+    .eyebrow { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 0.14em; color: #9a6b2f; }
+    h1 { margin: 0 0 10px; font-size: 30px; line-height: 1.05; }
+    .lead { margin: 0 0 14px; font-size: 14px; line-height: 1.5; color: var(--muted); }
+    .status { margin-bottom: 14px; padding: 12px 14px; border-radius: 14px; background: #eef6ff; color: #1d4ed8; font-size: 13px; }
+    .summary { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 16px; }
+    .metric { background: white; border: 1px solid rgba(17,24,39,0.08); border-radius: 14px; padding: 10px 12px; }
+    .metric strong { display: block; font-size: 22px; }
+    .metric span { font-size: 12px; color: var(--muted); }
+    .day-list { display: grid; gap: 10px; }
+    .day-card { width: 100%; text-align: left; border: 1px solid rgba(17,24,39,0.08); border-radius: 16px; background: white; padding: 12px 14px; cursor: pointer; }
+    .day-card.active { border-color: rgba(217,119,6,0.45); box-shadow: 0 10px 22px rgba(0,0,0,0.06); }
+    .day-top { display: flex; justify-content: space-between; gap: 10px; margin-bottom: 6px; }
+    .day-index { font-size: 12px; text-transform: uppercase; letter-spacing: 0.12em; color: #9a6b2f; }
+    .badge { font-size: 11px; padding: 4px 8px; border-radius: 999px; }
+    .badge.ok { color: white; background: var(--ok); }
+    .badge.flagged { color: white; background: var(--flagged); }
+    .badge.pending { color: #92400e; background: #fef3c7; }
+    .badge.gpx { color: white; background: var(--gpx-guided); }
+    .title { margin: 0 0 4px; font-size: 18px; }
+    .meta { margin: 0; font-size: 13px; line-height: 1.45; color: var(--muted); }
+    #map { width: 100%; height: 100%; }
+    .popup-title { margin: 0 0 6px; font-size: 15px; font-weight: 700; }
+    .popup-line { margin: 0 0 4px; font-size: 12px; line-height: 1.4; }
+    .day-marker {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 999px;
+      background: #fffaf4;
+      border: 2px solid #d97706;
+      color: #9a3412;
+      font-size: 10px;
+      font-weight: 700;
+      box-shadow: 0 6px 14px rgba(146, 64, 14, 0.18);
     }
-    #sidebar::-webkit-scrollbar{width:4px}
-    #sidebar::-webkit-scrollbar-track{background:transparent}
-    #sidebar::-webkit-scrollbar-thumb{background:#374151;border-radius:2px}
-
-    .day-card{
-      padding:10px 12px 10px 14px;
-      border-left:4px solid transparent;
-      border-bottom:1px solid #374151;
-      cursor:pointer;transition:background .12s;
-      position:relative;
+    .pass-marker {
+      position: relative;
+      width: 22px;
+      height: 22px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.96);
+      border: 2px solid rgba(185, 28, 28, 0.22);
+      box-shadow: 0 6px 14px rgba(127, 29, 29, 0.22);
     }
-    .day-card:hover{background:#263245}
-    .day-card.active{background:#1e3a5f}
-    .day-card.non-bike{cursor:default;opacity:0.8}
-
-    .card-top{display:flex;align-items:center;gap:6px;margin-bottom:3px}
-    .mode-icon{font-size:0.9rem;flex-shrink:0}
-    .day-label{font-size:0.68rem;color:#9ca3af;font-weight:500}
-    .day-weekday{font-size:0.68rem;color:#6b7280}
-    .day-date{font-size:0.68rem;color:#6b7280;margin-left:auto}
-
-    .card-title{font-size:0.87rem;font-weight:600;color:#f3f4f6;line-height:1.3;margin-bottom:4px}
-
-    .card-meta{display:flex;gap:10px;font-size:0.72rem;color:#6b7280;margin-bottom:5px;flex-wrap:wrap}
-    .card-meta span{display:flex;align-items:center;gap:3px}
-
-    .card-stay{font-size:0.72rem;color:#9ca3af;margin-bottom:4px;display:flex;align-items:flex-start;gap:4px}
-    .stay-icon{flex-shrink:0}
-
-    .pois{list-style:none;margin-top:4px}
-    .pois li{font-size:0.7rem;color:#9ca3af;padding:1px 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-
-    /* ── Map ─────────────────────────────────────────────── */
-    #map{flex:1}
-
-    /* ── Popup ───────────────────────────────────────────── */
-    .leaflet-popup-content-wrapper{
-      background:#1f2937;color:#e5e7eb;
-      border:1px solid #374151;border-radius:10px;
-      box-shadow:0 8px 24px rgba(0,0,0,.6);
-      min-width:220px;max-width:280px;
+    .pass-marker::before,
+    .pass-marker::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: 14px;
+      height: 4px;
+      border-radius: 999px;
+      background: #b91c1c;
+      transform-origin: center;
+      box-shadow: 0 0 0 1px rgba(127, 29, 29, 0.08);
     }
-    .leaflet-popup-tip{background:#1f2937}
-    .leaflet-popup-content{font-size:0.8rem;line-height:1.6;margin:12px 14px}
-    .pop-title{font-weight:700;font-size:0.92rem;color:#60a5fa;margin-bottom:6px}
-    .pop-row{color:#9ca3af;margin:2px 0}
-    .pop-row strong{color:#e5e7eb}
-    .pop-poi{font-size:0.72rem;color:#9ca3af;margin-top:6px;border-top:1px solid #374151;padding-top:6px}
-    .pop-poi div{margin:2px 0}
-
-    /* ── Legend ──────────────────────────────────────────── */
-    .legend{
-      background:rgba(31,41,55,.92);
-      border:1px solid #374151;border-radius:8px;
-      padding:8px 12px;font-size:0.72rem;color:#9ca3af;line-height:2;
+    .pass-marker::before {
+      transform: translate(-50%, -50%) rotate(45deg);
     }
-    .legend-row{display:flex;align-items:center;gap:8px}
-    .leg-line{width:18px;height:3px;border-radius:2px;flex-shrink:0}
-
-    @media(max-width:640px){
-      #sidebar{width:200px}
-      .hstats .dates{display:none}
-      header h1{font-size:0.9rem}
+    .pass-marker::after {
+      transform: translate(-50%, -50%) rotate(-45deg);
     }
+    .must-see-marker {
+      width: 14px;
+      height: 14px;
+      background: rgba(255, 247, 237, 0.98);
+      border: 2px solid var(--mustsee);
+      border-radius: 4px;
+      transform: rotate(45deg);
+      box-shadow: 0 4px 10px rgba(120, 53, 15, 0.18);
+    }
+    .service-hub-marker {
+      width: 20px;
+      height: 20px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.98);
+      border: 3px solid var(--service);
+      box-shadow: 0 8px 18px rgba(91, 33, 182, 0.22);
+      position: relative;
+    }
+    .service-hub-marker::after {
+      content: '';
+      position: absolute;
+      inset: 4px;
+      border-radius: 999px;
+      background: var(--service);
+    }
+    @media (max-width: 900px) { .app { grid-template-columns: 1fr; grid-template-rows: auto 55vh; } }
   </style>
 </head>
 <body>
-
-<header>
-  <h1>🚴 Pyrenäen-Tour Juni 2026</h1>
-  <div class="hstats">
-    <span class="hstat">Tage: <strong id="s-days">—</strong></span>
-    <span class="hstat">Fahrten: <strong id="s-bike">—</strong></span>
-    <span class="hstat">Ruhe: <strong id="s-rest">—</strong></span>
-    <span class="hstat">∑ km: <strong id="s-km">—</strong></span>
-    <span class="hstat dates" id="s-dates"></span>
+  <div class="app">
+    <aside class="panel">
+      <p class="eyebrow">Standalone Programm</p>
+      <h1>Tour Planner Map</h1>
+      <p class="lead">Zeigt die modellierte Tour, alle referenzierten Orte und die von BRouter validierten Tagessegmente.</p>
+      <div id="status" class="status">Lade Tour …</div>
+      <div class="summary">
+        <div class="metric"><strong id="dayCount">-</strong><span>Tage</span></div>
+        <div class="metric"><strong id="okCount">-</strong><span>Ok</span></div>
+        <div class="metric"><strong id="flaggedCount">-</strong><span>Flagged</span></div>
+      </div>
+      <div id="dayList" class="day-list"></div>
+    </aside>
+    <main><div id="map"></div></main>
   </div>
-</header>
 
-<div class="main">
-  <div id="sidebar"></div>
-  <div id="map"></div>
-</div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/@tmcw/togeojson@5.6.1/dist/togeojson.umd.js"></script>
+  <script>
+    const DEFAULT_TOUR = 'data/tour.json';
+    const params = new URLSearchParams(window.location.search);
+    const tourPath = params.get('tour') || DEFAULT_TOUR;
+    const DEFAULT_MUST_SEE_BY_TOUR = {
+      '/tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days.json': '/tour_planner/examples/bilbao-pamplona-tourmalet-must-see.json',
+    };
+    const DEFAULT_SERVICE_HUBS_BY_TOUR = {
+      '/tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days.json': '/tour_planner/examples/bilbao-pamplona-tourmalet-service-hubs.json',
+    };
+    const DEFAULT_REFERENCE_GPX_BY_TOUR = {
+      '/tour_planner/examples/bilbao-pamplona-tourmalet-andorra-girona-14days.json': [
+        '/shared_data/ExternalTours/pyrenees_gravel_north.gpx',
+        '/tour_planner/Pyrenean_Rally_1of2.gpx',
+        '/tour_planner/Pyrenean_Rally_2of2 (1).gpx',
+      ],
+    };
+    const REFERENCE_GPX_META = {
+      '/shared_data/ExternalTours/pyrenees_gravel_north.gpx': {
+        label: 'Pyrenaeen Nordkorridor',
+        detail: 'Referenz-GPX Nordseite',
+      },
+      '/tour_planner/Pyrenean_Rally_1of2.gpx': {
+        label: 'Pyrenaeen Suedkorridor West',
+        detail: 'Referenz-GPX Suedseite · Teil 1',
+      },
+      '/tour_planner/Pyrenean_Rally_2of2 (1).gpx': {
+        label: 'Pyrenaeen Suedkorridor Ost',
+        detail: 'Referenz-GPX Suedseite · Teil 2',
+      },
+    };
+    const mustSeePath = params.get('mustSee') || DEFAULT_MUST_SEE_BY_TOUR[tourPath] || null;
+    const serviceHubPath = params.get('serviceHubs') || DEFAULT_SERVICE_HUBS_BY_TOUR[tourPath] || null;
+    const referenceGpxPaths = params.getAll('overlayGpx').length
+      ? params.getAll('overlayGpx')
+      : (DEFAULT_REFERENCE_GPX_BY_TOUR[tourPath] || []);
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
-// ── Constants ────────────────────────────────────────────────
-const SEGMENT_DAYS = [2,3,4,5,6,8,11,12,14,15,17,20,21,23,24,25,27,28];
+    const map = L.map('map');
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap-Mitwirkende'
+    }).addTo(map);
+    map.setView([51.25, 14.4], 8);
 
-const MODE_ICON = {
-  bike: '🚴',
-  rest: '🛑',
-  flight: '✈️',
-  train: '🚂',
-};
+    const referenceRouteLayer = L.layerGroup().addTo(map);
+    const routeLayer = L.layerGroup().addTo(map);
+    const placeLayer = L.layerGroup().addTo(map);
+    const mustSeeLayer = L.layerGroup().addTo(map);
+    const serviceHubLayer = L.layerGroup().addTo(map);
+    const passLayer = L.layerGroup().addTo(map);
+    const statusEl = document.getElementById('status');
+    const dayListEl = document.getElementById('dayList');
+    const dayMarkers = [];
+    const dayPolylines = [];
+    const PASS_MARKERS = [
+      {
+        id: 'pass-roncevaux',
+        name: 'Roncevaux / Roncesvalles',
+        lat: 43.0197223,
+        lon: -1.3240032,
+        detail: 'Westlichste klassische Pyrenaeenquerung fuer den Uebergang Navarra ↔ Saint-Jean-Pied-de-Port.',
+      },
+      {
+        id: 'pass-larrau',
+        name: 'Puerto de Larrau',
+        lat: 42.9741282,
+        lon: -0.9938707,
+        detail: 'Steiler Westpass als Alternative zwischen Soule und Navarra.',
+      },
+      {
+        id: 'pass-somport',
+        name: 'Col du Somport / Canfranc',
+        lat: 42.7957224,
+        lon: -0.5248473,
+        detail: 'Grenzpass und klassischer Wechsel zwischen Aragon und der Nordseite.',
+      },
+      {
+        id: 'pass-pierre-saint-martin',
+        name: 'Col de la Pierre St-Martin',
+        lat: 42.9689511,
+        lon: -0.7682888,
+        detail: 'Westlicher Pyrenaeenpass zwischen Navarra/Aragon und Bearn.',
+      },
+      {
+        id: 'pass-aubisque-hecho',
+        name: 'Col d\'Aubisque ↔ Hecho-Tal',
+        lat: 42.9765752,
+        lon: -0.339792,
+        detail: 'Kein direkter Grenzpass, aber ein wichtiger Seitenwechsel-Korridor fuer Nordseite ↔ Hecho.',
+      },
+      {
+        id: 'pass-bielsa',
+        name: 'Tunnel de Bielsa',
+        lat: 42.7403729,
+        lon: 0.1930052,
+        detail: 'Direkter Uebergang durch den Bielsa-Aragnouet-Tunnel.',
+      },
+      {
+        id: 'pass-vielha',
+        name: 'Tunnel de Vielha',
+        lat: 42.6475636,
+        lon: 0.7711752,
+        detail: 'Wichtiger Zentralzugang in das Val d\'Aran auf der spanischen Seite.',
+      },
+      {
+        id: 'pass-portalet',
+        name: 'Col du Portalet',
+        lat: 42.8059002,
+        lon: -0.4184485,
+        detail: 'Klassischer Grenzpass fuer den Wechsel zwischen Ossau und Tena.',
+      },
+      {
+        id: 'pass-boi-taull-val-aran',
+        name: 'Port de la Bonaigua / Boi-Taull ↔ Val d\'Aran',
+        lat: 42.6635129,
+        lon: 0.9824531,
+        detail: 'Option fuer den Seitenwechsel im Ostteil, markiert ueber den Korridor Port de la Bonaigua.',
+      },
+      {
+        id: 'pass-envalira',
+        name: 'Pas de la Casa / Port d\'Envalira',
+        lat: 42.5401763,
+        lon: 1.719381,
+        detail: 'Hoechste Strassenquerung ueber Andorra; zentraler Ostkorridor France ↔ Andorra.',
+      },
+      {
+        id: 'pass-puymorens',
+        name: 'Col de Puymorens',
+        lat: 42.5596188,
+        lon: 1.8108423,
+        detail: 'Wichtige Ostquerung zwischen Haute-Ariege und Cerdanya.',
+      },
+      {
+        id: 'pass-perche',
+        name: 'Col de la Perche',
+        lat: 42.4964744,
+        lon: 2.0923449,
+        detail: 'Oestlicher Querkorridor zwischen Tet- und Segre-Seite.',
+      },
+      {
+        id: 'pass-perthus',
+        name: 'Le Perthus',
+        lat: 42.4646429,
+        lon: 2.8629997,
+        detail: 'Tiefe Ostquerung am Mittelmeer-Ende des Gebirges.',
+      },
+    ];
 
-const STAY_ICON = {
-  camping: '🏕️',
-  hostel: '🏨',
-  hotel: '🏩',
-  pension: '🏠',
-};
-
-// ── Color ────────────────────────────────────────────────────
-function dayColor(idx, total) {
-  const palette = [
-    [52,211,153],   // emerald
-    [56,189,248],   // sky
-    [129,140,248],  // indigo
-    [251,113,133],  // rose
-    [251,191,36],   // amber
-  ];
-  const t = idx / Math.max(total - 1, 1);
-  const pos = t * (palette.length - 1);
-  const i = Math.floor(pos);
-  const f = pos - i;
-  const a = palette[Math.min(i, palette.length-1)];
-  const b = palette[Math.min(i+1, palette.length-1)];
-  return [
-    Math.round(a[0]+f*(b[0]-a[0])),
-    Math.round(a[1]+f*(b[1]-a[1])),
-    Math.round(a[2]+f*(b[2]-a[2])),
-  ];
-}
-function rgb(c) { return `rgb(${c[0]},${c[1]},${c[2]})`; }
-function hex(c) { return '#'+c.map(v=>v.toString(16).padStart(2,'0')).join(''); }
-
-// ── Map ──────────────────────────────────────────────────────
-const map = L.map('map', { center: [43.0, 1.0], zoom: 7, zoomControl: true });
-
-L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
-  attribution: '© <a href="https://opentopomap.org">OpenTopoMap</a> · © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  maxZoom: 17,
-  opacity: 0.8,
-}).addTo(map);
-
-// ── State ────────────────────────────────────────────────────
-const routeLayers = {};  // dayIndex → L.GeoJSON
-const dayMarkers = {};   // dayIndex → L.Marker
-let allDays = [];
-let activeDay = null;
-
-// ── Marker icon ──────────────────────────────────────────────
-function markerIcon(color, size = 12) {
-  return L.divIcon({
-    className: '',
-    html: `<div style="width:${size}px;height:${size}px;border-radius:50%;background:${color};border:2px solid rgba(255,255,255,.7);box-shadow:0 0 6px rgba(0,0,0,.5)"></div>`,
-    iconSize: [size, size],
-    iconAnchor: [size/2, size/2],
-  });
-}
-
-// ── Sidebar card ─────────────────────────────────────────────
-function buildCard(day, colorRgb, total) {
-  const isBike = day.type === 'bike_day';
-  const color = rgb(colorRgb);
-
-  const card = document.createElement('div');
-  card.className = 'day-card' + (isBike ? '' : ' non-bike');
-  card.style.borderLeftColor = color;
-  card.dataset.idx = day.index - 1;
-
-  const icon = MODE_ICON[day.mode] || '📍';
-  const stayIcon = STAY_ICON[day.stay?.type] || '🏠';
-
-  const metaParts = [];
-  if (day.targets?.distanceKm) metaParts.push(`🚴 ${day.targets.distanceKm} km`);
-  if (day.targets?.elevationGainM) metaParts.push(`↑ ${day.targets.elevationGainM} m`);
-
-  const poisHtml = (day.pois || []).slice(0, 4).map(p =>
-    `<li title="${p.name}">${p.name}</li>`
-  ).join('');
-
-  card.innerHTML = `
-    <div class="card-top">
-      <span class="mode-icon">${icon}</span>
-      <span class="day-label">Tag ${day.index}</span>
-      <span class="day-weekday">${day.weekday}</span>
-      <span class="day-date">${day.displayDate}</span>
-    </div>
-    <div class="card-title">${day.title}</div>
-    ${metaParts.length ? `<div class="card-meta">${metaParts.map(m=>`<span>${m}</span>`).join('')}</div>` : ''}
-    ${day.stay?.name ? `<div class="card-stay"><span class="stay-icon">${stayIcon}</span><span>${day.stay.name}</span></div>` : ''}
-    ${poisHtml ? `<ul class="pois">${poisHtml}</ul>` : ''}
-  `;
-
-  if (isBike) {
-    card.addEventListener('click', () => focusDay(day.index - 1));
-  }
-
-  return card;
-}
-
-// ── Focus a day ──────────────────────────────────────────────
-function focusDay(idx) {
-  // Update sidebar
-  document.querySelectorAll('.day-card').forEach(c => c.classList.remove('active'));
-  const card = document.querySelector(`.day-card[data-idx="${idx}"]`);
-  if (card) {
-    card.classList.add('active');
-    card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-  }
-
-  // Dim all segments, highlight active
-  Object.entries(routeLayers).forEach(([i, layer]) => {
-    const isActive = parseInt(i) === idx;
-    layer.setStyle({ weight: isActive ? 5 : 2.5, opacity: isActive ? 1 : 0.3 });
-    if (isActive) layer.bringToFront();
-  });
-
-  // Fly to segment or marker
-  const line = routeLayers[idx];
-  if (line) {
-    map.fitBounds(line.getBounds(), { padding: [40, 60] });
-  }
-
-  // Open popup
-  const marker = dayMarkers[idx];
-  if (marker) marker.openPopup();
-
-  activeDay = idx;
-}
-
-// ── Build popup content ───────────────────────────────────────
-function popupHtml(day) {
-  const icon = MODE_ICON[day.mode] || '📍';
-  const stayIcon = STAY_ICON[day.stay?.type] || '🏠';
-
-  let html = `<div class="pop-title">${icon} Tag ${day.index}: ${day.goal?.name || day.title}</div>`;
-  html += `<div class="pop-row"><strong>${day.weekday}, ${day.displayDate}</strong></div>`;
-  html += `<div class="pop-row">${day.start?.name || '?'} → ${day.goal?.name || '?'}</div>`;
-
-  if (day.targets?.distanceKm)
-    html += `<div class="pop-row">🚴 ${day.targets.distanceKm} km · ↑ ${day.targets.elevationGainM || '?'} m</div>`;
-
-  if (day.travelInfo)
-    html += `<div class="pop-row">${day.travelInfo}</div>`;
-
-  if (day.stay?.name)
-    html += `<div class="pop-row">${stayIcon} ${day.stay.name}</div>`;
-
-  const pois = (day.pois || []).slice(0, 5);
-  if (pois.length) {
-    html += `<div class="pop-poi">${pois.map(p => `<div>${p.name}</div>`).join('')}</div>`;
-  }
-
-  return html;
-}
-
-// ── Main ─────────────────────────────────────────────────────
-async function main() {
-  const planRes = await fetch('data/plan.json');
-  const plan = await planRes.json();
-  allDays = plan.days;
-  const total = allDays.length;
-  const s = plan.summary;
-
-  // Header stats
-  document.getElementById('s-days').textContent = s.dayCount;
-  document.getElementById('s-bike').textContent = s.bikeDayCount;
-  document.getElementById('s-rest').textContent = s.restDayCount;
-  document.getElementById('s-km').textContent = (s.plannedDistanceKm || 0).toLocaleString('de');
-  const first = allDays[0].displayDate;
-  const last = allDays[allDays.length-1].displayDate;
-  document.getElementById('s-dates').textContent = `${first} – ${last}`;
-
-  const sidebar = document.getElementById('sidebar');
-  const bounds = [];
-
-  // Build sidebar + markers
-  allDays.forEach((day, idx) => {
-    const color = dayColor(idx, total);
-    const colorStr = rgb(color);
-
-    sidebar.appendChild(buildCard(day, color, total));
-
-    const lat = day.goal?.lat;
-    const lon = day.goal?.lon;
-    if (lat && lon) {
-      bounds.push([lat, lon]);
-      const isBike = day.type === 'bike_day';
-      const marker = L.marker([lat, lon], {
-        icon: markerIcon(colorStr, isBike ? 12 : 9),
-        zIndexOffset: isBike ? 100 : 0,
-      });
-      marker.bindPopup(popupHtml(day), { maxWidth: 280 });
-      marker.addTo(map);
-      dayMarkers[idx] = marker;
+    function setStatus(message) {
+      statusEl.textContent = message;
     }
-  });
 
-  if (bounds.length > 1) {
-    map.fitBounds(bounds, { padding: [30, 30] });
-  }
-
-  // Load segments
-  await Promise.allSettled(SEGMENT_DAYS.map(async dayNum => {
-    const idx = dayNum - 1;
-    const color = dayColor(idx, total);
-    try {
-      const r = await fetch(`data/segments/day-${String(dayNum).padStart(2,'0')}.geojson`);
-      if (!r.ok) return;
-      const gj = await r.json();
-      const layer = L.geoJSON(gj, {
-        style: { color: hex(color), weight: 3.5, opacity: 0.85, lineJoin: 'round', lineCap: 'round' }
-      });
-      layer.addTo(map);
-      routeLayers[idx] = layer;
-    } catch (e) {
-      console.warn('Segment nicht geladen:', dayNum, e);
+    function markerStyle(kind) {
+      if (kind === 'camping') return { fillColor: getCss('--camp'), radius: 6 };
+      if (kind === 'city') return { fillColor: getCss('--city'), radius: 5 };
+      return { fillColor: '#6b7280', radius: 4 };
     }
-  }));
 
-  // Legend
-  const legend = L.control({ position: 'bottomright' });
-  legend.onAdd = () => {
-    const div = L.DomUtil.create('div', 'legend');
-    div.innerHTML = [
-      [dayColor(0, total), 'Start – Bilbao (29.05.)'],
-      [dayColor(Math.floor(total/2), total), 'Mitte – Sort/Ripoll'],
-      [dayColor(total-1, total), 'Ende – Rovereto (28.06.)'],
-    ].map(([c,label]) =>
-      `<div class="legend-row"><div class="leg-line" style="background:${rgb(c)}"></div>${label}</div>`
-    ).join('');
-    return div;
-  };
-  legend.addTo(map);
-}
+    function referenceGpxMeta(gpxPath) {
+      const normalizedPath = decodeURI(normalizeAssetPath(gpxPath) || gpxPath || '');
+      return REFERENCE_GPX_META[normalizedPath] || {
+        label: gpxPath.split('/').pop(),
+        detail: 'Referenz-GPX',
+      };
+    }
 
-main().catch(console.error);
-</script>
+    function mustSeeMarkerStyle(kind) {
+      if (kind === 'city') return { strokeColor: getCss('--city') };
+      if (kind === 'pass') return { strokeColor: getCss('--flagged') };
+      if (kind === 'national_park' || kind === 'natural_park' || kind === 'landscape' || kind === 'cultural_landscape') {
+        return { strokeColor: getCss('--ok') };
+      }
+      return { strokeColor: getCss('--mustsee') };
+    }
+
+    function isSupplementalCamp(place) {
+      if (!place || place.kind !== 'camping') {
+        return false;
+      }
+      return String(place.id || '').startsWith('camp-') || String(place.id || '').startsWith('cache-');
+    }
+
+    function getCss(name) {
+      return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+    }
+
+    function badgeClass(status) {
+      if (status === 'ok') return 'ok';
+      if (status === 'flagged') return 'flagged';
+      return 'pending';
+    }
+
+    function formatDayType(dayType) {
+      if (dayType === 'bike_day') return 'Fahrtag';
+      if (dayType === 'rest_day') return 'Ruhetag';
+      if (dayType === 'transfer_day') return 'Zugtag';
+      if (dayType === 'arrival_day') return 'Anreisetag';
+      if (dayType === 'departure_day') return 'Abreisetag';
+      if (dayType === 'mixed_day') return 'Mischtag';
+      return dayType || 'Unbekannt';
+    }
+
+    function normalizeAssetPath(path) {
+      if (!path) {
+        return null;
+      }
+      const text = String(path).trim();
+      if (!text) {
+        return null;
+      }
+      // Relative paths (data/...) stay relative for GitHub Pages
+      if (text.startsWith('data/')) {
+        return encodeURI(text);
+      }
+      const tourPlannerIndex = text.indexOf('/tour_planner/');
+      if (tourPlannerIndex >= 0) {
+        return encodeURI(text.slice(tourPlannerIndex));
+      }
+      const normalized = text.startsWith('/') ? text : `/${text.replace(/^\/+/, '')}`;
+      return encodeURI(normalized);
+    }
+
+    async function fetchOptionalJson(path) {
+      const normalizedPath = normalizeAssetPath(path);
+      if (!normalizedPath) {
+        return null;
+      }
+      const response = await fetch(normalizedPath, { cache: 'no-store' });
+      if (response.status === 404) {
+        return null;
+      }
+      if (!response.ok) {
+        throw new Error(`Datei konnte nicht geladen werden: ${path}`);
+      }
+      return response.json();
+    }
+
+    async function fetchOptionalText(path) {
+      const normalizedPath = normalizeAssetPath(path);
+      if (!normalizedPath) {
+        return null;
+      }
+      const response = await fetch(normalizedPath, { cache: 'no-store' });
+      if (response.status === 404) {
+        return null;
+      }
+      if (!response.ok) {
+        throw new Error(`Datei konnte nicht geladen werden: ${path}`);
+      }
+      return response.text();
+    }
+
+    function dayPopup(day, validation) {
+      const issues = (validation?.issues || []).map((issue) => `<p class="popup-line">Issue: ${issue.code}</p>`).join('');
+      const gpxHints = (validation?.used_gpx_hint_place_ids || []).length
+        ? `<p class="popup-line">GPX-Fuehrung: ${(validation.used_gpx_hint_place_ids || []).join(', ')}</p>`
+        : '';
+      return [
+        `<p class="popup-title">${day.id}</p>`,
+        `<p class="popup-line">${day.date}</p>`,
+        `<p class="popup-line">Typ: ${formatDayType(day.day_type)}</p>`,
+        `<p class="popup-line">Status: ${validation?.status || 'pending'}</p>`,
+        validation?.distance_km ? `<p class="popup-line">${validation.distance_km} km · ${validation.elevation_gain_m} hm</p>` : '',
+        gpxHints,
+        issues
+      ].join('');
+    }
+
+    async function loadTour() {
+      setStatus('Lade Tourdaten …');
+      const response = await fetch(normalizeAssetPath(tourPath), { cache: 'no-store' });
+      if (!response.ok) throw new Error('Tourdatei konnte nicht geladen werden.');
+      const tour = await response.json();
+      const placeMap = new Map((tour.places || []).map((place) => [place.id, place]));
+      renderPlaces(placeMap);
+      const bounds = [];
+      await renderReferenceRoutes(bounds);
+      await renderMustSeePlaces(bounds);
+      await renderServiceHubs(bounds);
+      const dayBounds = await renderDays(tour.days || [], placeMap);
+      bounds.push(...dayBounds);
+      renderPasses(bounds);
+      setSummary(tour.days || []);
+      setStatus(`${tour.name} geladen.`);
+    }
+
+    function renderPasses(bounds = []) {
+      passLayer.clearLayers();
+      for (const pass of PASS_MARKERS) {
+        const icon = L.divIcon({
+          className: '',
+          html: '<div class="pass-marker"></div>',
+          iconSize: [22, 22],
+          iconAnchor: [11, 11],
+          popupAnchor: [0, -8],
+        });
+        const marker = L.marker([pass.lat, pass.lon], { icon, zIndexOffset: 500 }).addTo(passLayer);
+        marker.bindPopup([
+          `<p class="popup-title">${pass.name}</p>`,
+          '<p class="popup-line">Passpunkt / Seitenwechsel</p>',
+          `<p class="popup-line">${pass.detail}</p>`
+        ].join(''));
+        bounds.push(L.latLng(pass.lat, pass.lon));
+      }
+      if (bounds.length) {
+        map.fitBounds(L.latLngBounds(bounds), { padding: [28, 28] });
+      }
+    }
+
+    function renderPlaces(placeMap) {
+      placeLayer.clearLayers();
+      for (const place of placeMap.values()) {
+        const style = markerStyle(place.kind);
+        const supplementalCamp = isSupplementalCamp(place);
+        const marker = L.circleMarker([place.lat, place.lon], {
+          radius: supplementalCamp ? Math.max(4, style.radius - 2) : style.radius,
+          color: '#ffffff',
+          weight: supplementalCamp ? 1 : 2,
+          fillColor: style.fillColor,
+          fillOpacity: supplementalCamp ? 0.45 : 0.92,
+        }).addTo(placeLayer);
+        marker.bindPopup(`<p class="popup-title">${place.name}</p><p class="popup-line">${place.kind}${supplementalCamp ? ' · Zusatz-Camp' : ''}</p>`);
+      }
+    }
+
+    async function renderMustSeePlaces(bounds = []) {
+      mustSeeLayer.clearLayers();
+      const mustSeeCollection = await fetchOptionalJson(mustSeePath);
+      const mustSeePlaces = Array.isArray(mustSeeCollection?.must_see_places)
+        ? mustSeeCollection.must_see_places.filter(isRenderablePoint)
+        : [];
+      for (const place of mustSeePlaces) {
+        const style = mustSeeMarkerStyle(place.kind);
+        const icon = L.divIcon({
+          className: '',
+          html: `<div class="must-see-marker" style="border-color: ${style.strokeColor}"></div>`,
+          iconSize: [14, 14],
+          iconAnchor: [7, 7],
+          popupAnchor: [0, -8],
+        });
+        const marker = L.marker([place.lat, place.lon], { icon, zIndexOffset: 420 }).addTo(mustSeeLayer);
+        marker.bindPopup([
+          `<p class="popup-title">${place.name}</p>`,
+          `<p class="popup-line">${place.kind || 'must_see'}</p>`,
+          place.reason ? `<p class="popup-line">${place.reason}</p>` : ''
+        ].join(''));
+        bounds.push(L.latLng(place.lat, place.lon));
+      }
+    }
+
+    async function renderServiceHubs(bounds = []) {
+      serviceHubLayer.clearLayers();
+      const serviceHubCollection = await fetchOptionalJson(serviceHubPath);
+      const serviceHubs = Array.isArray(serviceHubCollection?.service_hubs)
+        ? serviceHubCollection.service_hubs.filter(isRenderablePoint)
+        : [];
+      for (const hub of serviceHubs) {
+        const icon = L.divIcon({
+          className: '',
+          html: '<div class="service-hub-marker"></div>',
+          iconSize: [20, 20],
+          iconAnchor: [10, 10],
+          popupAnchor: [0, -10],
+        });
+        const marker = L.marker([hub.lat, hub.lon], { icon, zIndexOffset: 450 }).addTo(serviceHubLayer);
+        marker.bindPopup([
+          `<p class="popup-title">${hub.name}</p>`,
+          `<p class="popup-line">Versorgungspunkt${hub.priority ? ` · ${hub.priority}` : ''}</p>`,
+          hub.reason ? `<p class="popup-line">${hub.reason}</p>` : ''
+        ].join(''));
+        bounds.push(L.latLng(hub.lat, hub.lon));
+      }
+    }
+
+    async function renderReferenceRoutes(bounds = []) {
+      referenceRouteLayer.clearLayers();
+      for (const gpxPath of referenceGpxPaths) {
+        const gpxText = await fetchOptionalText(gpxPath);
+        if (!gpxText) {
+          continue;
+        }
+        const meta = referenceGpxMeta(gpxPath);
+        const xml = new DOMParser().parseFromString(gpxText, 'application/xml');
+        const geojson = toGeoJSON.gpx(xml);
+        const overlay = L.geoJSON(geojson, {
+          style: {
+            color: getCss('--transfer'),
+            weight: 5,
+            opacity: 0.78,
+            dashArray: '10 8',
+          }
+        }).addTo(referenceRouteLayer);
+        overlay.bindPopup([
+          `<p class="popup-title">${meta.label}</p>`,
+          `<p class="popup-line">${meta.detail}</p>`,
+        ].join(''));
+        overlay.eachLayer((layer) => {
+          if (layer.getBounds) {
+            bounds.push(layer.getBounds());
+          }
+        });
+      }
+    }
+
+    async function renderDays(days, placeMap) {
+      dayListEl.innerHTML = '';
+      routeLayer.clearLayers();
+      dayMarkers.length = 0;
+      dayPolylines.length = 0;
+      const bounds = [];
+
+      for (const [index, day] of days.entries()) {
+        const validation = day.validation || {};
+        const hasGpxHints = Boolean((validation.used_gpx_hint_place_ids || []).length);
+        const card = document.createElement('button');
+        card.type = 'button';
+        card.className = 'day-card';
+        const endPlace = placeMap.get(day.overnight_place_id) || placeMap.get(day.bike?.end_place_id);
+        card.innerHTML = `
+          <div class="day-top">
+            <span class="day-index">${day.id}</span>
+            <span>
+              ${hasGpxHints ? '<span class="badge gpx">gpx</span>' : ''}
+              <span class="badge ${badgeClass(validation.status)}">${validation.status || 'pending'}</span>
+            </span>
+          </div>
+          <h2 class="title">${endPlace?.name || day.id}</h2>
+          <p class="meta">${day.date}</p>
+          <p class="meta">${formatDayType(day.day_type)}</p>
+          <p class="meta">${hasGpxHints ? `${validation.used_gpx_hint_place_ids.length} GPX-Hinweise aktiv` : 'ohne GPX-Fuehrung'}</p>
+          <p class="meta">${validation.distance_km ? `${validation.distance_km} km · ${validation.elevation_gain_m} hm` : 'noch nicht validiert'}</p>
+        `;
+        dayListEl.appendChild(card);
+
+        let polyline = null;
+        if (validation.geojson_path) {
+          const geojsonPath = normalizeAssetPath(validation.geojson_path);
+          const geoResponse = await fetch(geojsonPath, { cache: 'no-store' });
+          if (geoResponse.ok) {
+            const geojson = await geoResponse.json();
+            polyline = L.geoJSON(geojson, {
+              style: {
+                color: validation.status === 'flagged'
+                  ? getCss('--flagged')
+                  : (hasGpxHints ? getCss('--gpx-guided') : getCss('--line')),
+                weight: 4,
+                opacity: 0.92,
+                dashArray: hasGpxHints ? '12 6' : null,
+              }
+            }).addTo(routeLayer);
+            polyline.bindPopup(dayPopup(day, validation));
+            polyline.eachLayer((layer) => {
+              if (layer.getBounds) bounds.push(layer.getBounds());
+            });
+          }
+        }
+
+        const targetPlace = endPlace || placeMap.get(day.bike?.end_place_id);
+        if (targetPlace) {
+          const dayNumber = String(index + 1).padStart(2, '0');
+          const icon = L.divIcon({
+            className: '',
+            html: `<div class="day-marker">${dayNumber}</div>`,
+            iconSize: [22, 22],
+            iconAnchor: [11, 11],
+            popupAnchor: [0, -10],
+          });
+          const marker = L.marker([targetPlace.lat, targetPlace.lon], { icon, zIndexOffset: 300 }).addTo(routeLayer);
+          marker.bindPopup(dayPopup(day, validation));
+          dayMarkers.push(marker);
+          bounds.push(L.latLng(targetPlace.lat, targetPlace.lon));
+          card.addEventListener('click', () => focusEntry(index));
+        }
+        dayPolylines.push(polyline);
+      }
+
+      if (bounds.length) {
+        const featureGroup = L.featureGroup([...routeLayer.getLayers()]);
+        map.fitBounds(featureGroup.getBounds(), { padding: [28, 28] });
+      }
+      return bounds;
+    }
+
+    function focusEntry(index) {
+      const marker = dayMarkers[index];
+      const polyline = dayPolylines[index];
+      Array.from(dayListEl.children).forEach((node, i) => node.classList.toggle('active', i === index));
+      if (polyline && polyline.getBounds) {
+        map.fitBounds(polyline.getBounds(), { padding: [32, 32] });
+        polyline.openPopup();
+        return;
+      }
+      if (marker) {
+        map.flyTo(marker.getLatLng(), 10, { duration: 0.5 });
+        marker.openPopup();
+      }
+    }
+
+    function isRenderablePoint(place) {
+      if (!place) {
+        return false;
+      }
+      if (typeof place.lat !== 'number' || typeof place.lon !== 'number') {
+        return false;
+      }
+      return !(place.lat === 0 && place.lon === 0);
+    }
+
+    function setSummary(days) {
+      const ok = days.filter((day) => day.validation?.status === 'ok').length;
+      const flagged = days.filter((day) => day.validation?.status === 'flagged').length;
+      document.getElementById('dayCount').textContent = String(days.length);
+      document.getElementById('okCount').textContent = String(ok);
+      document.getElementById('flaggedCount').textContent = String(flagged);
+    }
+
+    loadTour().catch((error) => {
+      console.error(error);
+      setStatus(error.message || 'Fehler beim Laden');
+    });
+  </script>
 </body>
 </html>
