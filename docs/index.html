@@ -414,14 +414,18 @@
       const placeMap = new Map((tour.places || []).map((place) => [place.id, place]));
       renderPlaces(placeMap);
       const bounds = [];
-      await renderReferenceRoutes(bounds);
-      await renderMustSeePlaces(bounds);
-      await renderServiceHubs(bounds);
+      // Load main content first so the map is usable immediately
+      await Promise.all([
+        renderMustSeePlaces(bounds),
+        renderServiceHubs(bounds),
+      ]);
       const dayBounds = await renderDays(tour.days || [], placeMap);
       bounds.push(...dayBounds);
       renderPasses(bounds);
       setSummary(tour.days || []);
       setStatus(`${tour.name} geladen.`);
+      // Load large GPX overlays in background after main content is shown
+      renderReferenceRoutes([]).catch(console.warn);
     }
 
     function renderPasses(bounds = []) {
